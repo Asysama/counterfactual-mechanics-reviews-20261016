@@ -1,0 +1,15 @@
+{
+  "head_sha": "f694dbcd7f0e0e06b1746f05affbe166420196f5",
+  "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+  "frames": [
+    41,
+    42,
+    43
+  ],
+  "crop": [
+    1234,
+    698,
+    512,
+    512
+  ]
+}

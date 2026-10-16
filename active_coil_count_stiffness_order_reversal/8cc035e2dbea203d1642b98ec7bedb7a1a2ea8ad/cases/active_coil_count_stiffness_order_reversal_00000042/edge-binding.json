@@ -1,0 +1,15 @@
+{
+  "head_sha": "8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad",
+  "case_id": "active_coil_count_stiffness_order_reversal_00000042",
+  "frames": [
+    50,
+    51,
+    52
+  ],
+  "crop": [
+    1167,
+    587,
+    512,
+    512
+  ]
+}

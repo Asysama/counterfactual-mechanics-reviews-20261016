@@ -3,9 +3,17 @@
     "bytes": 202,
     "sha256": "db80c1f98d2669dad3130885b4c1760b607b66d311e356db45ec73b075e14565"
   },
+  "application.json": {
+    "bytes": 879,
+    "sha256": "0cd448c4135bb31b3e4990215835d5430ab298474563be601241b9ef5558caec"
+  },
   "cases/active_coil_count_stiffness_order_reversal_00000042/browser-derivatives.json": {
     "bytes": 796,
     "sha256": "4aea77aeac793409de641ed2216bc768a5fea0cfcaca8cc9ef83370fc611a388"
+  },
+  "cases/active_coil_count_stiffness_order_reversal_00000042/consecutive-native.png": {
+    "bytes": 133588,
+    "sha256": "d521a6ed10f3f8a12252834053f72ecc2eb8ac4f9190a89d60974b5732f0657f"
   },
   "cases/active_coil_count_stiffness_order_reversal_00000042/counterfactual-all120.jpg": {
     "bytes": 424649,
@@ -38,6 +46,10 @@
   "cases/active_coil_count_stiffness_order_reversal_00000042/decoded-contact-sheet.jpg": {
     "bytes": 469535,
     "sha256": "e86165f268d926b6ccea85d9adf28eadbe93697d1ef742699d8ee1ff4ee09ddc"
+  },
+  "cases/active_coil_count_stiffness_order_reversal_00000042/edge-binding.json": {
+    "bytes": 223,
+    "sha256": "973af4121746217fbd05fc26e0e88cf7123850a6afd0e8cbb81e26df935a1b4d"
   },
   "cases/active_coil_count_stiffness_order_reversal_00000042/frame-hashes.json": {
     "bytes": 34640,
@@ -75,6 +87,10 @@
     "bytes": 796,
     "sha256": "268bd86b901a847b438c72b00a5310d051d293b6c76ac5a83312500c11721582"
   },
+  "cases/active_coil_count_stiffness_order_reversal_00000098/consecutive-native.png": {
+    "bytes": 135635,
+    "sha256": "956973ca0464649ade793a5a6773f00b4a41f323f8809768a1946c7055298d52"
+  },
   "cases/active_coil_count_stiffness_order_reversal_00000098/counterfactual-all120.jpg": {
     "bytes": 415645,
     "sha256": "3a0358f2ef9f8dc5e7b711d5a15aa898de7d4e96396f4c309e4d8bb75cbfdccc"
@@ -107,6 +123,10 @@
     "bytes": 466816,
     "sha256": "e5e18bab8781b83f96b3bdb9c3ffd86e4debce833175a35bbd6ff9a3e69998c6"
   },
+  "cases/active_coil_count_stiffness_order_reversal_00000098/edge-binding.json": {
+    "bytes": 223,
+    "sha256": "fc5d1d68a79d562f1fc49cd655ba9a07cd64a5814fb3ecc4feb53eb1643af51e"
+  },
   "cases/active_coil_count_stiffness_order_reversal_00000098/frame-hashes.json": {
     "bytes": 34640,
     "sha256": "fbc700cb2aab0c919a8add8f7109907278d99954a5008b4695953c9ee17d9d44"
@@ -138,6 +158,22 @@
   "cases/active_coil_count_stiffness_order_reversal_00000098/true-all120.jpg": {
     "bytes": 415747,
     "sha256": "b136491483973b300130edadabbe90b1057008215e4e26b07d48af508847212d"
+  },
+  "evidence/2026-10-16_backup-verified-v1.json": {
+    "bytes": 562,
+    "sha256": "0e3ea5d0d47d82a2782cb3d3fd7d9312b144afd5594ece2dc22bd051cfbe3356"
+  },
+  "evidence/2026-10-16_browser-playback-v1.json": {
+    "bytes": 27219,
+    "sha256": "1d2c9850c791f74fbc84a020473f3e64037a86f6e6aef9db21e29236da13f86e"
+  },
+  "evidence/2026-10-16_http-initial-v1.json": {
+    "bytes": 35962,
+    "sha256": "0b0cf443a2cd026d3e570186e275235547930f7ac55ba68fcdc32d9b37a2a774"
+  },
+  "evidence/2026-10-16_visual-review-v1.json": {
+    "bytes": 14540,
+    "sha256": "28cc8f7955d6ba49cc835b7320d1ee5dd98c7cfef8ec7e6d25f2dc283758d319"
   },
   "evidence/accepted.jsonl": {
     "bytes": 332,
@@ -204,15 +240,15 @@
     "sha256": "a0ba7f2fb96adfb2c2564a1053a85160f60c5f008ba0c8c06a58a8cb23d1fc2b"
   },
   "index.html": {
-    "bytes": 14655,
-    "sha256": "c83c2ed0cf336d195915b602636e279fff8a4c565cb9542852c79173802232d4"
+    "bytes": 16435,
+    "sha256": "85f16f7d0296a5a173109970625aa0be8c84be8615e30da911cfe9ed83f101bd"
   },
   "native-media.json": {
     "bytes": 4837,
     "sha256": "7bb509f86b2deada373b6978af6df99ee838e7ed2f91b011ae53bd45badbf241"
   },
   "review-report.md": {
-    "bytes": 4841,
-    "sha256": "4ade3ac20f3902406bf672e1ecaff72d4063e1b10cb1c67408afc0a608bfd8c3"
+    "bytes": 4819,
+    "sha256": "70e2d1bf3c78605874507c23b13ab85a8c0ad8909d147b9348a930b91c17192d"
   }
 }

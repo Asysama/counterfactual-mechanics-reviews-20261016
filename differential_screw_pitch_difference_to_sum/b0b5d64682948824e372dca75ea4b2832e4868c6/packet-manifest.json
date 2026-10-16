@@ -3,9 +3,17 @@
     "bytes": 202,
     "sha256": "087d79d43ec1fe9d3fe72c4e2f9b8f47f963511bc8aae8e1fc9b7829653de3dd"
   },
+  "application.json": {
+    "bytes": 879,
+    "sha256": "7d827a1e78d35389a737b7927fe8d41c8a4cf2212d49defd4115d8a3a090f519"
+  },
   "cases/differential_screw_pitch_difference_to_sum_00000042/browser-derivatives.json": {
     "bytes": 748,
     "sha256": "ed1374f6dd7964d984e817fe09080fca9d78f3b06e584fd3bfc0aca6a258868d"
+  },
+  "cases/differential_screw_pitch_difference_to_sum_00000042/consecutive-native.png": {
+    "bytes": 149270,
+    "sha256": "cecc7577710c855dbf74bb0bf746ecde954ca87777b766bb38af4a3263ecf6f1"
   },
   "cases/differential_screw_pitch_difference_to_sum_00000042/counterfactual-all120.jpg": {
     "bytes": 348441,
@@ -38,6 +46,10 @@
   "cases/differential_screw_pitch_difference_to_sum_00000042/decoded-contact-sheet.jpg": {
     "bytes": 383531,
     "sha256": "c52b9c9ac4b1d2d46022a713beaa32207417e5e056fec8a4a1540fc75bcf1d11"
+  },
+  "cases/differential_screw_pitch_difference_to_sum_00000042/edge-binding.json": {
+    "bytes": 223,
+    "sha256": "7d23d50135ab5fa5b3e9b3611a94297e4c5c23792635ba650d7a34128f54c4d7"
   },
   "cases/differential_screw_pitch_difference_to_sum_00000042/frame-hashes.json": {
     "bytes": 34640,
@@ -75,6 +87,10 @@
     "bytes": 748,
     "sha256": "b2c0b0c2796cfd08985bf880dec9ddf0ed905ca8b1926056d831b9def8cbc95d"
   },
+  "cases/differential_screw_pitch_difference_to_sum_00000098/consecutive-native.png": {
+    "bytes": 148451,
+    "sha256": "afc430319860d5423d79d1d7f920dbe1c5c832a458580890689816a386c5d789"
+  },
   "cases/differential_screw_pitch_difference_to_sum_00000098/counterfactual-all120.jpg": {
     "bytes": 364330,
     "sha256": "653e312a464945048fd56e3ac433fc339fbfcbcdc0c7b4271efc4483fa4ff6ec"
@@ -107,6 +123,10 @@
     "bytes": 397110,
     "sha256": "fcad77a61667f6181dc6cf150bae6bbd3ba3775bb928e1c08e082e0601c7f905"
   },
+  "cases/differential_screw_pitch_difference_to_sum_00000098/edge-binding.json": {
+    "bytes": 223,
+    "sha256": "4073a3a2eead167f0ac2b863766d2d9cf9e38cf69b3606ee129e3ea4eb4ea161"
+  },
   "cases/differential_screw_pitch_difference_to_sum_00000098/frame-hashes.json": {
     "bytes": 34640,
     "sha256": "9bd6ae319ffe2b9a05d3e062886916aba235e49154253ecce1b1fd54c2450865"
@@ -138,6 +158,22 @@
   "cases/differential_screw_pitch_difference_to_sum_00000098/true-all120.jpg": {
     "bytes": 363348,
     "sha256": "84b4cff69427f423797803d03a97df2a58bc9b6801efa2913da919eb3bfae279"
+  },
+  "evidence/2026-10-16_backup-verified-v1.json": {
+    "bytes": 562,
+    "sha256": "0e3ea5d0d47d82a2782cb3d3fd7d9312b144afd5594ece2dc22bd051cfbe3356"
+  },
+  "evidence/2026-10-16_browser-playback-v1.json": {
+    "bytes": 27219,
+    "sha256": "1d2c9850c791f74fbc84a020473f3e64037a86f6e6aef9db21e29236da13f86e"
+  },
+  "evidence/2026-10-16_http-initial-v1.json": {
+    "bytes": 35962,
+    "sha256": "0b0cf443a2cd026d3e570186e275235547930f7ac55ba68fcdc32d9b37a2a774"
+  },
+  "evidence/2026-10-16_visual-review-v1.json": {
+    "bytes": 14540,
+    "sha256": "28cc8f7955d6ba49cc835b7320d1ee5dd98c7cfef8ec7e6d25f2dc283758d319"
   },
   "evidence/accepted.jsonl": {
     "bytes": 332,
@@ -204,15 +240,15 @@
     "sha256": "a0ba7f2fb96adfb2c2564a1053a85160f60c5f008ba0c8c06a58a8cb23d1fc2b"
   },
   "index.html": {
-    "bytes": 14521,
-    "sha256": "cc2dca49b305ad6fb79f0257f7a0eab3ebaead5a80be5e9cdcb4a28589e388b7"
+    "bytes": 16301,
+    "sha256": "f3c63ea9ba28d00351d9b7b924d1b3a4fd3317f5ddebf80da44ea5a4d1dd687a"
   },
   "native-media.json": {
     "bytes": 4741,
     "sha256": "7782a62e3565fdd5dc23671ff0ba3787837942844fd50bc597dc699386507493"
   },
   "review-report.md": {
-    "bytes": 4865,
-    "sha256": "d8f9a09a0766f40ed9284f7610823a49ba61ddbe1dc5093d96ca6cee804ac1e6"
+    "bytes": 4843,
+    "sha256": "5508c19bf329b91eeaed23573f20756672376584f4f5951d003ef4a1fb03fdf1"
   }
 }

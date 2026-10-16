@@ -1,0 +1,233 @@
+{
+  "status": "PASS",
+  "heads": {
+    "active_coil_count_stiffness_order_reversal": "8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad",
+    "center_of_percussion_support_impulse_creation": "0da5ed49346ea1e7a1e7572c5c374379519f56e7",
+    "differential_screw_pitch_difference_to_sum": "b0b5d64682948824e372dca75ea4b2832e4868c6",
+    "physical_pendulum_near_com_period_reversal": "f694dbcd7f0e0e06b1746f05affbe166420196f5"
+  },
+  "generators": {
+    "active_coil_count_stiffness_order_reversal": {
+      "head_sha": "8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad",
+      "case_ids": [
+        "active_coil_count_stiffness_order_reversal_00000042",
+        "active_coil_count_stiffness_order_reversal_00000098"
+      ],
+      "rgb_complete_sequence": "Both branches, all 120 native-decoded frame thumbnails inspected for each case, plus selected 2048 decoded frames.",
+      "mask_and_overlay": "All eight four-stream contact sheets inspected; target selection and exclusion agrees with independently checked ontology.",
+      "prompt_alignment": "Standalone True and CF prompts read and matched against visible actions and outcomes.",
+      "findings": "Equal gauges rise together; True clamped segment extends less, CF more. Only the lower five active right coils are white/red. Seats, clamp, stems and actuator remain connected; large-extension case stays above its actuator gland; final contrast persists.",
+      "evidence": {
+        "active_coil_count_stiffness_order_reversal_00000098-counterfactual-all120.jpg": "3a0358f2ef9f8dc5e7b711d5a15aa898de7d4e96396f4c309e4d8bb75cbfdccc",
+        "active_coil_count_stiffness_order_reversal_00000042-counterfactual-all120.jpg": "905de23014862fdf98fd1387edf28457edb9b541e14453b639bb3b992cf0ffd4",
+        "active_coil_count_stiffness_order_reversal_00000042-decoded-contact-sheet.jpg": "e86165f268d926b6ccea85d9adf28eadbe93697d1ef742699d8ee1ff4ee09ddc",
+        "active_coil_count_stiffness_order_reversal_00000098-decoded-contact-sheet.jpg": "e5e18bab8781b83f96b3bdb9c3ffd86e4debce833175a35bbd6ff9a3e69998c6",
+        "active_coil_count_stiffness_order_reversal_00000098-true-all120.jpg": "b136491483973b300130edadabbe90b1057008215e4e26b07d48af508847212d",
+        "active_coil_count_stiffness_order_reversal_00000042-true-all120.jpg": "6c0cde0e70f9aea742c8de1427ff2f3a8d7646e508bc5e27694d01d6902b7228"
+      },
+      "native_edges": {
+        "active_coil_count_stiffness_order_reversal_00000042": {
+          "head_sha": "8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad",
+          "case_id": "active_coil_count_stiffness_order_reversal_00000042",
+          "frames": [
+            50,
+            51,
+            52
+          ],
+          "crop": [
+            1167,
+            587,
+            512,
+            512
+          ],
+          "sheet_sha256": "d521a6ed10f3f8a12252834053f72ecc2eb8ac4f9190a89d60974b5732f0657f",
+          "observation": "Three consecutive unscaled native-pixel crops inspected. Smooth curved/diagonal moving silhouettes; stable thin connectors and attached joints; no conspicuous stair-stepping, geometry faceting or frame-to-frame edge flicker."
+        },
+        "active_coil_count_stiffness_order_reversal_00000098": {
+          "head_sha": "8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad",
+          "case_id": "active_coil_count_stiffness_order_reversal_00000098",
+          "frames": [
+            37,
+            38,
+            39
+          ],
+          "crop": [
+            1171,
+            611,
+            512,
+            512
+          ],
+          "sheet_sha256": "956973ca0464649ade793a5a6773f00b4a41f323f8809768a1946c7055298d52",
+          "observation": "Three consecutive unscaled native-pixel crops inspected. Smooth curved/diagonal moving silhouettes; stable thin connectors and attached joints; no conspicuous stair-stepping, geometry faceting or frame-to-frame edge flicker."
+        }
+      }
+    },
+    "center_of_percussion_support_impulse_creation": {
+      "head_sha": "0da5ed49346ea1e7a1e7572c5c374379519f56e7",
+      "case_ids": [
+        "center_of_percussion_support_impulse_creation_00000042",
+        "center_of_percussion_support_impulse_creation_00000098"
+      ],
+      "rgb_complete_sequence": "Both branches, all 120 native-decoded frame thumbnails inspected for each case, plus selected 2048 decoded frames.",
+      "mask_and_overlay": "All eight four-stream contact sheets inspected; target selection and exclusion agrees with independently checked ontology.",
+      "prompt_alignment": "Standalone True and CF prompts read and matched against visible actions and outcomes.",
+      "findings": "Ball approaches, strikes and rebounds; True initially lacks support kick, CF has immediate carriage displacement. Later coupled motion is allowed by both prompts. Corrected ruler braces clear the full sweep. Mask includes carriage/axle/pointer assembly and excludes normally responding rod/ball/supports.",
+      "evidence": {
+        "center_of_percussion_support_impulse_creation_00000098-counterfactual-all120.jpg": "6f182c79484f5493380565cd9142614a73ea05ef7b0fd501ea4eefb36124cba3",
+        "center_of_percussion_support_impulse_creation_00000042-counterfactual-all120.jpg": "e6c919349205ae41edff62638c86a922171cb7443834cc6007dc6417fab46978",
+        "center_of_percussion_support_impulse_creation_00000042-decoded-contact-sheet.jpg": "c9e359ec99ce099bfcc4167c4bf5d542891fe4ae3ac8cc472df1fa717a153053",
+        "center_of_percussion_support_impulse_creation_00000098-true-all120.jpg": "efb254a7f989ddc666d15d4485b91fff2635341e3dab7c19b12d553ae47ef92b",
+        "center_of_percussion_support_impulse_creation_00000098-decoded-contact-sheet.jpg": "8ab78835082a322d3249070542a8e488d9d5a63888bac27afb4745b39bccf1b0",
+        "center_of_percussion_support_impulse_creation_00000042-true-all120.jpg": "1e0cd14ffadc60e1e7120eb8c83aafffd7450913073bf594e68d96cd9c0c7288"
+      },
+      "native_edges": {
+        "center_of_percussion_support_impulse_creation_00000042": {
+          "head_sha": "0da5ed49346ea1e7a1e7572c5c374379519f56e7",
+          "case_id": "center_of_percussion_support_impulse_creation_00000042",
+          "frames": [
+            27,
+            28,
+            29
+          ],
+          "crop": [
+            1018,
+            392,
+            512,
+            512
+          ],
+          "sheet_sha256": "a6a0435ab121825b2ed1d2ec31442d7e24f19c6b7dc443485c4d689f1f465114",
+          "observation": "Three consecutive unscaled native-pixel crops inspected. Smooth curved/diagonal moving silhouettes; stable thin connectors and attached joints; no conspicuous stair-stepping, geometry faceting or frame-to-frame edge flicker."
+        },
+        "center_of_percussion_support_impulse_creation_00000098": {
+          "head_sha": "0da5ed49346ea1e7a1e7572c5c374379519f56e7",
+          "case_id": "center_of_percussion_support_impulse_creation_00000098",
+          "frames": [
+            30,
+            31,
+            32
+          ],
+          "crop": [
+            1044,
+            404,
+            512,
+            512
+          ],
+          "sheet_sha256": "d8bfc9cc40eefbba38c877ffd337f793f269624eb7638d42755b88b6e26586f7",
+          "observation": "Three consecutive unscaled native-pixel crops inspected. Smooth curved/diagonal moving silhouettes; stable thin connectors and attached joints; no conspicuous stair-stepping, geometry faceting or frame-to-frame edge flicker."
+        }
+      }
+    },
+    "differential_screw_pitch_difference_to_sum": {
+      "head_sha": "b0b5d64682948824e372dca75ea4b2832e4868c6",
+      "case_ids": [
+        "differential_screw_pitch_difference_to_sum_00000042",
+        "differential_screw_pitch_difference_to_sum_00000098"
+      ],
+      "rgb_complete_sequence": "Both branches, all 120 native-decoded frame thumbnails inspected for each case, plus selected 2048 decoded frames.",
+      "mask_and_overlay": "All eight four-stream contact sheets inspected; target selection and exclusion agrees with independently checked ontology.",
+      "prompt_alignment": "Standalone True and CF prompts read and matched against visible actions and outcomes.",
+      "findings": "Input turns and stops; True output shifts slightly, CF shifts farther and stays. Both same-handed threads visible with pitch labels. Carriage/pointer remain attached and guided. Mask highlights anomalous output assembly only, excludes screw and fixed ruler.",
+      "evidence": {
+        "differential_screw_pitch_difference_to_sum_00000042-counterfactual-all120.jpg": "5e8ea4a04d49cf61a1a25ff64070207f61a800e1e97fe8afe23a032318749d91",
+        "differential_screw_pitch_difference_to_sum_00000098-counterfactual-all120.jpg": "653e312a464945048fd56e3ac433fc339fbfcbcdc0c7b4271efc4483fa4ff6ec",
+        "differential_screw_pitch_difference_to_sum_00000042-true-all120.jpg": "fd966b2589d01cff29134d61f633b05c24673f7a3c629118cea81ecd0e2bfbba",
+        "differential_screw_pitch_difference_to_sum_00000098-decoded-contact-sheet.jpg": "fcad77a61667f6181dc6cf150bae6bbd3ba3775bb928e1c08e082e0601c7f905",
+        "differential_screw_pitch_difference_to_sum_00000098-true-all120.jpg": "84b4cff69427f423797803d03a97df2a58bc9b6801efa2913da919eb3bfae279",
+        "differential_screw_pitch_difference_to_sum_00000042-decoded-contact-sheet.jpg": "c52b9c9ac4b1d2d46022a713beaa32207417e5e056fec8a4a1540fc75bcf1d11"
+      },
+      "native_edges": {
+        "differential_screw_pitch_difference_to_sum_00000042": {
+          "head_sha": "b0b5d64682948824e372dca75ea4b2832e4868c6",
+          "case_id": "differential_screw_pitch_difference_to_sum_00000042",
+          "frames": [
+            51,
+            52,
+            53
+          ],
+          "crop": [
+            1236,
+            843,
+            512,
+            512
+          ],
+          "sheet_sha256": "cecc7577710c855dbf74bb0bf746ecde954ca87777b766bb38af4a3263ecf6f1",
+          "observation": "Three consecutive unscaled native-pixel crops inspected. Smooth curved/diagonal moving silhouettes; stable thin connectors and attached joints; no conspicuous stair-stepping, geometry faceting or frame-to-frame edge flicker."
+        },
+        "differential_screw_pitch_difference_to_sum_00000098": {
+          "head_sha": "b0b5d64682948824e372dca75ea4b2832e4868c6",
+          "case_id": "differential_screw_pitch_difference_to_sum_00000098",
+          "frames": [
+            53,
+            54,
+            55
+          ],
+          "crop": [
+            1245,
+            875,
+            512,
+            512
+          ],
+          "sheet_sha256": "afc430319860d5423d79d1d7f920dbe1c5c832a458580890689816a386c5d789",
+          "observation": "Three consecutive unscaled native-pixel crops inspected. Smooth curved/diagonal moving silhouettes; stable thin connectors and attached joints; no conspicuous stair-stepping, geometry faceting or frame-to-frame edge flicker."
+        }
+      }
+    },
+    "physical_pendulum_near_com_period_reversal": {
+      "head_sha": "f694dbcd7f0e0e06b1746f05affbe166420196f5",
+      "case_ids": [
+        "physical_pendulum_near_com_period_reversal_00000042",
+        "physical_pendulum_near_com_period_reversal_00000098"
+      ],
+      "rgb_complete_sequence": "Both branches, all 120 native-decoded frame thumbnails inspected for each case, plus selected 2048 decoded frames.",
+      "mask_and_overlay": "All eight four-stream contact sheets inspected; target selection and exclusion agrees with independently checked ontology.",
+      "prompt_alignment": "Standalone True and CF prompts read and matched against visible actions and outcomes.",
+      "findings": "Latches release two rods at the same angle; near-COM True rod swings more slowly, CF more rapidly. Left rod stays matched. Rods remain attached and fully visible. Mask follows near rod and its COM marker, with axle occlusion excluded.",
+      "evidence": {
+        "physical_pendulum_near_com_period_reversal_00000098-true-all120.jpg": "a142f09705a427613786192a34a9a95a4f4eb43357d80127ec830f1dcd737cc0",
+        "physical_pendulum_near_com_period_reversal_00000042-decoded-contact-sheet.jpg": "498ebc05f74d2c617205835517acb7235771f26a6794d2efb52aafbe443fd6d8",
+        "physical_pendulum_near_com_period_reversal_00000098-decoded-contact-sheet.jpg": "3daecfdd8fe1dfc56eedf12382c4de6dbde2d8242eaed765e79747109d8ddef2",
+        "physical_pendulum_near_com_period_reversal_00000042-true-all120.jpg": "d948e4475aba044741e946351dbe7a897b398a1460cd072d92e66bb1ee2e65d3",
+        "physical_pendulum_near_com_period_reversal_00000098-counterfactual-all120.jpg": "163d6f300931d9d1a23885204ad02b69300a3039ccf6b09390c9fc171093bef7",
+        "physical_pendulum_near_com_period_reversal_00000042-counterfactual-all120.jpg": "02e756d1e0977a896307d76b7192931644e4efbcce52556b8a95030937f4878d"
+      },
+      "native_edges": {
+        "physical_pendulum_near_com_period_reversal_00000042": {
+          "head_sha": "f694dbcd7f0e0e06b1746f05affbe166420196f5",
+          "case_id": "physical_pendulum_near_com_period_reversal_00000042",
+          "frames": [
+            39,
+            40,
+            41
+          ],
+          "crop": [
+            1223,
+            670,
+            512,
+            512
+          ],
+          "sheet_sha256": "f9b71a1f015ebf57d119b859892fda653f0c89227fec958375cba1c00b994e64",
+          "observation": "Three consecutive unscaled native-pixel crops inspected. Smooth curved/diagonal moving silhouettes; stable thin connectors and attached joints; no conspicuous stair-stepping, geometry faceting or frame-to-frame edge flicker."
+        },
+        "physical_pendulum_near_com_period_reversal_00000098": {
+          "head_sha": "f694dbcd7f0e0e06b1746f05affbe166420196f5",
+          "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+          "frames": [
+            41,
+            42,
+            43
+          ],
+          "crop": [
+            1234,
+            698,
+            512,
+            512
+          ],
+          "sheet_sha256": "0b7c953106d56bea2a0b70b0d5fa93c0e7a53fe77de2874e1f03023135be6879",
+          "observation": "Three consecutive unscaled native-pixel crops inspected. Smooth curved/diagonal moving silhouettes; stable thin connectors and attached joints; no conspicuous stair-stepping, geometry faceting or frame-to-frame edge flicker."
+        }
+      }
+    }
+  },
+  "reviewed_at": "2026-10-16T09:58:44.174710+00:00",
+  "scope": "Full native-decoded RGB sequence, selected native frames, four-stream sheets, prompt alignment and consecutive native-pixel edge inspection. Hosted browser verification is recorded separately."
+}

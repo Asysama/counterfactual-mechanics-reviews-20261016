@@ -1,0 +1,15 @@
+{
+  "head_sha": "b0b5d64682948824e372dca75ea4b2832e4868c6",
+  "case_id": "differential_screw_pitch_difference_to_sum_00000098",
+  "frames": [
+    53,
+    54,
+    55
+  ],
+  "crop": [
+    1245,
+    875,
+    512,
+    512
+  ]
+}

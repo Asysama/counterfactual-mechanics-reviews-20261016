@@ -1,0 +1,8 @@
+{
+  "generator_name": "center_of_percussion_support_impulse_creation",
+  "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/702",
+  "head_sha": "0da5ed49346ea1e7a1e7572c5c374379519f56e7",
+  "review_url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/0da5ed49346ea1e7a1e7572c5c374379519f56e7/index.html",
+  "note": "Contributor self-check complete: two native 2048×2048, 24fps, 120-frame cases (42, 98); all four decoded streams, exact matched prefix, object-only binary masks/red overlays, independent mechanics and geometry checks, runtime witness/index, 100000 static CGC-v1 profiles, controlled rendered axes, 16 physical corner profiles and seed42 reproduction verified. Public browser videos played and sought. User review pending; no Sara application submitted.",
+  "self_check_complete": true
+}

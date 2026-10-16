@@ -1,0 +1,8 @@
+{
+  "generator_name": "differential_screw_pitch_difference_to_sum",
+  "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/703",
+  "head_sha": "b0b5d64682948824e372dca75ea4b2832e4868c6",
+  "review_url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/b0b5d64682948824e372dca75ea4b2832e4868c6/index.html",
+  "note": "Contributor self-check complete: two native 2048×2048, 24fps, 120-frame cases (42, 98); all four decoded streams, exact matched prefix, object-only binary masks/red overlays, independent mechanics and geometry checks, runtime witness/index, 100000 static CGC-v1 profiles, controlled rendered axes, 16 physical corner profiles and seed42 reproduction verified. Public browser videos played and sought. User review pending; no Sara application submitted.",
+  "self_check_complete": true
+}

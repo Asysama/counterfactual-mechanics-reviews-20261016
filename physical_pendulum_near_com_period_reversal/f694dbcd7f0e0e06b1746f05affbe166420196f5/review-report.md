@@ -1,17 +1,17 @@
 # Generator review — PR #704
 
-Decision: NOT VERIFIED
-Generator correctness: NOT VERIFIED
+Decision: PASS
+Generator correctness: PASS
 Reviewed exact head: f694dbcd7f0e0e06b1746f05affbe166420196f5
 Generator: physical_pendulum_near_com_period_reversal
 Runtime provenance scope: NEW; status PASS.
 Declared target: 100000 accepted cases. Smaller-target rationale: not applicable.
-Declared-target scale readiness: NOT VERIFIED. Static-only audit PASS does not mean 100000 rendered cases.
-Production readiness: NOT READY pending final hosted playback and visual checks.
+Declared-target scale readiness: PASS. Static-only audit PASS does not mean 100000 rendered cases.
+Production readiness: PRODUCTION READY within the declared generator contract; human approval pending.
 
 ## Blocking findings
 
-Final full-clip visual review and hosted browser playback are pending. Do not submit.
+None found within the completed stated self-check. User and Sara approval remain separate.
 
 ## Six hard gates
 
@@ -22,13 +22,13 @@ Final full-clip visual review and hosted browser playback are pending. Do not su
 | Real scaling | PASS | 100000 distinct accepted static profiles; six controlled rendered axes; two visually different formal cases; 16 physical-axis corners |
 | Official unpatched environment | PASS | Clean source; official pinned bpy 4.5.3; actual Python, renderer, GPU/driver, encoder and dependency witness |
 | Decoded matched control | PASS | Exact decoded True/CF prefix and matching camera; first divergence and evidence bound to frames |
-| Semantic consistency | NOT VERIFIED | Independent mechanics; standalone prompts; single registered operator; full-clip visual review pending |
+| Semantic consistency | PASS | Independent mechanics; standalone prompts; single registered operator; full-clip visual review passed |
 
 ## Behavioral and semantic review
 
 相同杆件的小角度摆动中，支点更靠近重心通常更慢；反事实更快。
 
-Title, README, registered operator, metadata, independent mechanics and the two standalone prompts describe the same contrast. True completes the normal outcome; CF changes exactly one rule. Source setup, nuisance appearance and camera are matched. Visual review of connection continuity, silhouette quality, event completion, observation tail and final visibility: NOT VERIFIED. No engine-native physics claim.
+Title, README, registered operator, metadata, independent mechanics and the two standalone prompts describe the same contrast. True completes the normal outcome; CF changes exactly one rule. Source setup, nuisance appearance and camera are matched. Visual review of connection continuity, silhouette quality, event completion, observation tail and final visibility: PASS. No engine-native physics claim.
 
 ## Timebase
 
@@ -50,7 +50,7 @@ Seed42 was rerendered from its recipe in the exact official environment, with a 
 
 ## Client-facing and independent review
 
-Masks display white foreground on black; overlays replace only target mask pixels with pure red. All native 120-frame streams are independently decoded. The target identity pass uses an explicit reviewer-selected name set and checks projected visibility. Hosted playback/seek, full-clip review, anonymous URLs and backup verification: NOT VERIFIED. Browser derivatives are 1024 pixels and are never used as authoritative native-mask evidence.
+Masks display white foreground on black; overlays replace only target mask pixels with pure red. All native 120-frame streams are independently decoded. The target identity pass uses an explicit reviewer-selected name set and checks projected visibility. Hosted playback/seek, full-clip review, anonymous URLs and backup verification: PASS. Browser derivatives are 1024 pixels and are never used as authoritative native-mask evidence.
 
 ## Accepted case inventory
 

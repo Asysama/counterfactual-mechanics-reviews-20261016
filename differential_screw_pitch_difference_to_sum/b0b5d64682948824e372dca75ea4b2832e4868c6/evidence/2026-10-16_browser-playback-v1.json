@@ -1,0 +1,643 @@
+{
+  "status": "PASS",
+  "verified_at": "2026-10-16T10:11:37.122040+00:00",
+  "method": "Actual Chrome UI using cua_repl; clicked both four-stream playback buttons then both seek-to-last-second buttons for each generator. HTMLMediaElement read-only observations confirmed every played range [0,5], ended=true, duration=5, currentTime=5, no media error, and seek currentTime=4 with readyState=4. All players decoded at 1024x1024. Screenshots inspected after seeking. Native authoritative checks are separate.",
+  "generators": {
+    "active_coil_count_stiffness_order_reversal": {
+      "head_sha": "8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad",
+      "review_url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad/index.html",
+      "status": "PASS",
+      "streams": [
+        {
+          "case_id": "active_coil_count_stiffness_order_reversal_00000042",
+          "stream": "true",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad/cases/active_coil_count_stiffness_order_reversal_00000042/true/video_browser.mp4",
+          "sha256": "a1ca4d4b008d4dec74da17bedc5c3aeb4e228f34ffd8f7c61884c7a5a0e6d3c2",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "active_coil_count_stiffness_order_reversal_00000042",
+          "stream": "counterfactual",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad/cases/active_coil_count_stiffness_order_reversal_00000042/counterfactual_clamped_active_coil_compliance_reversal/video_browser.mp4",
+          "sha256": "cc008b6f97d0b72e18d0ef5e5f05be038f3994a1c73d5ca180d6fe28441ee28e",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "active_coil_count_stiffness_order_reversal_00000042",
+          "stream": "mask",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad/cases/active_coil_count_stiffness_order_reversal_00000042/counterfactual_clamped_active_coil_compliance_reversal/mask_browser.mp4",
+          "sha256": "1b188825b0f625dfb28878f738302e38113c6740e5816d37b52c09bb6dddce83",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "active_coil_count_stiffness_order_reversal_00000042",
+          "stream": "overlay",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad/cases/active_coil_count_stiffness_order_reversal_00000042/counterfactual_clamped_active_coil_compliance_reversal/mask_overlay_browser.mp4",
+          "sha256": "24552bb71e250521681aeab0338c04fb76b3cf44bfe96d4e4d993d8c3d57a434",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "active_coil_count_stiffness_order_reversal_00000098",
+          "stream": "true",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad/cases/active_coil_count_stiffness_order_reversal_00000098/true/video_browser.mp4",
+          "sha256": "fa5c93663e42b4b93768fb2b220fa9563e3ba1b1c273ffea5f7e4461c5a7c53f",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "active_coil_count_stiffness_order_reversal_00000098",
+          "stream": "counterfactual",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad/cases/active_coil_count_stiffness_order_reversal_00000098/counterfactual_clamped_active_coil_compliance_reversal/video_browser.mp4",
+          "sha256": "8d91a6a83e79591cec0599468f19c08220249426c40b24eb27629523c400babc",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "active_coil_count_stiffness_order_reversal_00000098",
+          "stream": "mask",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad/cases/active_coil_count_stiffness_order_reversal_00000098/counterfactual_clamped_active_coil_compliance_reversal/mask_browser.mp4",
+          "sha256": "d4429dac41f8790d4e6576ce68735a082c64bfb4d27351d0bc2e255729c4be1b",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "active_coil_count_stiffness_order_reversal_00000098",
+          "stream": "overlay",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad/cases/active_coil_count_stiffness_order_reversal_00000098/counterfactual_clamped_active_coil_compliance_reversal/mask_overlay_browser.mp4",
+          "sha256": "19e27a7f92e14764846907d027fe6c255ad2e7abf5b85768a9b9c1632b39de69",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    },
+    "center_of_percussion_support_impulse_creation": {
+      "head_sha": "0da5ed49346ea1e7a1e7572c5c374379519f56e7",
+      "review_url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/0da5ed49346ea1e7a1e7572c5c374379519f56e7/index.html",
+      "status": "PASS",
+      "streams": [
+        {
+          "case_id": "center_of_percussion_support_impulse_creation_00000042",
+          "stream": "true",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/0da5ed49346ea1e7a1e7572c5c374379519f56e7/cases/center_of_percussion_support_impulse_creation_00000042/true/video_browser.mp4",
+          "sha256": "ac2306b0195e4b291a587356e6c14f7d00399dcee314cea001c39f70e68868fe",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "center_of_percussion_support_impulse_creation_00000042",
+          "stream": "counterfactual",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/0da5ed49346ea1e7a1e7572c5c374379519f56e7/cases/center_of_percussion_support_impulse_creation_00000042/counterfactual_unsupported_pivot_impulse/video_browser.mp4",
+          "sha256": "89cc0278668c4acbcae58126ce1b1b282c054a89b9a4da141e352b328f5c6b1f",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "center_of_percussion_support_impulse_creation_00000042",
+          "stream": "mask",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/0da5ed49346ea1e7a1e7572c5c374379519f56e7/cases/center_of_percussion_support_impulse_creation_00000042/counterfactual_unsupported_pivot_impulse/mask_browser.mp4",
+          "sha256": "e421c51a6a78cd87d9823e325d63522c36d263c8871c17f4e639595f8d533864",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "center_of_percussion_support_impulse_creation_00000042",
+          "stream": "overlay",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/0da5ed49346ea1e7a1e7572c5c374379519f56e7/cases/center_of_percussion_support_impulse_creation_00000042/counterfactual_unsupported_pivot_impulse/mask_overlay_browser.mp4",
+          "sha256": "7209e861507050ef183d6ee825a934b20b26c090e0d21a6f3214e254f0b49db9",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "center_of_percussion_support_impulse_creation_00000098",
+          "stream": "true",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/0da5ed49346ea1e7a1e7572c5c374379519f56e7/cases/center_of_percussion_support_impulse_creation_00000098/true/video_browser.mp4",
+          "sha256": "5e11990805d9d041ab2cf7d303e2e034d77bc604537e64e1d255923398ebd855",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "center_of_percussion_support_impulse_creation_00000098",
+          "stream": "counterfactual",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/0da5ed49346ea1e7a1e7572c5c374379519f56e7/cases/center_of_percussion_support_impulse_creation_00000098/counterfactual_unsupported_pivot_impulse/video_browser.mp4",
+          "sha256": "35ac11e09c4e04c257c7cf974e2ce1e22b672ef79508f7186cb0b6a26ec91e5b",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "center_of_percussion_support_impulse_creation_00000098",
+          "stream": "mask",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/0da5ed49346ea1e7a1e7572c5c374379519f56e7/cases/center_of_percussion_support_impulse_creation_00000098/counterfactual_unsupported_pivot_impulse/mask_browser.mp4",
+          "sha256": "60334e065b0bbe022eb6f5028d62f68325f97c67ef32a43074d6d9b7f6006f08",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "center_of_percussion_support_impulse_creation_00000098",
+          "stream": "overlay",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/0da5ed49346ea1e7a1e7572c5c374379519f56e7/cases/center_of_percussion_support_impulse_creation_00000098/counterfactual_unsupported_pivot_impulse/mask_overlay_browser.mp4",
+          "sha256": "e91a486260ff85ad5e196fff75ac559ad6936c0de51002c8c0022c97ce5016db",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    },
+    "differential_screw_pitch_difference_to_sum": {
+      "head_sha": "b0b5d64682948824e372dca75ea4b2832e4868c6",
+      "review_url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/b0b5d64682948824e372dca75ea4b2832e4868c6/index.html",
+      "status": "PASS",
+      "streams": [
+        {
+          "case_id": "differential_screw_pitch_difference_to_sum_00000042",
+          "stream": "true",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/b0b5d64682948824e372dca75ea4b2832e4868c6/cases/differential_screw_pitch_difference_to_sum_00000042/true/video_browser.mp4",
+          "sha256": "f0336e5fa9f205d9c45e6a094efb3c40fe710a83fee2030c5aaf6549526036c4",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "differential_screw_pitch_difference_to_sum_00000042",
+          "stream": "counterfactual",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/b0b5d64682948824e372dca75ea4b2832e4868c6/cases/differential_screw_pitch_difference_to_sum_00000042/counterfactual_pitch_difference_to_sum/video_browser.mp4",
+          "sha256": "9842e4529052e2178043fbd7b0153c8f4dce8eaf28b55a9797d6d0205c00e7ea",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "differential_screw_pitch_difference_to_sum_00000042",
+          "stream": "mask",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/b0b5d64682948824e372dca75ea4b2832e4868c6/cases/differential_screw_pitch_difference_to_sum_00000042/counterfactual_pitch_difference_to_sum/mask_browser.mp4",
+          "sha256": "fd433206788a16fc5e13f4573d125aec7102db3d75a3a1963b0982c20c528ea5",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "differential_screw_pitch_difference_to_sum_00000042",
+          "stream": "overlay",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/b0b5d64682948824e372dca75ea4b2832e4868c6/cases/differential_screw_pitch_difference_to_sum_00000042/counterfactual_pitch_difference_to_sum/mask_overlay_browser.mp4",
+          "sha256": "c816dbefdfa9c59822698d1d5ae9ae2840c9c066f646798815b7a99cbf7c23a4",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "differential_screw_pitch_difference_to_sum_00000098",
+          "stream": "true",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/b0b5d64682948824e372dca75ea4b2832e4868c6/cases/differential_screw_pitch_difference_to_sum_00000098/true/video_browser.mp4",
+          "sha256": "3df60e3753ec8b67cd808d54493c3c9a1419166c436f2e0c5265440fa8003f1f",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "differential_screw_pitch_difference_to_sum_00000098",
+          "stream": "counterfactual",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/b0b5d64682948824e372dca75ea4b2832e4868c6/cases/differential_screw_pitch_difference_to_sum_00000098/counterfactual_pitch_difference_to_sum/video_browser.mp4",
+          "sha256": "af825d884077a757556cf57e68d0a76c9e0e837adc14e066bf45c7d0f3cefa57",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "differential_screw_pitch_difference_to_sum_00000098",
+          "stream": "mask",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/b0b5d64682948824e372dca75ea4b2832e4868c6/cases/differential_screw_pitch_difference_to_sum_00000098/counterfactual_pitch_difference_to_sum/mask_browser.mp4",
+          "sha256": "2cdedec8784cb8ab368710086b2efa9cd7db2a13edb535a34a754d573d0671dd",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "differential_screw_pitch_difference_to_sum_00000098",
+          "stream": "overlay",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/b0b5d64682948824e372dca75ea4b2832e4868c6/cases/differential_screw_pitch_difference_to_sum_00000098/counterfactual_pitch_difference_to_sum/mask_overlay_browser.mp4",
+          "sha256": "6f4d0e11d34d1e54af682e1c26367e6d12c1b561ffcc6f06eed89e934356c0b6",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    },
+    "physical_pendulum_near_com_period_reversal": {
+      "head_sha": "f694dbcd7f0e0e06b1746f05affbe166420196f5",
+      "review_url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/f694dbcd7f0e0e06b1746f05affbe166420196f5/index.html",
+      "status": "PASS",
+      "streams": [
+        {
+          "case_id": "physical_pendulum_near_com_period_reversal_00000042",
+          "stream": "true",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/f694dbcd7f0e0e06b1746f05affbe166420196f5/cases/physical_pendulum_near_com_period_reversal_00000042/true/video_browser.mp4",
+          "sha256": "306db27c6728d73254e2a1e7896c26bb1d7a3018e879b3ee3b1069130210aa38",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "physical_pendulum_near_com_period_reversal_00000042",
+          "stream": "counterfactual",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/f694dbcd7f0e0e06b1746f05affbe166420196f5/cases/physical_pendulum_near_com_period_reversal_00000042/counterfactual_near_com_restoring_torque_gain/video_browser.mp4",
+          "sha256": "80328f05cb7b97ba45e667bbcc33f43eefa26ba62f6de1d947ee1400c96f4c58",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "physical_pendulum_near_com_period_reversal_00000042",
+          "stream": "mask",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/f694dbcd7f0e0e06b1746f05affbe166420196f5/cases/physical_pendulum_near_com_period_reversal_00000042/counterfactual_near_com_restoring_torque_gain/mask_browser.mp4",
+          "sha256": "f910bb418e717d78977e5359d0446f95423512c15dbc72839b65e4c967d14ce1",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "physical_pendulum_near_com_period_reversal_00000042",
+          "stream": "overlay",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/f694dbcd7f0e0e06b1746f05affbe166420196f5/cases/physical_pendulum_near_com_period_reversal_00000042/counterfactual_near_com_restoring_torque_gain/mask_overlay_browser.mp4",
+          "sha256": "7c139fe393e64f3b4b1454d6baaa23ebda26a060a75985a1a88e848081903718",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+          "stream": "true",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/f694dbcd7f0e0e06b1746f05affbe166420196f5/cases/physical_pendulum_near_com_period_reversal_00000098/true/video_browser.mp4",
+          "sha256": "6e2a7fbfba904deb55c5b8e14d071219d47bc29b835bca35bd44e43967bc10cb",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+          "stream": "counterfactual",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/f694dbcd7f0e0e06b1746f05affbe166420196f5/cases/physical_pendulum_near_com_period_reversal_00000098/counterfactual_near_com_restoring_torque_gain/video_browser.mp4",
+          "sha256": "a51823fe3ec8953ea3b96558d118b475a03f70336274560a43c03c663c9c8846",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+          "stream": "mask",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/f694dbcd7f0e0e06b1746f05affbe166420196f5/cases/physical_pendulum_near_com_period_reversal_00000098/counterfactual_near_com_restoring_torque_gain/mask_browser.mp4",
+          "sha256": "ececdadab3174c93ff23499b1e0748e3262fda41bd57c29bbeed73c24c5f7553",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+          "stream": "overlay",
+          "url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/f694dbcd7f0e0e06b1746f05affbe166420196f5/cases/physical_pendulum_near_com_period_reversal_00000098/counterfactual_near_com_restoring_torque_gain/mask_overlay_browser.mp4",
+          "sha256": "d6b7b864db16c5829e5b5c39451bbd6aff59f4f65a9e5d9a2db2bec9c01ae9f7",
+          "duration": 5,
+          "ended": true,
+          "played": [
+            [
+              0,
+              5
+            ]
+          ],
+          "media_error": null,
+          "seek_time": 4,
+          "seek_ready_state": 4,
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  }
+}

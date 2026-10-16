@@ -1,0 +1,8 @@
+{
+  "generator_name": "active_coil_count_stiffness_order_reversal",
+  "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/701",
+  "head_sha": "8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad",
+  "review_url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad/index.html",
+  "note": "Contributor self-check complete: two native 2048×2048, 24fps, 120-frame cases (42, 98); all four decoded streams, exact matched prefix, object-only binary masks/red overlays, independent mechanics and geometry checks, runtime witness/index, 100000 static CGC-v1 profiles, controlled rendered axes, 16 physical corner profiles and seed42 reproduction verified. Public browser videos played and sought. User review pending; no Sara application submitted.",
+  "self_check_complete": true
+}
