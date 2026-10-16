@@ -1,0 +1,215 @@
+{
+  "status": "PASS",
+  "head_sha": "b0b5d64682948824e372dca75ea4b2832e4868c6",
+  "scope": "16 combined physical-axis corners, non-rendering independent mechanics verification",
+  "cases": [
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_final_travel": 0.05711200000000001,
+        "counterfactual_final_travel": 0.330088,
+        "input_revolutions": 0.88
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_final_travel": 0.03968799999999998,
+        "counterfactual_final_travel": 0.34751200000000004,
+        "input_revolutions": 0.88
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_final_travel": 0.05711200000000001,
+        "counterfactual_final_travel": 0.330088,
+        "input_revolutions": 0.88
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_final_travel": 0.03968799999999998,
+        "counterfactual_final_travel": 0.34751200000000004,
+        "input_revolutions": 0.88
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_final_travel": 0.07525345882352945,
+        "counterfactual_final_travel": 0.4349394823529413,
+        "input_revolutions": 1.1595294117647061
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_final_travel": 0.052294776470588215,
+        "counterfactual_final_travel": 0.4578981647058825,
+        "input_revolutions": 1.1595294117647061
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_final_travel": 0.07525345882352945,
+        "counterfactual_final_travel": 0.4349394823529413,
+        "input_revolutions": 1.1595294117647061
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_final_travel": 0.052294776470588215,
+        "counterfactual_final_travel": 0.4578981647058825,
+        "input_revolutions": 1.1595294117647061
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_final_travel": 0.09662963200000002,
+        "counterfactual_final_travel": 0.4678769920000001,
+        "input_revolutions": 0.88
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_final_travel": 0.07293299200000002,
+        "counterfactual_final_travel": 0.49157363200000004,
+        "input_revolutions": 0.88
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_final_travel": 0.09662963200000002,
+        "counterfactual_final_travel": 0.4678769920000001,
+        "input_revolutions": 0.88
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_final_travel": 0.07293299200000002,
+        "counterfactual_final_travel": 0.49157363200000004,
+        "input_revolutions": 0.88
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_final_travel": 0.12732375040000005,
+        "counterfactual_final_travel": 0.6164967424000003,
+        "input_revolutions": 1.1595294117647061
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_final_travel": 0.09609994240000004,
+        "counterfactual_final_travel": 0.6477205504000002,
+        "input_revolutions": 1.1595294117647061
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_final_travel": 0.12732375040000005,
+        "counterfactual_final_travel": 0.6164967424000003,
+        "input_revolutions": 1.1595294117647061
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_final_travel": 0.09609994240000004,
+        "counterfactual_final_travel": 0.6477205504000002,
+        "input_revolutions": 1.1595294117647061
+      }
+    }
+  ]
+}

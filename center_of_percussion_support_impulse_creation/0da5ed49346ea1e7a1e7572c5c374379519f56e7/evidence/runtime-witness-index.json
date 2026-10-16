@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "37832c00d234c7dd37534ad33a2dd9cc95fa194d9a400f60ca0d8a04cbc73de1": {
+      "path": "runtime-witness.json",
+      "sha256": "37832c00d234c7dd37534ad33a2dd9cc95fa194d9a400f60ca0d8a04cbc73de1",
+      "generator": "center_of_percussion_support_impulse_creation",
+      "case_set": "seeds42,98",
+      "source_commit": "0da5ed49346ea1e7a1e7572c5c374379519f56e7"
+    }
+  },
+  "cases": {
+    "center_of_percussion_support_impulse_creation_00000042": {
+      "witness_id": "37832c00d234c7dd37534ad33a2dd9cc95fa194d9a400f60ca0d8a04cbc73de1",
+      "metadata_path": "center_of_percussion_support_impulse_creation_00000042/metadata.json",
+      "metadata_sha256": "e9d12b53e3270d9460b612540a6efef3074d1c89e90e6d94b56f410a1c75b303"
+    },
+    "center_of_percussion_support_impulse_creation_00000098": {
+      "witness_id": "37832c00d234c7dd37534ad33a2dd9cc95fa194d9a400f60ca0d8a04cbc73de1",
+      "metadata_path": "center_of_percussion_support_impulse_creation_00000098/metadata.json",
+      "metadata_sha256": "e7a7184da49b3e923878b1e969f3b9c52046479c94a87701e5553c68d4388555"
+    }
+  },
+  "failures": []
+}

@@ -1,0 +1,164 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "head_sha": "b0b5d64682948824e372dca75ea4b2832e4868c6",
+      "case_id": "differential_screw_pitch_difference_to_sum_00000042",
+      "status": "PASS",
+      "target_projection_min_fraction": 0.1725965142250061,
+      "independent_identity_frames": [
+        {
+          "frame": 24,
+          "targets": [
+            "carriage_cheek_-1",
+            "carriage_cheek_1",
+            "carriage_top",
+            "output_nut",
+            "output_pedestal",
+            "travel_pointer",
+            "travel_pointer_arm",
+            "travel_pointer_post"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 51,
+          "targets": [
+            "carriage_cheek_-1",
+            "carriage_cheek_1",
+            "carriage_top",
+            "output_nut",
+            "output_pedestal",
+            "travel_pointer",
+            "travel_pointer_arm",
+            "travel_pointer_post"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 60,
+          "targets": [
+            "carriage_cheek_-1",
+            "carriage_cheek_1",
+            "carriage_top",
+            "output_nut",
+            "output_pedestal",
+            "travel_pointer",
+            "travel_pointer_arm",
+            "travel_pointer_post"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 90,
+          "targets": [
+            "carriage_cheek_-1",
+            "carriage_cheek_1",
+            "carriage_top",
+            "output_nut",
+            "output_pedestal",
+            "travel_pointer",
+            "travel_pointer_arm",
+            "travel_pointer_post"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 119,
+          "targets": [
+            "carriage_cheek_-1",
+            "carriage_cheek_1",
+            "carriage_top",
+            "output_nut",
+            "output_pedestal",
+            "travel_pointer",
+            "travel_pointer_arm",
+            "travel_pointer_post"
+          ],
+          "decoded_identity_exact": true
+        }
+      ],
+      "visual_review": "PENDING"
+    },
+    {
+      "head_sha": "b0b5d64682948824e372dca75ea4b2832e4868c6",
+      "case_id": "differential_screw_pitch_difference_to_sum_00000098",
+      "status": "PASS",
+      "target_projection_min_fraction": 0.1544162631034851,
+      "independent_identity_frames": [
+        {
+          "frame": 28,
+          "targets": [
+            "carriage_cheek_-1",
+            "carriage_cheek_1",
+            "carriage_top",
+            "output_nut",
+            "output_pedestal",
+            "travel_pointer",
+            "travel_pointer_arm",
+            "travel_pointer_post"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 53,
+          "targets": [
+            "carriage_cheek_-1",
+            "carriage_cheek_1",
+            "carriage_top",
+            "output_nut",
+            "output_pedestal",
+            "travel_pointer",
+            "travel_pointer_arm",
+            "travel_pointer_post"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 60,
+          "targets": [
+            "carriage_cheek_-1",
+            "carriage_cheek_1",
+            "carriage_top",
+            "output_nut",
+            "output_pedestal",
+            "travel_pointer",
+            "travel_pointer_arm",
+            "travel_pointer_post"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 90,
+          "targets": [
+            "carriage_cheek_-1",
+            "carriage_cheek_1",
+            "carriage_top",
+            "output_nut",
+            "output_pedestal",
+            "travel_pointer",
+            "travel_pointer_arm",
+            "travel_pointer_post"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 119,
+          "targets": [
+            "carriage_cheek_-1",
+            "carriage_cheek_1",
+            "carriage_top",
+            "output_nut",
+            "output_pedestal",
+            "travel_pointer",
+            "travel_pointer_arm",
+            "travel_pointer_post"
+          ],
+          "decoded_identity_exact": true
+        }
+      ],
+      "visual_review": "PENDING"
+    }
+  ],
+  "contact_checks": []
+}

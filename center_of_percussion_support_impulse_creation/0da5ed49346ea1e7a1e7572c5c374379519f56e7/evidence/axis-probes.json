@@ -1,0 +1,655 @@
+{
+  "generator": "center_of_percussion_support_impulse_creation",
+  "commit": "0da5ed49346ea1e7a1e7572c5c374379519f56e7",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct 14 2026, 01:05:33) [Clang 23.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    768,
+    768
+  ],
+  "formal_acceptance": false,
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.5104,
+        "rod_width": 0.10986666666666667,
+        "rod_depth": 0.032,
+        "rod_mass": 2.3068672000000006,
+        "pivot_inertia": 1.5895698180027666,
+        "com_offset": 0.7092374878783952,
+        "impact_offset": 0.9715503913278473,
+        "cart_mass": 0.9437184000000002,
+        "striker_mass": 0.4823449600000001,
+        "striker_radius": 0.0768,
+        "impact_speed": 0.9099999999999999,
+        "pivot_z": 2.2144,
+        "restitution": 0.55,
+        "centering_stiffness": 1.92,
+        "cart_damping": 0.8192,
+        "rod_damping": 0.09395240960000001,
+        "solver_steps_per_frame": 48,
+        "time_scale": 1.0,
+        "model": "coupled cart-rigid-rod Lagrange dynamics; resolved passive impact at centre of percussion",
+        "extra_impulse": 0.8015314944
+      },
+      "images": {
+        "baseline-true-35.png": "11fee3c64d5dcc6534d758fb7d01836afee576ba77fb02cc8ffc358619ac41a7",
+        "baseline-true-90.png": "be43d890065e35be5c1c4690abfe4b5d63f783e280a959f40614f1776a71eb4d",
+        "baseline-counterfactual-35.png": "874e69a8c1322a08469c4eb9995cdd654df08d8b0d0ca3e4911e924fee618045",
+        "baseline-counterfactual-90.png": "afdcc1845a2bdda30251be8cf847d8a9dd35de88b82594861b8415b412d8e2da"
+      },
+      "metrics": {},
+      "changed_pixels": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 1.0,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "rod_length": 1.18,
+        "rod_width": 0.08583333333333333,
+        "rod_depth": 0.025,
+        "rod_mass": 1.1,
+        "pivot_inertia": 0.4626257048229355,
+        "com_offset": 0.5540917874049962,
+        "impact_offset": 0.7590237432248806,
+        "cart_mass": 0.45,
+        "striker_mass": 0.23,
+        "striker_radius": 0.06,
+        "impact_speed": 0.9099999999999999,
+        "pivot_z": 1.73,
+        "restitution": 0.55,
+        "centering_stiffness": 1.5,
+        "cart_damping": 0.5,
+        "rod_damping": 0.035,
+        "solver_steps_per_frame": 48,
+        "time_scale": 1.0,
+        "model": "coupled cart-rigid-rod Lagrange dynamics; resolved passive impact at centre of percussion",
+        "extra_impulse": 0.38219999999999993
+      },
+      "images": {
+        "length_low-true-35.png": "136f87a2dc48ed263b555fabaaa4eb1319020de79d78c6b69721f15ea831af2e",
+        "length_low-true-90.png": "9bc5e211848b6badb2d7dec7efd54c94999233650dfd87b5a9796f77e6f8209d",
+        "length_low-counterfactual-35.png": "8d2100ec54004d0aacf6fa0ed1fb61987c01458f49ca4edafb462da0bacbf47d",
+        "length_low-counterfactual-90.png": "867d08e2b5ab4a1599006c6667c15d840b5c3700c8c1b1309f20295b8fbfb091"
+      },
+      "metrics": {
+        "true-35": 4.958371197735822,
+        "true-90": 5.539199263961227,
+        "counterfactual-35": 5.1634267171223955,
+        "counterfactual-90": 6.038019250940393
+      },
+      "changed_pixels": {
+        "true-35": 59064,
+        "true-90": 63041,
+        "counterfactual-35": 61084,
+        "counterfactual-90": 66596
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 1.36,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.36,
+        "rod_length": 1.6048,
+        "rod_width": 0.11673333333333334,
+        "rod_depth": 0.034,
+        "rod_mass": 2.767001600000001,
+        "pivot_inertia": 2.1524065333175226,
+        "com_offset": 0.753564830870795,
+        "impact_offset": 1.0322722907858377,
+        "cart_mass": 1.1319552000000002,
+        "striker_mass": 0.5785548800000001,
+        "striker_radius": 0.0816,
+        "impact_speed": 0.9099999999999999,
+        "pivot_z": 2.3528000000000002,
+        "restitution": 0.55,
+        "centering_stiffness": 2.04,
+        "cart_damping": 0.9248000000000002,
+        "rod_damping": 0.11973570560000005,
+        "solver_steps_per_frame": 48,
+        "time_scale": 1.0,
+        "model": "coupled cart-rigid-rod Lagrange dynamics; resolved passive impact at centre of percussion",
+        "extra_impulse": 0.9614072831999999
+      },
+      "images": {
+        "length_high-true-35.png": "0939d08047e6f5869cbaa7ac72b37583f1fd0cc54ddaa4861054023c2fffe6a8",
+        "length_high-true-90.png": "212807ef563ec00d869e21acdf389325217df545f66d0dc56768560805d4ebe7",
+        "length_high-counterfactual-35.png": "da83b36a38dac7a7462721b33b223c43865717eae592f864e67be2c8ff155037",
+        "length_high-counterfactual-90.png": "6b6185efaf1cca9fb4982f2da762cbeff1d424772fa95b74d6437780b1f7c3b1"
+      },
+      "metrics": {
+        "true-35": 1.1853948522497106,
+        "true-90": 1.3726716218171295,
+        "counterfactual-35": 1.2586715133101851,
+        "counterfactual-90": 1.522125244140625
+      },
+      "changed_pixels": {
+        "true-35": 29386,
+        "true-90": 30325,
+        "counterfactual-35": 29957,
+        "counterfactual-90": 31837
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.85,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.5104,
+        "rod_width": 0.10986666666666667,
+        "rod_depth": 0.032,
+        "rod_mass": 2.3068672000000006,
+        "pivot_inertia": 1.5895698180027666,
+        "com_offset": 0.7092374878783952,
+        "impact_offset": 0.9715503913278473,
+        "cart_mass": 0.9437184000000002,
+        "striker_mass": 0.4823449600000001,
+        "striker_radius": 0.0768,
+        "impact_speed": 0.85,
+        "pivot_z": 2.2144,
+        "restitution": 0.55,
+        "centering_stiffness": 1.92,
+        "cart_damping": 0.8192,
+        "rod_damping": 0.09395240960000001,
+        "solver_steps_per_frame": 48,
+        "time_scale": 1.0,
+        "model": "coupled cart-rigid-rod Lagrange dynamics; resolved passive impact at centre of percussion",
+        "extra_impulse": 0.7486832640000001
+      },
+      "images": {
+        "response_low-true-35.png": "3d0398f90d0a7637f4d08d50e8cbe28bdcf7ac60d45e7fc7fe73b94df1705eee",
+        "response_low-true-90.png": "9f3a10037ab0e8a7303dd00875420ca70c58f1f23dd703d37af9fb5de16687ff",
+        "response_low-counterfactual-35.png": "167b843f8154a4a1c64e7c8f3d95066ea1b3e4f2a377c5287982e366bc5d9c90",
+        "response_low-counterfactual-90.png": "1a2c8529b588b858eec1d1fa8114763a834d9abe7a9143d76753e28992acc209"
+      },
+      "metrics": {
+        "true-35": 0.08414996111834491,
+        "true-90": 0.18386106137876157,
+        "counterfactual-35": 0.22153331615306712,
+        "counterfactual-90": 0.3944380018446181
+      },
+      "changed_pixels": {
+        "true-35": 4144,
+        "true-90": 4829,
+        "counterfactual-35": 5015,
+        "counterfactual-90": 6164
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 1.12,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.5104,
+        "rod_width": 0.10986666666666667,
+        "rod_depth": 0.032,
+        "rod_mass": 2.3068672000000006,
+        "pivot_inertia": 1.5895698180027666,
+        "com_offset": 0.7092374878783952,
+        "impact_offset": 0.9715503913278473,
+        "cart_mass": 0.9437184000000002,
+        "striker_mass": 0.4823449600000001,
+        "striker_radius": 0.0768,
+        "impact_speed": 1.12,
+        "pivot_z": 2.2144,
+        "restitution": 0.55,
+        "centering_stiffness": 1.92,
+        "cart_damping": 0.8192,
+        "rod_damping": 0.09395240960000001,
+        "solver_steps_per_frame": 48,
+        "time_scale": 1.0,
+        "model": "coupled cart-rigid-rod Lagrange dynamics; resolved passive impact at centre of percussion",
+        "extra_impulse": 0.9865003008000002
+      },
+      "images": {
+        "response_high-true-35.png": "e145b06ce15aa6ab3842a41579a3796072f6f8828b1c0831a4d9703f53f2d877",
+        "response_high-true-90.png": "7bd7cb8ba483e80bc1300cae48ba250e2fb9f66195687d6caa98de57b1d2fa13",
+        "response_high-counterfactual-35.png": "0b3adbcbd9bfa2f328e7413aa333172978bcb343fd7fc41e88723fbf69b4f23e",
+        "response_high-counterfactual-90.png": "200fa8fd66d445c727982ebccdcafc315829d6045a7c43c1a79d89be78f73563"
+      },
+      "metrics": {
+        "true-35": 0.2782999674479167,
+        "true-90": 0.5307261149088541,
+        "counterfactual-35": 0.6687480785228588,
+        "counterfactual-90": 1.1285852502893519
+      },
+      "changed_pixels": {
+        "true-35": 5698,
+        "true-90": 7374,
+        "counterfactual-35": 7870,
+        "counterfactual-90": 11109
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 20,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.5104,
+        "rod_width": 0.10986666666666667,
+        "rod_depth": 0.032,
+        "rod_mass": 2.3068672000000006,
+        "pivot_inertia": 1.5895698180027666,
+        "com_offset": 0.7092374878783952,
+        "impact_offset": 0.9715503913278473,
+        "cart_mass": 0.9437184000000002,
+        "striker_mass": 0.4823449600000001,
+        "striker_radius": 0.0768,
+        "impact_speed": 0.9099999999999999,
+        "pivot_z": 2.2144,
+        "restitution": 0.55,
+        "centering_stiffness": 1.92,
+        "cart_damping": 0.8192,
+        "rod_damping": 0.09395240960000001,
+        "solver_steps_per_frame": 48,
+        "time_scale": 1.0,
+        "model": "coupled cart-rigid-rod Lagrange dynamics; resolved passive impact at centre of percussion",
+        "extra_impulse": 0.8015314944
+      },
+      "images": {
+        "onset_low-true-35.png": "ebd7128da9eefb6e8dab0fd2a1a8ea0b5598dbc2a8696ff7022dd42b1b2dbccc",
+        "onset_low-true-90.png": "2e7bdd9064d54e448f7f1556d50625f61095d1a35b3c900b239b3de77c89bc4f",
+        "onset_low-counterfactual-35.png": "ba825be36b0b1e272e17a6d538fcca50ed4bf52899ea0936d1cbacae50b72155",
+        "onset_low-counterfactual-90.png": "90c4006b34adcc75603448bff81729c96a3eb45d320e97e056a317fe1b149b1a"
+      },
+      "metrics": {
+        "true-35": 0.40722034595630785,
+        "true-90": 0.2658516212745949,
+        "counterfactual-35": 0.5588435420283565,
+        "counterfactual-90": 0.3797522650824653
+      },
+      "changed_pixels": {
+        "true-35": 5752,
+        "true-90": 4981,
+        "counterfactual-35": 7813,
+        "counterfactual-90": 6409
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 29,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.5104,
+        "rod_width": 0.10986666666666667,
+        "rod_depth": 0.032,
+        "rod_mass": 2.3068672000000006,
+        "pivot_inertia": 1.5895698180027666,
+        "com_offset": 0.7092374878783952,
+        "impact_offset": 0.9715503913278473,
+        "cart_mass": 0.9437184000000002,
+        "striker_mass": 0.4823449600000001,
+        "striker_radius": 0.0768,
+        "impact_speed": 0.9099999999999999,
+        "pivot_z": 2.2144,
+        "restitution": 0.55,
+        "centering_stiffness": 1.92,
+        "cart_damping": 0.8192,
+        "rod_damping": 0.09395240960000001,
+        "solver_steps_per_frame": 48,
+        "time_scale": 1.0,
+        "model": "coupled cart-rigid-rod Lagrange dynamics; resolved passive impact at centre of percussion",
+        "extra_impulse": 0.8015314944
+      },
+      "images": {
+        "onset_high-true-35.png": "fb4c20bfd47abec50a2b4b470e57763b73bcd9e2f04107aee72dc841da825fd9",
+        "onset_high-true-90.png": "c6f5decd8f8ebe5a9d3c9ee5bd2d9602db57dae03bf54c8c3bf71d5b6278768e",
+        "onset_high-counterfactual-35.png": "bc49ed3ed67fec2c141c06d6800777d2bf79dd92377ff7c5110a0d0a1b00378e",
+        "onset_high-counterfactual-90.png": "9dab4bd6351484fc780ebe78fd710a32d68f4e3c330937574736220d3621df3f"
+      },
+      "metrics": {
+        "true-35": 0.6392313639322916,
+        "true-90": 0.4760250515407986,
+        "counterfactual-35": 1.1875056514033564,
+        "counterfactual-90": 0.5547530562789352
+      },
+      "changed_pixels": {
+        "true-35": 7567,
+        "true-90": 6161,
+        "counterfactual-35": 11697,
+        "counterfactual-90": 8045
+      }
+    },
+    "depth_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 0.75,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.5104,
+        "rod_width": 0.08,
+        "rod_depth": 0.032,
+        "rod_mass": 2.3068672000000006,
+        "pivot_inertia": 1.59841019999713,
+        "com_offset": 0.7136823108670944,
+        "impact_offset": 0.9708691818906743,
+        "cart_mass": 0.9437184000000002,
+        "striker_mass": 0.4823449600000001,
+        "striker_radius": 0.0768,
+        "impact_speed": 0.9099999999999999,
+        "pivot_z": 2.2144,
+        "restitution": 0.55,
+        "centering_stiffness": 1.92,
+        "cart_damping": 0.8192,
+        "rod_damping": 0.09395240960000001,
+        "solver_steps_per_frame": 48,
+        "time_scale": 1.0,
+        "model": "coupled cart-rigid-rod Lagrange dynamics; resolved passive impact at centre of percussion",
+        "extra_impulse": 0.8015314944
+      },
+      "images": {
+        "depth_low-true-35.png": "f297c64957611445b22b0af9e8221e31ce35f08d93ac53f6169d9d902eddaaf5",
+        "depth_low-true-90.png": "6fe284763ab3c7575837af32ea29e876e9ccb1d56f80848bfb6a59be8a72f10e",
+        "depth_low-counterfactual-35.png": "b1fd3d25a3cc32dd03509acbf4d116f90da1d3d1446777a1170c61c354267540",
+        "depth_low-counterfactual-90.png": "116a6b8bed1e287b813cfff26c034a0d4b66f48b3dda0dcf62ac4479ed27fa56"
+      },
+      "metrics": {
+        "true-35": 0.18558813024450233,
+        "true-90": 0.1856395580150463,
+        "counterfactual-35": 0.18366608796296297,
+        "counterfactual-90": 0.18712305139612267
+      },
+      "changed_pixels": {
+        "true-35": 7131,
+        "true-90": 7518,
+        "counterfactual-35": 6900,
+        "counterfactual-90": 7734
+      }
+    },
+    "depth_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.11,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.5104,
+        "rod_width": 0.11840000000000002,
+        "rod_depth": 0.032,
+        "rod_mass": 2.3068672000000006,
+        "pivot_inertia": 1.5880423904071357,
+        "com_offset": 0.7083857820605635,
+        "impact_offset": 0.9717838136999967,
+        "cart_mass": 0.9437184000000002,
+        "striker_mass": 0.4823449600000001,
+        "striker_radius": 0.0768,
+        "impact_speed": 0.9099999999999999,
+        "pivot_z": 2.2144,
+        "restitution": 0.55,
+        "centering_stiffness": 1.92,
+        "cart_damping": 0.8192,
+        "rod_damping": 0.09395240960000001,
+        "solver_steps_per_frame": 48,
+        "time_scale": 1.0,
+        "model": "coupled cart-rigid-rod Lagrange dynamics; resolved passive impact at centre of percussion",
+        "extra_impulse": 0.8015314944
+      },
+      "images": {
+        "depth_high-true-35.png": "1aea28d90d69fc44552f93efd93b762fa5ca8d58727656d9fe3cd16295e98f5f",
+        "depth_high-true-90.png": "3c7b6797becf9512397a311e68577e827b3aad472b1302023f7908f2ceaba47c",
+        "depth_high-counterfactual-35.png": "cc480e06c7342a41ac7e9f2e06d0d4f1080e8d00ca5b617f01d9e975dab3a5c8",
+        "depth_high-counterfactual-90.png": "1ac4cdc35cf5f816b4f8eaab847add04ee2adf9ffc2694bb55f117ad7e3e6834"
+      },
+      "metrics": {
+        "true-35": 0.05695823386863426,
+        "true-90": 0.057254932544849535,
+        "counterfactual-35": 0.056432088216145836,
+        "counterfactual-90": 0.05740017361111111
+      },
+      "changed_pixels": {
+        "true-35": 5044,
+        "true-90": 5287,
+        "counterfactual-35": 4974,
+        "counterfactual-90": 5467
+      }
+    },
+    "appearance_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 0,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.5104,
+        "rod_width": 0.10986666666666667,
+        "rod_depth": 0.032,
+        "rod_mass": 2.3068672000000006,
+        "pivot_inertia": 1.5895698180027666,
+        "com_offset": 0.7092374878783952,
+        "impact_offset": 0.9715503913278473,
+        "cart_mass": 0.9437184000000002,
+        "striker_mass": 0.4823449600000001,
+        "striker_radius": 0.0768,
+        "impact_speed": 0.9099999999999999,
+        "pivot_z": 2.2144,
+        "restitution": 0.55,
+        "centering_stiffness": 1.92,
+        "cart_damping": 0.8192,
+        "rod_damping": 0.09395240960000001,
+        "solver_steps_per_frame": 48,
+        "time_scale": 1.0,
+        "model": "coupled cart-rigid-rod Lagrange dynamics; resolved passive impact at centre of percussion",
+        "extra_impulse": 0.8015314944
+      },
+      "images": {
+        "appearance_low-true-35.png": "ef9ad18bc7188537a9bd284b3b212aa853e446b1dc028258b473724beeb5189f",
+        "appearance_low-true-90.png": "fa2ea67fe8352e21d90c2834996c2ba63308935d89a7c67227c17318b80a4601",
+        "appearance_low-counterfactual-35.png": "a4b297defb860be5a31347752de6cf9aee8223130885267029a5cd90daab3f2c",
+        "appearance_low-counterfactual-90.png": "037f06ae75da2a79317e994ab4f52cb2807783471035994c6b5bbd2dac993886"
+      },
+      "metrics": {
+        "true-35": 0.30289939597800924,
+        "true-90": 0.30289600513599535,
+        "counterfactual-35": 0.3029033519603588,
+        "counterfactual-90": 0.3029310438368056
+      },
+      "changed_pixels": {
+        "true-35": 214249,
+        "true-90": 214246,
+        "counterfactual-35": 214246,
+        "counterfactual-90": 214249
+      }
+    },
+    "appearance_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 9,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.5104,
+        "rod_width": 0.10986666666666667,
+        "rod_depth": 0.032,
+        "rod_mass": 2.3068672000000006,
+        "pivot_inertia": 1.5895698180027666,
+        "com_offset": 0.7092374878783952,
+        "impact_offset": 0.9715503913278473,
+        "cart_mass": 0.9437184000000002,
+        "striker_mass": 0.4823449600000001,
+        "striker_radius": 0.0768,
+        "impact_speed": 0.9099999999999999,
+        "pivot_z": 2.2144,
+        "restitution": 0.55,
+        "centering_stiffness": 1.92,
+        "cart_damping": 0.8192,
+        "rod_damping": 0.09395240960000001,
+        "solver_steps_per_frame": 48,
+        "time_scale": 1.0,
+        "model": "coupled cart-rigid-rod Lagrange dynamics; resolved passive impact at centre of percussion",
+        "extra_impulse": 0.8015314944
+      },
+      "images": {
+        "appearance_high-true-35.png": "1f940736697790e143e4cd42db8d4d081228dc87a7640d9ec7ef11dbd27af40b",
+        "appearance_high-true-90.png": "06da912c03c4c57768220067dadda1aa1954e5fb4027b43aebcd40e09a70399f",
+        "appearance_high-counterfactual-35.png": "86247f02a1a1faca4bc1857cb49fe1dd922bfe30ec1918d1df8a6123d31b9554",
+        "appearance_high-counterfactual-90.png": "ee0e8aa15b97b59925419320f3904e9aa6ca9d53388dedc363da1f172c518903"
+      },
+      "metrics": {
+        "true-35": 0.04750117549189815,
+        "true-90": 0.04754017017505787,
+        "counterfactual-35": 0.047648111979166664,
+        "counterfactual-90": 0.04788829662181713
+      },
+      "changed_pixels": {
+        "true-35": 22633,
+        "true-90": 22641,
+        "counterfactual-35": 22635,
+        "counterfactual-90": 22650
+      }
+    },
+    "view_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 0,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.5104,
+        "rod_width": 0.10986666666666667,
+        "rod_depth": 0.032,
+        "rod_mass": 2.3068672000000006,
+        "pivot_inertia": 1.5895698180027666,
+        "com_offset": 0.7092374878783952,
+        "impact_offset": 0.9715503913278473,
+        "cart_mass": 0.9437184000000002,
+        "striker_mass": 0.4823449600000001,
+        "striker_radius": 0.0768,
+        "impact_speed": 0.9099999999999999,
+        "pivot_z": 2.2144,
+        "restitution": 0.55,
+        "centering_stiffness": 1.92,
+        "cart_damping": 0.8192,
+        "rod_damping": 0.09395240960000001,
+        "solver_steps_per_frame": 48,
+        "time_scale": 1.0,
+        "model": "coupled cart-rigid-rod Lagrange dynamics; resolved passive impact at centre of percussion",
+        "extra_impulse": 0.8015314944
+      },
+      "images": {
+        "view_low-true-35.png": "0cd08d7b8fef6fe614aa02f7a22403b6a469a53736e605b85b7ce8e1ed2b100b",
+        "view_low-true-90.png": "d29c8c26a40e70b941dcb9a08206ceca64a271c9e15c4f1bedf7f87805b9e8b6",
+        "view_low-counterfactual-35.png": "aa59315279c451c7c949fa8ed35db3a407325d2953a72be3b399bfe5686204c4",
+        "view_low-counterfactual-90.png": "1eeb6d97a34a42285f0ee26ec7d2b6e76c0dcece8259bacaf9c813e4237454f8"
+      },
+      "metrics": {
+        "true-35": 10.22990247938368,
+        "true-90": 10.271933096426505,
+        "counterfactual-35": 10.318862915039062,
+        "counterfactual-90": 10.428842615198207
+      },
+      "changed_pixels": {
+        "true-35": 330744,
+        "true-90": 330859,
+        "counterfactual-35": 330962,
+        "counterfactual-90": 331080
+      }
+    },
+    "view_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 9,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.5104,
+        "rod_width": 0.10986666666666667,
+        "rod_depth": 0.032,
+        "rod_mass": 2.3068672000000006,
+        "pivot_inertia": 1.5895698180027666,
+        "com_offset": 0.7092374878783952,
+        "impact_offset": 0.9715503913278473,
+        "cart_mass": 0.9437184000000002,
+        "striker_mass": 0.4823449600000001,
+        "striker_radius": 0.0768,
+        "impact_speed": 0.9099999999999999,
+        "pivot_z": 2.2144,
+        "restitution": 0.55,
+        "centering_stiffness": 1.92,
+        "cart_damping": 0.8192,
+        "rod_damping": 0.09395240960000001,
+        "solver_steps_per_frame": 48,
+        "time_scale": 1.0,
+        "model": "coupled cart-rigid-rod Lagrange dynamics; resolved passive impact at centre of percussion",
+        "extra_impulse": 0.8015314944
+      },
+      "images": {
+        "view_high-true-35.png": "270fd4f6d0282a65b20900f7fd7e1125b9dd33fe11cc2fee61a787c3a3b336ef",
+        "view_high-true-90.png": "7ea01842e88fc8ec21c0bb06a840d0b71d2667cbf5118f98b6a81fa61e7bc52d",
+        "view_high-counterfactual-35.png": "b3af752cb1de854d14462f395beca9f2d742e2fb71874db777cd3c66951caf8a",
+        "view_high-counterfactual-90.png": "b227d73123a2cd4fb4c6653c5a28122d04a7919d659d19cf079c0f57af96db05"
+      },
+      "metrics": {
+        "true-35": 12.063953540943286,
+        "true-90": 12.034926803023726,
+        "counterfactual-35": 12.04974478262442,
+        "counterfactual-90": 12.075904563621238
+      },
+      "changed_pixels": {
+        "true-35": 303656,
+        "true-90": 303574,
+        "counterfactual-35": 303604,
+        "counterfactual-90": 303605
+      }
+    }
+  }
+}

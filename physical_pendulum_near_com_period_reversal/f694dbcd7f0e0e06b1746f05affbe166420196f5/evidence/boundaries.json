@@ -1,0 +1,343 @@
+{
+  "status": "PASS",
+  "head_sha": "f694dbcd7f0e0e06b1746f05affbe166420196f5",
+  "scope": "16 combined physical-axis corners, non-rendering independent mechanics verification",
+  "cases": [
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_period_seconds": [
+          1.6763209532987249,
+          2.278481794971879
+        ],
+        "near_cf_period_seconds": 1.1392408974859396,
+        "first_crossing_frames": [
+          31,
+          34,
+          27
+        ],
+        "true_energy_error": 1.8349211039492275e-13
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_period_seconds": [
+          1.6784030531933853,
+          2.2838852366390476
+        ],
+        "near_cf_period_seconds": 1.1419426183195238,
+        "first_crossing_frames": [
+          31,
+          34,
+          27
+        ],
+        "true_energy_error": 1.8207657603852567e-13
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_period_seconds": [
+          1.6763209532987249,
+          2.278481794971879
+        ],
+        "near_cf_period_seconds": 1.1392408974859396,
+        "first_crossing_frames": [
+          40,
+          43,
+          36
+        ],
+        "true_energy_error": 1.6345258480043867e-13
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_period_seconds": [
+          1.6784030531933853,
+          2.2838852366390476
+        ],
+        "near_cf_period_seconds": 1.1419426183195238,
+        "first_crossing_frames": [
+          40,
+          43,
+          36
+        ],
+        "true_energy_error": 1.6214807274650411e-13
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_period_seconds": [
+          1.6794178888046527,
+          2.2826911984017966
+        ],
+        "near_cf_period_seconds": 1.1413455992008983,
+        "first_crossing_frames": [
+          31,
+          34,
+          27
+        ],
+        "true_energy_error": 3.271410919936102e-13
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_period_seconds": [
+          1.6815038352950846,
+          2.2881046227100104
+        ],
+        "near_cf_period_seconds": 1.1440523113550052,
+        "first_crossing_frames": [
+          31,
+          34,
+          27
+        ],
+        "true_energy_error": 3.2546187966886464e-13
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_period_seconds": [
+          1.6794178888046527,
+          2.2826911984017966
+        ],
+        "near_cf_period_seconds": 1.1413455992008983,
+        "first_crossing_frames": [
+          40,
+          43,
+          36
+        ],
+        "true_energy_error": 2.9282132274488504e-13
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_period_seconds": [
+          1.6815038352950846,
+          2.2881046227100104
+        ],
+        "near_cf_period_seconds": 1.1440523113550052,
+        "first_crossing_frames": [
+          40,
+          43,
+          36
+        ],
+        "true_energy_error": 2.916417107812208e-13
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_period_seconds": [
+          1.9549093678012166,
+          2.6571435479523604
+        ],
+        "near_cf_period_seconds": 1.3285717739761802,
+        "first_crossing_frames": [
+          32,
+          36,
+          28
+        ],
+        "true_energy_error": 1.030009411095989e-13
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_period_seconds": [
+          1.9573374926664215,
+          2.663444989637933
+        ],
+        "near_cf_period_seconds": 1.3317224948189665,
+        "first_crossing_frames": [
+          32,
+          36,
+          28
+        ],
+        "true_energy_error": 1.0225154056797692e-13
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_period_seconds": [
+          1.9549093678012166,
+          2.6571435479523604
+        ],
+        "near_cf_period_seconds": 1.3285717739761802,
+        "first_crossing_frames": [
+          41,
+          45,
+          37
+        ],
+        "true_energy_error": 9.348077867343818e-14
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_period_seconds": [
+          1.9573374926664215,
+          2.663444989637933
+        ],
+        "near_cf_period_seconds": 1.3317224948189665,
+        "first_crossing_frames": [
+          41,
+          45,
+          37
+        ],
+        "true_energy_error": 9.316158955385845e-14
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_period_seconds": [
+          1.958520984192517,
+          2.6620525137335296
+        ],
+        "near_cf_period_seconds": 1.3310262568667648,
+        "first_crossing_frames": [
+          32,
+          36,
+          28
+        ],
+        "true_energy_error": 1.8879342533750787e-13
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_period_seconds": [
+          1.9609535949207026,
+          2.668365597079046
+        ],
+        "near_cf_period_seconds": 1.334182798539523,
+        "first_crossing_frames": [
+          32,
+          37,
+          29
+        ],
+        "true_energy_error": 1.867117571663357e-13
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_period_seconds": [
+          1.958520984192517,
+          2.6620525137335296
+        ],
+        "near_cf_period_seconds": 1.3310262568667648,
+        "first_crossing_frames": [
+          41,
+          45,
+          37
+        ],
+        "true_energy_error": 1.7286172493413687e-13
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_period_seconds": [
+          1.9609535949207026,
+          2.668365597079046
+        ],
+        "near_cf_period_seconds": 1.334182798539523,
+        "first_crossing_frames": [
+          41,
+          46,
+          38
+        ],
+        "true_energy_error": 1.7102985694350537e-13
+      }
+    }
+  ]
+}

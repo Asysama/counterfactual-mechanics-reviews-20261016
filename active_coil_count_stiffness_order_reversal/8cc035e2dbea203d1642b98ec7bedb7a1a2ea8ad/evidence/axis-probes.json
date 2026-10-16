@@ -1,0 +1,590 @@
+{
+  "generator": "active_coil_count_stiffness_order_reversal",
+  "commit": "8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct 14 2026, 01:05:33) [Clang 23.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    768,
+    768
+  ],
+  "formal_acceptance": false,
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "coil_diameter": 0.256,
+        "wire_diameter": 0.017578666666666666,
+        "shear_modulus": 800000000.0,
+        "full_turns": 10,
+        "active_turns": 5,
+        "spring_length": 1.088,
+        "top_z": 2.88,
+        "initial_bottom": 1.7919999999999998,
+        "full_stiffness": 56.91461834271604,
+        "clamped_stiffness": 113.82923668543208,
+        "force_peak": 5.358079999999999,
+        "ramp_frames": 46,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic incremental close-coiled spring compliance; pre-equilibrated self-weight"
+      },
+      "images": {
+        "baseline-true-35.png": "3fbc7ddb0a8f1a782e10a9da0bf0f66b4db223750a811aba944cc75ae0898c66",
+        "baseline-true-90.png": "ae3324b5ad5d40724fbf2724a831973f713fdff5cd36de3914bc7ef77ebf383c",
+        "baseline-counterfactual-35.png": "bcb8dfcb9b36b8cf7f712674c8a2912bdd47430c9574a92602276752b6018be0",
+        "baseline-counterfactual-90.png": "49d7156543e982b2c9013b32ec920a85555814a456a2f8de7b06e1740cd6a060"
+      },
+      "metrics": {},
+      "changed_pixels": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 1.0,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "coil_diameter": 0.2,
+        "wire_diameter": 0.013733333333333334,
+        "shear_modulus": 800000000.0,
+        "full_turns": 10,
+        "active_turns": 5,
+        "spring_length": 0.85,
+        "top_z": 2.25,
+        "initial_bottom": 1.4,
+        "full_stiffness": 44.464545580246906,
+        "clamped_stiffness": 88.92909116049381,
+        "force_peak": 4.185999999999999,
+        "ramp_frames": 46,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic incremental close-coiled spring compliance; pre-equilibrated self-weight"
+      },
+      "images": {
+        "length_low-true-35.png": "d816ccf31927be74a325ce37ee842806af32a428982aded5a169997c5a61b0bf",
+        "length_low-true-90.png": "790f61c179f97356afd2b3dff011fa7cd34c42c3503a68a8e4366a3b0642dcfd",
+        "length_low-counterfactual-35.png": "014ffe973dab7c9fe8cff45cbf97639bc6975ff25e4c780967a368be0a13e8ed",
+        "length_low-counterfactual-90.png": "d942b6626a7fa51da1f8bf55d641af5183aa9e5bdb785da468c7c954a07e6594"
+      },
+      "metrics": {
+        "true-35": 4.865749782986111,
+        "true-90": 5.407616509331597,
+        "counterfactual-35": 4.93270817509404,
+        "counterfactual-90": 5.6904551188151045
+      },
+      "changed_pixels": {
+        "true-35": 50677,
+        "true-90": 52921,
+        "counterfactual-35": 50918,
+        "counterfactual-90": 54636
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 1.36,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.36,
+        "coil_diameter": 0.272,
+        "wire_diameter": 0.018677333333333334,
+        "shear_modulus": 800000000.0,
+        "full_turns": 10,
+        "active_turns": 5,
+        "spring_length": 1.1560000000000001,
+        "top_z": 3.06,
+        "initial_bottom": 1.904,
+        "full_stiffness": 60.47178198913579,
+        "clamped_stiffness": 120.94356397827158,
+        "force_peak": 5.692959999999999,
+        "ramp_frames": 46,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic incremental close-coiled spring compliance; pre-equilibrated self-weight"
+      },
+      "images": {
+        "length_high-true-35.png": "f2947c4e75b5f099e889e5277f12b98fde607688baf10c40f10334bd3a905657",
+        "length_high-true-90.png": "88c5cf65d65b91912b3fbcb78235214a2c09f15abe804226d5d01ccb0aef5657",
+        "length_high-counterfactual-35.png": "f1c9d7aa8ed761b96f92ee608698878ccc951b4bf5b7d78c6954cbb33de3bc22",
+        "length_high-counterfactual-90.png": "a76248586b0cc0dde17ffc27faf06a95cc1865accad26be150c55b5cbbeec9a4"
+      },
+      "metrics": {
+        "true-35": 1.2525227864583333,
+        "true-90": 1.396240234375,
+        "counterfactual-35": 1.2754126654730902,
+        "counterfactual-90": 1.4559066207320601
+      },
+      "changed_pixels": {
+        "true-35": 25089,
+        "true-90": 26332,
+        "counterfactual-35": 25621,
+        "counterfactual-90": 26658
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.85,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "coil_diameter": 0.256,
+        "wire_diameter": 0.017578666666666666,
+        "shear_modulus": 800000000.0,
+        "full_turns": 10,
+        "active_turns": 5,
+        "spring_length": 1.088,
+        "top_z": 2.88,
+        "initial_bottom": 1.7919999999999998,
+        "full_stiffness": 56.91461834271604,
+        "clamped_stiffness": 113.82923668543208,
+        "force_peak": 5.0047999999999995,
+        "ramp_frames": 46,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic incremental close-coiled spring compliance; pre-equilibrated self-weight"
+      },
+      "images": {
+        "response_low-true-35.png": "504a36d4c814712bfd7957865fe09de060f65098aa7f93880b7c7b6d150ce918",
+        "response_low-true-90.png": "5a8190b9bce59f89e92b81b67ec923f102ebd67a41d6c9b64625a39c93aff39f",
+        "response_low-counterfactual-35.png": "33a54758f3f34105b112c532bfba0968ec996bf00d6c527f3e0e804dff70610d",
+        "response_low-counterfactual-90.png": "31c2ac3a32490d06c6257153d389e2793774602d532ffc2cd96fbb3ab79b421e"
+      },
+      "metrics": {
+        "true-35": 0.047849301938657406,
+        "true-90": 0.2488013373480903,
+        "counterfactual-35": 0.07289801703559028,
+        "counterfactual-90": 0.34570934154369215
+      },
+      "changed_pixels": {
+        "true-35": 7118,
+        "true-90": 8706,
+        "counterfactual-35": 7612,
+        "counterfactual-90": 9267
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 1.12,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "coil_diameter": 0.256,
+        "wire_diameter": 0.017578666666666666,
+        "shear_modulus": 800000000.0,
+        "full_turns": 10,
+        "active_turns": 5,
+        "spring_length": 1.088,
+        "top_z": 2.88,
+        "initial_bottom": 1.7919999999999998,
+        "full_stiffness": 56.91461834271604,
+        "clamped_stiffness": 113.82923668543208,
+        "force_peak": 6.59456,
+        "ramp_frames": 46,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic incremental close-coiled spring compliance; pre-equilibrated self-weight"
+      },
+      "images": {
+        "response_high-true-35.png": "acf98e61f5e3c7dc2b27e15419274c702018e1f8c6a8847bd4930991681e16af",
+        "response_high-true-90.png": "bf06feeb3c438a4dd977bed655599d9a9b6ad5259c292dce455f3fa107bad443",
+        "response_high-counterfactual-35.png": "76f2463c66f72f2481bb94ad17e9eb799c34d5821c65b5429d2d8bfc4d6c7d8a",
+        "response_high-counterfactual-90.png": "9ccc29b7b675e41523121d41127fbeaf9cc4d97c8fe46085f4862e748f574525"
+      },
+      "metrics": {
+        "true-35": 0.1572842068142361,
+        "true-90": 0.7160955358434606,
+        "counterfactual-35": 0.24164779097945602,
+        "counterfactual-90": 0.9074447066695602
+      },
+      "changed_pixels": {
+        "true-35": 8235,
+        "true-90": 10661,
+        "counterfactual-35": 8635,
+        "counterfactual-90": 12144
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 20,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "coil_diameter": 0.256,
+        "wire_diameter": 0.017578666666666666,
+        "shear_modulus": 800000000.0,
+        "full_turns": 10,
+        "active_turns": 5,
+        "spring_length": 1.088,
+        "top_z": 2.88,
+        "initial_bottom": 1.7919999999999998,
+        "full_stiffness": 56.91461834271604,
+        "clamped_stiffness": 113.82923668543208,
+        "force_peak": 5.358079999999999,
+        "ramp_frames": 46,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic incremental close-coiled spring compliance; pre-equilibrated self-weight"
+      },
+      "images": {
+        "onset_low-true-35.png": "cab4603d00d7ba67893a985591bb215981b539a8d8668d14119ad16353ce912f",
+        "onset_low-true-90.png": "80980240ee29b13b8260301fdfccf9698faed802a673ab21b9484a7ae435d191",
+        "onset_low-counterfactual-35.png": "b7c58acd4dfa484127362c1f8462feccfa94dc590415b68046283359f1eef04a",
+        "onset_low-counterfactual-90.png": "778b841801c2844230c44e14825aa8840769993bf10938954e349c46b4ea466f"
+      },
+      "metrics": {
+        "true-35": 0.3243526882595486,
+        "true-90": 0.0,
+        "counterfactual-35": 0.47254209165219907,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 9093,
+        "true-90": 0,
+        "counterfactual-35": 9792,
+        "counterfactual-90": 0
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 29,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "coil_diameter": 0.256,
+        "wire_diameter": 0.017578666666666666,
+        "shear_modulus": 800000000.0,
+        "full_turns": 10,
+        "active_turns": 5,
+        "spring_length": 1.088,
+        "top_z": 2.88,
+        "initial_bottom": 1.7919999999999998,
+        "full_stiffness": 56.91461834271604,
+        "clamped_stiffness": 113.82923668543208,
+        "force_peak": 5.358079999999999,
+        "ramp_frames": 46,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic incremental close-coiled spring compliance; pre-equilibrated self-weight"
+      },
+      "images": {
+        "onset_high-true-35.png": "7f63b01670f262ce8f5fc1ce75c96a4949ec79361e76709138f8a343bc23fb4a",
+        "onset_high-true-90.png": "8bf889142935e9f74b02826e7b9f7857833ea31955b0a964204c9b86188a3a22",
+        "onset_high-counterfactual-35.png": "131fb34e9c647fc39a1d424003139e539acbf704b4a2d4ab889698fee0530569",
+        "onset_high-counterfactual-90.png": "7c4636b9f4c466492895584a8283ee558e488f0ce4ce0043c800446689f209f9"
+      },
+      "metrics": {
+        "true-35": 0.45899002640335645,
+        "true-90": 0.0,
+        "counterfactual-35": 0.6576210304542824,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 9650,
+        "true-90": 0,
+        "counterfactual-35": 10624,
+        "counterfactual-90": 0
+      }
+    },
+    "depth_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 0.75,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "coil_diameter": 0.256,
+        "wire_diameter": 0.0128,
+        "shear_modulus": 800000000.0,
+        "full_turns": 10,
+        "active_turns": 5,
+        "spring_length": 1.088,
+        "top_z": 2.88,
+        "initial_bottom": 1.7919999999999998,
+        "full_stiffness": 16.000000000000004,
+        "clamped_stiffness": 32.00000000000001,
+        "force_peak": 5.358079999999999,
+        "ramp_frames": 46,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic incremental close-coiled spring compliance; pre-equilibrated self-weight"
+      },
+      "images": {
+        "depth_low-true-35.png": "c413717ba9e59c58db35c3bb41080ed0eced64fbc8d96751e0e14c19ce004a79",
+        "depth_low-true-90.png": "3f5c928de982d6237caded70c35428b9e1a17b4b311d52b60e7c09b3cfeab3c8",
+        "depth_low-counterfactual-35.png": "5231b8f09f8c6eaa536e0d1bb4ed10ec1f2f4b65eccbd69c97f3cc4d09d94dce",
+        "depth_low-counterfactual-90.png": "1cb9048ab5a02c88819a5a6495b7d063cfbe46f518e9af4b645ba1ffcd96b760"
+      },
+      "metrics": {
+        "true-35": 1.124530933521412,
+        "true-90": 1.6478842276114005,
+        "counterfactual-35": 1.3785163031684027,
+        "counterfactual-90": 1.6011685971860532
+      },
+      "changed_pixels": {
+        "true-35": 13980,
+        "true-90": 18050,
+        "counterfactual-35": 15581,
+        "counterfactual-90": 19279
+      }
+    },
+    "depth_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.11,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "coil_diameter": 0.256,
+        "wire_diameter": 0.018944000000000003,
+        "shear_modulus": 800000000.0,
+        "full_turns": 10,
+        "active_turns": 5,
+        "spring_length": 1.088,
+        "top_z": 2.88,
+        "initial_bottom": 1.7919999999999998,
+        "full_stiffness": 76.76563456000004,
+        "clamped_stiffness": 153.53126912000008,
+        "force_peak": 5.358079999999999,
+        "ramp_frames": 46,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic incremental close-coiled spring compliance; pre-equilibrated self-weight"
+      },
+      "images": {
+        "depth_high-true-35.png": "0350d2d28c61e8e61b5591767c35f69a158e6015f0c9a9a8127df2f2a6e86d65",
+        "depth_high-true-90.png": "132fd8b48b7a6605820835685e9e9d01886035fee6f48bfd53d3d40cb32477f2",
+        "depth_high-counterfactual-35.png": "a3328b900a08aeba15467f786ee9d6a98d4a25ec22e77493a766d73b0ae222af",
+        "depth_high-counterfactual-90.png": "0548c5ce72de7f28160c37c785485bdc327e248c30c47089d1f6f930d524e73b"
+      },
+      "metrics": {
+        "true-35": 0.19012451171875,
+        "true-90": 0.8064032660590278,
+        "counterfactual-35": 0.2786079689308449,
+        "counterfactual-90": 1.044025562427662
+      },
+      "changed_pixels": {
+        "true-35": 10566,
+        "true-90": 13196,
+        "counterfactual-35": 11045,
+        "counterfactual-90": 14748
+      }
+    },
+    "appearance_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 0,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "coil_diameter": 0.256,
+        "wire_diameter": 0.017578666666666666,
+        "shear_modulus": 800000000.0,
+        "full_turns": 10,
+        "active_turns": 5,
+        "spring_length": 1.088,
+        "top_z": 2.88,
+        "initial_bottom": 1.7919999999999998,
+        "full_stiffness": 56.91461834271604,
+        "clamped_stiffness": 113.82923668543208,
+        "force_peak": 5.358079999999999,
+        "ramp_frames": 46,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic incremental close-coiled spring compliance; pre-equilibrated self-weight"
+      },
+      "images": {
+        "appearance_low-true-35.png": "55b8ac86dfa89d0df9888b5baa6f3076fcf4cc0e4e7f6bfc8cf1cc89d584d7d2",
+        "appearance_low-true-90.png": "95fdf8601f3721380c357160b940b0048e5919594a22a8b8e3d07c2ed7e5ab4b",
+        "appearance_low-counterfactual-35.png": "5a4f763944aa6f8bf9de58d5d2401ef713d17de13e552e5d3261f33df295f548",
+        "appearance_low-counterfactual-90.png": "308fcfacf0565a10e3e5d643af34a5938ff00bb0b8a7773e00e2a5abc6d768a9"
+      },
+      "metrics": {
+        "true-35": 0.31173762568721064,
+        "true-90": 0.31150422272858797,
+        "counterfactual-35": 0.3118150499131944,
+        "counterfactual-90": 0.31070002803096064
+      },
+      "changed_pixels": {
+        "true-35": 223292,
+        "true-90": 223028,
+        "counterfactual-35": 223295,
+        "counterfactual-90": 222588
+      }
+    },
+    "appearance_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 9,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "coil_diameter": 0.256,
+        "wire_diameter": 0.017578666666666666,
+        "shear_modulus": 800000000.0,
+        "full_turns": 10,
+        "active_turns": 5,
+        "spring_length": 1.088,
+        "top_z": 2.88,
+        "initial_bottom": 1.7919999999999998,
+        "full_stiffness": 56.91461834271604,
+        "clamped_stiffness": 113.82923668543208,
+        "force_peak": 5.358079999999999,
+        "ramp_frames": 46,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic incremental close-coiled spring compliance; pre-equilibrated self-weight"
+      },
+      "images": {
+        "appearance_high-true-35.png": "2280d71fef544c58ad26cd637fc47fe992b561e9a507f0a2246f3b89a78d4807",
+        "appearance_high-true-90.png": "b26d67248026a2a50331effc6507e009a5ff9066a89c94d5dfba4bb990f9269d",
+        "appearance_high-counterfactual-35.png": "3a9aed15bef66c69ce20695b0e4be76b4b7a0bf7c6801311a12b7375f8ecb1d4",
+        "appearance_high-counterfactual-90.png": "640c10466e522f474cb883967abe20ffbf2d76ff7477fece7d4d325fbe2d843e"
+      },
+      "metrics": {
+        "true-35": 0.07884894476996528,
+        "true-90": 0.0788845486111111,
+        "counterfactual-35": 0.07903600622106481,
+        "counterfactual-90": 0.07874834979021991
+      },
+      "changed_pixels": {
+        "true-35": 27244,
+        "true-90": 27253,
+        "counterfactual-35": 27247,
+        "counterfactual-90": 27233
+      }
+    },
+    "view_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 0,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "coil_diameter": 0.256,
+        "wire_diameter": 0.017578666666666666,
+        "shear_modulus": 800000000.0,
+        "full_turns": 10,
+        "active_turns": 5,
+        "spring_length": 1.088,
+        "top_z": 2.88,
+        "initial_bottom": 1.7919999999999998,
+        "full_stiffness": 56.91461834271604,
+        "clamped_stiffness": 113.82923668543208,
+        "force_peak": 5.358079999999999,
+        "ramp_frames": 46,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic incremental close-coiled spring compliance; pre-equilibrated self-weight"
+      },
+      "images": {
+        "view_low-true-35.png": "e1b47cc914463ccb984beb84a28c182dfa43efa26f5d4f96b489765fe19741fa",
+        "view_low-true-90.png": "078706447b5a309cf1f6248ca2b6b992539604172953adceafc15a5fcab6cbba",
+        "view_low-counterfactual-35.png": "e9dac3a078742295e19c1956fe3a94feda2d4e3cd8c9587c77e4fc131022822e",
+        "view_low-counterfactual-90.png": "ae039ce13be41e93eed72ce6b9677e8ae5f3e43a4734d4e3f968466971fafac0"
+      },
+      "metrics": {
+        "true-35": 9.697550455729166,
+        "true-90": 9.631262885199654,
+        "counterfactual-35": 9.688065705475983,
+        "counterfactual-90": 9.729854442455151
+      },
+      "changed_pixels": {
+        "true-35": 324341,
+        "true-90": 323871,
+        "counterfactual-35": 324221,
+        "counterfactual-90": 323357
+      }
+    },
+    "view_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 9,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "coil_diameter": 0.256,
+        "wire_diameter": 0.017578666666666666,
+        "shear_modulus": 800000000.0,
+        "full_turns": 10,
+        "active_turns": 5,
+        "spring_length": 1.088,
+        "top_z": 2.88,
+        "initial_bottom": 1.7919999999999998,
+        "full_stiffness": 56.91461834271604,
+        "clamped_stiffness": 113.82923668543208,
+        "force_peak": 5.358079999999999,
+        "ramp_frames": 46,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic incremental close-coiled spring compliance; pre-equilibrated self-weight"
+      },
+      "images": {
+        "view_high-true-35.png": "950786dd34682620b44bddba0945cfc808832f2e1329de691f7d5d1c0c4b8c50",
+        "view_high-true-90.png": "6f9bdba20df38f862826a0dd19fd2a049dcbf49ef1ef30327a71995180ab8bec",
+        "view_high-counterfactual-35.png": "f3b24e18c4723c49d449d610381a39fb95d5c9d7c0ebb1938c84400c2b52d710",
+        "view_high-counterfactual-90.png": "29fcf756b9a6d3608f88cbd548bceb668be249bf03d3bda4b696d49d2ba09e99"
+      },
+      "metrics": {
+        "true-35": 10.8780517578125,
+        "true-90": 10.832933779116031,
+        "counterfactual-35": 10.86248779296875,
+        "counterfactual-90": 10.95229650426794
+      },
+      "changed_pixels": {
+        "true-35": 295199,
+        "true-90": 294887,
+        "counterfactual-35": 295125,
+        "counterfactual-90": 294446
+      }
+    }
+  }
+}

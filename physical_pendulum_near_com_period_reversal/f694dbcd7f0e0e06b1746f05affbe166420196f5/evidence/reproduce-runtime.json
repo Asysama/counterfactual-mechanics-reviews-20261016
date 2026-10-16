@@ -1,0 +1,10 @@
+{
+  "schema_version": "counterfactual-runtime-witness-audit-v1",
+  "pass": true,
+  "generator": "physical_pendulum_near_com_period_reversal",
+  "case_set": "reproduce-seed42",
+  "commit": "f694dbcd7f0e0e06b1746f05affbe166420196f5",
+  "artifact_count": 38,
+  "accepted_case_count": 1,
+  "failures": []
+}

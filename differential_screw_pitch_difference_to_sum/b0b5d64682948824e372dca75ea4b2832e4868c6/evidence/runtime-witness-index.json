@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "22bcfd169a19544bdaf17cb8a24043691e245056472fba60e329f843675aa6e4": {
+      "path": "runtime-witness.json",
+      "sha256": "22bcfd169a19544bdaf17cb8a24043691e245056472fba60e329f843675aa6e4",
+      "generator": "differential_screw_pitch_difference_to_sum",
+      "case_set": "seeds42,98",
+      "source_commit": "b0b5d64682948824e372dca75ea4b2832e4868c6"
+    }
+  },
+  "cases": {
+    "differential_screw_pitch_difference_to_sum_00000042": {
+      "witness_id": "22bcfd169a19544bdaf17cb8a24043691e245056472fba60e329f843675aa6e4",
+      "metadata_path": "differential_screw_pitch_difference_to_sum_00000042/metadata.json",
+      "metadata_sha256": "ec7cc3acd4cb950477eb4a5af5ba9629bf2d7bedffa0e03fdb11426a579bc0db"
+    },
+    "differential_screw_pitch_difference_to_sum_00000098": {
+      "witness_id": "22bcfd169a19544bdaf17cb8a24043691e245056472fba60e329f843675aa6e4",
+      "metadata_path": "differential_screw_pitch_difference_to_sum_00000098/metadata.json",
+      "metadata_sha256": "a835d8b7b7cae731a0afdac1f4e33797cb4abb67954388fb9331e791854fa6c9"
+    }
+  },
+  "failures": []
+}

@@ -1,0 +1,158 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      -0.5120000243186951,
+      0.0,
+      1.5743999481201172
+    ],
+    "pos": [
+      -0.8201541304588318,
+      -5.888000011444092,
+      3.811840057373047
+    ],
+    "projection": "perspective"
+  },
+  "category": "center_of_percussion",
+  "descriptions": {
+    "counterfactual": "A vertical uniform-density rod with a small pivot bore hangs from an axle on a freely sliding carriage with soft centring springs. A hollow metal ball travels along a horizontal guide and strikes the dark mark at the rod's centre of percussion, then rebounds toward a padded stop. A pointer on the carriage is read against a fixed ruler. At the strike, the pivot carriage anomalously receives an immediate horizontal kick, although the ball hits the rod at its centre of percussion. The rod and carriage then continue their coupled motion under gravity and the centring springs.",
+    "true": "A vertical uniform-density rod with a small pivot bore hangs from an axle on a freely sliding carriage with soft centring springs. A hollow metal ball travels along a horizontal guide and strikes the dark mark at the rod's centre of percussion, then rebounds toward a padded stop. A pointer on the carriage is read against a fixed ruler. The strike initially starts the rod rotating without an impulsive horizontal kick to its pivot carriage. The carriage can move smoothly later as the swinging rod and centring springs exert forces."
+  },
+  "evidence_frame": 27,
+  "first_changed_frame": 24,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench analytical replay",
+    "git": "0da5ed49346ea1e7a1e7572c5c374379519f56e7",
+    "source_hashes": {
+      "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "engine/geometry.py": "fc0a42649329b40ae298a5ff317b42238b2774048998ee0153ce6fd3d581c03d",
+      "engine/media.py": "eb65201aeb09d2dacb9be7f19e5cab5b382a3968d40f00d72a4ef4be9de99114",
+      "engine/operators.py": "16568805e50c3163bdff20d54cc91eeb554e19302a9cad3e5b4e39909ada03a8",
+      "engine/run.py": "ed721f01edb227282f57ba9452ce7887a91f818787bceb9444e4f23e62e9975a",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "42f7009f24702e3d02cec8d3694c66d5273aa0ef2fc61db2bf10e4be3c78cd36",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "fd02116272efe5dd42e1a5478a8ce28965d1d056443677c1b25c60ba45536992",
+      "examples/reproduce.py": "fd8e158ec5093b718b3a9552d4c01b88d62ab38634df6f1af341673f909f2f69",
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/helpers.py": "dfdce3102c1c57463c2abfdfaec88af5d391ab192fa1517db22bd6222bd4b11b",
+      "src/phenomenon.py": "cf049309f405c243ea3b6d0fa2d6627893547e18c6e21d56c7cb64ad8e74669c",
+      "src/scaling.py": "f2857077f61690d9eced398f451417e785717f78467ba7ff9aabc0e43d98f4c7",
+      "src/violation.py": "d7ebc49470216506ba61ef0ce1617fff8712a55ee8ee9200ca0ab3e980159730",
+      "tests/test_physics.py": "4039f6c7c164fd2cc29227b2c8e6bd8a46eb7abe6c624ccfdd323443844e7ae6"
+    }
+  },
+  "intervention_frame": 23,
+  "mask_end_frame": 120,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "target_entities": [
+      "carriage_arm",
+      "carriage_pointer",
+      "carriage_pointer_arm",
+      "pivot_axle",
+      "pivot_carriage"
+    ],
+    "target_ontology": [
+      "pivot_carriage",
+      "carriage_arm",
+      "pivot_axle",
+      "carriage_pointer",
+      "carriage_pointer_arm"
+    ],
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 24,
+  "onset_frame": 23,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_unsupported_pivot_impulse/mask.mp4",
+      "mask_overlay": "counterfactual_unsupported_pivot_impulse/mask_overlay.mp4",
+      "prompt": "counterfactual_unsupported_pivot_impulse/prompt.txt",
+      "trajectory": "counterfactual_unsupported_pivot_impulse/trajectory.npz",
+      "video": "counterfactual_unsupported_pivot_impulse/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "center_of_percussion_support_impulse_creation",
+  "phenomenon_data": {
+    "scene_params": {
+      "appearance": 3,
+      "cart_damping": 0.8192,
+      "cart_mass": 0.9437184000000002,
+      "centering_stiffness": 1.92,
+      "com_offset": 0.7092374878783952,
+      "depth": 1.03,
+      "extra_impulse": 0.8015314944,
+      "gravity": 9.81,
+      "impact_offset": 0.9715503913278473,
+      "impact_speed": 0.9099999999999999,
+      "length": 1.28,
+      "model": "coupled cart-rigid-rod Lagrange dynamics; resolved passive impact at centre of percussion",
+      "onset": 23,
+      "pivot_inertia": 1.5895698180027666,
+      "pivot_z": 2.2144,
+      "response": 0.9099999999999999,
+      "restitution": 0.55,
+      "rod_damping": 0.09395240960000001,
+      "rod_depth": 0.032,
+      "rod_length": 1.5104,
+      "rod_mass": 2.3068672000000006,
+      "rod_width": 0.10986666666666667,
+      "scale": 1.28,
+      "solver_steps_per_frame": 48,
+      "striker_mass": 0.4823449600000001,
+      "striker_radius": 0.0768,
+      "time_scale": 1.0,
+      "view": 4
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "Does a strike at the centre of percussion initially rotate the rod without an impulsive kick to its sliding pivot?",
+        "Does that pivot instead receive an immediate unsupported horizontal kick?"
+      ],
+      "scoring": {
+        "correct_if_true": [
+          "pivot velocity is continuous at the percussion impact"
+        ],
+        "violation_if_true": [
+          "pivot velocity jumps under a spurious support impulse"
+        ]
+      },
+      "violation_types": [
+        "unsupported_pivot_impulse"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 42,
+  "task_id": "center_of_percussion_support_impulse_creation_00000042",
+  "timebase": {
+    "internal_substeps": 48,
+    "outer_steps_per_recorded_frame": 1,
+    "physical_dt": 0.0008680555555555555,
+    "physical_seconds_per_video_second": 1.0,
+    "solver": "coupled cart-rigid-rod Lagrange dynamics; resolved passive impact at centre of percussion",
+    "source_dt": 0.041666666666666664
+  },
+  "violation_type": "unsupported_pivot_impulse"
+}

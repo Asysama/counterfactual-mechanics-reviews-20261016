@@ -1,0 +1,46 @@
+{
+  "head_sha": "f694dbcd7f0e0e06b1746f05affbe166420196f5",
+  "publication_status": "PENDING_NATIVE_UPLOAD",
+  "files": {
+    "physical_pendulum_near_com_period_reversal_00000098/true/video.mp4": {
+      "sha256": "8b5de725ad8535621b676921671963f0511e9492784391037dd824e78ab35b65",
+      "bytes": 23002234,
+      "url": null
+    },
+    "physical_pendulum_near_com_period_reversal_00000098/counterfactual_near_com_restoring_torque_gain/video.mp4": {
+      "sha256": "e1a3b691fdfb146a1a7844cd12ca2ddf55abd79ad9610279ee50e3da431b8ddd",
+      "bytes": 22967962,
+      "url": null
+    },
+    "physical_pendulum_near_com_period_reversal_00000098/counterfactual_near_com_restoring_torque_gain/mask.mp4": {
+      "sha256": "c67f3cf94a03ae76e0be9def7500ce166e8b1d8a90d980b1c3074d26b705e3c2",
+      "bytes": 2432389,
+      "url": null
+    },
+    "physical_pendulum_near_com_period_reversal_00000098/counterfactual_near_com_restoring_torque_gain/mask_overlay.mp4": {
+      "sha256": "9ffc6ad2827fb171367ed20fbb263866c7fa228455b7d0634db65deea45be2a7",
+      "bytes": 22485945,
+      "url": null
+    },
+    "physical_pendulum_near_com_period_reversal_00000042/true/video.mp4": {
+      "sha256": "db4f4239409e563dae20fc21c8e7dc49ba7b1de44ba2f271bd85734a32eddf34",
+      "bytes": 19392744,
+      "url": null
+    },
+    "physical_pendulum_near_com_period_reversal_00000042/counterfactual_near_com_restoring_torque_gain/video.mp4": {
+      "sha256": "c22e81350e9fbefb84657c2eac9c06f43e7a6f3e52f94a50a645c741408e9c92",
+      "bytes": 19374268,
+      "url": null
+    },
+    "physical_pendulum_near_com_period_reversal_00000042/counterfactual_near_com_restoring_torque_gain/mask.mp4": {
+      "sha256": "1867e3807fb053675676f511df76ec4facdfdd7c4198f33a3356133b313d0c3c",
+      "bytes": 2412847,
+      "url": null
+    },
+    "physical_pendulum_near_com_period_reversal_00000042/counterfactual_near_com_restoring_torque_gain/mask_overlay.mp4": {
+      "sha256": "ea941e00f7f487e3e3812334d335273bf4c47c684da29c795ad98a47de16131e",
+      "bytes": 18800436,
+      "url": null
+    }
+  }
+}

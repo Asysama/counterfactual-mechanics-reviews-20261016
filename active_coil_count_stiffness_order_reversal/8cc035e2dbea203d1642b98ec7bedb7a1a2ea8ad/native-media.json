@@ -1,0 +1,46 @@
+{
+  "head_sha": "8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad",
+  "publication_status": "PENDING_NATIVE_UPLOAD",
+  "files": {
+    "active_coil_count_stiffness_order_reversal_00000042/true/video.mp4": {
+      "sha256": "3e6cd49eedf7974732597b0e9fac7fb2085d91835fb507f5db0401829f1ccb72",
+      "bytes": 46012384,
+      "url": null
+    },
+    "active_coil_count_stiffness_order_reversal_00000042/counterfactual_clamped_active_coil_compliance_reversal/video.mp4": {
+      "sha256": "df44d326acc24193850adfdcaa9490536ece4c13c5eb3b847930882372eefce7",
+      "bytes": 45984502,
+      "url": null
+    },
+    "active_coil_count_stiffness_order_reversal_00000042/counterfactual_clamped_active_coil_compliance_reversal/mask.mp4": {
+      "sha256": "fc92b95f16d2ed78f97937cd830b4bb4cc7e56783f22f2be24222a1f14e8bc3a",
+      "bytes": 2863723,
+      "url": null
+    },
+    "active_coil_count_stiffness_order_reversal_00000042/counterfactual_clamped_active_coil_compliance_reversal/mask_overlay.mp4": {
+      "sha256": "536ee53ae3aebc551287e4dc2c74d0e5b1f6c3e225fd40c31b9dafca3f67da90",
+      "bytes": 44820546,
+      "url": null
+    },
+    "active_coil_count_stiffness_order_reversal_00000098/true/video.mp4": {
+      "sha256": "46eead3295e6ac0e4667bb79f6ecb22f0e3cb14f15ce1249d435c768cd6d2d19",
+      "bytes": 48252227,
+      "url": null
+    },
+    "active_coil_count_stiffness_order_reversal_00000098/counterfactual_clamped_active_coil_compliance_reversal/video.mp4": {
+      "sha256": "ab9e713577760e41c5b451f5c20051fe4c986dc99bcc3a6797cfe999780ea87c",
+      "bytes": 48257246,
+      "url": null
+    },
+    "active_coil_count_stiffness_order_reversal_00000098/counterfactual_clamped_active_coil_compliance_reversal/mask.mp4": {
+      "sha256": "62f3c6f56843e892db88427a7ded961630671502750ceff952528ed75715a321",
+      "bytes": 3270892,
+      "url": null
+    },
+    "active_coil_count_stiffness_order_reversal_00000098/counterfactual_clamped_active_coil_compliance_reversal/mask_overlay.mp4": {
+      "sha256": "219b89dbbc7c30a0901b89a340be1c51518e61369b6e2b9429987a0237afef17",
+      "bytes": 47421480,
+      "url": null
+    }
+  }
+}

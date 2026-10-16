@@ -1,0 +1,249 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "head_sha": "f694dbcd7f0e0e06b1746f05affbe166420196f5",
+      "case_id": "physical_pendulum_near_com_period_reversal_00000042",
+      "status": "PASS",
+      "target_projection_min_fraction": 0.21628910303115845,
+      "independent_identity_frames": [
+        {
+          "frame": 24,
+          "targets": [
+            "near_com_mark",
+            "near_rod"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 39,
+          "targets": [
+            "near_com_mark",
+            "near_rod"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 60,
+          "targets": [
+            "near_com_mark",
+            "near_rod"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 90,
+          "targets": [
+            "near_com_mark",
+            "near_rod"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 119,
+          "targets": [
+            "near_com_mark",
+            "near_rod"
+          ],
+          "decoded_identity_exact": true
+        }
+      ],
+      "visual_review": "PENDING"
+    },
+    {
+      "head_sha": "f694dbcd7f0e0e06b1746f05affbe166420196f5",
+      "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+      "status": "PASS",
+      "target_projection_min_fraction": 0.20876461267471313,
+      "independent_identity_frames": [
+        {
+          "frame": 28,
+          "targets": [
+            "near_com_mark",
+            "near_rod"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 41,
+          "targets": [
+            "near_com_mark",
+            "near_rod"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 60,
+          "targets": [
+            "near_com_mark",
+            "near_rod"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 90,
+          "targets": [
+            "near_com_mark",
+            "near_rod"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 119,
+          "targets": [
+            "near_com_mark",
+            "near_rod"
+          ],
+          "decoded_identity_exact": true
+        }
+      ],
+      "visual_review": "PENDING"
+    }
+  ],
+  "contact_checks": [
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000042",
+      "branch": "true",
+      "frame": 0,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000042",
+      "branch": "true",
+      "frame": 24,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000042",
+      "branch": "true",
+      "frame": 39,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000042",
+      "branch": "true",
+      "frame": 60,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000042",
+      "branch": "true",
+      "frame": 90,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000042",
+      "branch": "true",
+      "frame": 119,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000042",
+      "branch": "counterfactual",
+      "frame": 0,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000042",
+      "branch": "counterfactual",
+      "frame": 24,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000042",
+      "branch": "counterfactual",
+      "frame": 39,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000042",
+      "branch": "counterfactual",
+      "frame": 60,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000042",
+      "branch": "counterfactual",
+      "frame": 90,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000042",
+      "branch": "counterfactual",
+      "frame": 119,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+      "branch": "true",
+      "frame": 0,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+      "branch": "true",
+      "frame": 28,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+      "branch": "true",
+      "frame": 41,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+      "branch": "true",
+      "frame": 60,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+      "branch": "true",
+      "frame": 90,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+      "branch": "true",
+      "frame": 119,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+      "branch": "counterfactual",
+      "frame": 0,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+      "branch": "counterfactual",
+      "frame": 28,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+      "branch": "counterfactual",
+      "frame": 41,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+      "branch": "counterfactual",
+      "frame": 60,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+      "branch": "counterfactual",
+      "frame": 90,
+      "both_rods_exact_rectangular_dimensions": true
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+      "branch": "counterfactual",
+      "frame": 119,
+      "both_rods_exact_rectangular_dimensions": true
+    }
+  ]
+}
