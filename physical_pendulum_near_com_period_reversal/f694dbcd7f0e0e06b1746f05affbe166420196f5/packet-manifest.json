@@ -204,12 +204,12 @@
     "sha256": "8ed0a0f7382bde494f50f369dd8885cd59e53b486ed1b43ce5b1d68ebb6e6d51"
   },
   "index.html": {
-    "bytes": 12662,
-    "sha256": "4198ab9b743942b1924b964f567440c484d7fb338ebc96ec2b6ab61277e15d84"
+    "bytes": 14424,
+    "sha256": "07e76daaa8153d0501a5703dd5747d809e713137bc5afb6746996f568eb32e96"
   },
   "native-media.json": {
-    "bytes": 2062,
-    "sha256": "0593bb6cfeafc9c8e5ecc411019ed252e073c10ef337b323e7cb8dc33b6bebc2"
+    "bytes": 4783,
+    "sha256": "73a946b32acc1b78d923b813f492c06d0bc05cd6e05d7aa3848f3294f8c06cdf"
   },
   "review-report.md": {
     "bytes": 4856,
