@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "generators": {
+    "active_coil_count_stiffness_order_reversal": {
+      "head_sha": "bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b",
+      "full_rgb_clips_inspected": 4,
+      "all_120_frames": true,
+      "observations": [
+        "True right active half extends less; CF right lower half extends visibly farther than left.",
+        "All four clips maintain continuous coil, seats and actuator connections; no floating text or loose reference geometry.",
+        "No conspicuous edge flicker in inspected consecutive native crops; geometry is smooth at native scale.",
+        "Six controlled axis rows vary meaningful geometry/loading/timing/appearance/viewpoint while preserving the phenomenon.",
+        "Four-stream native contact sheets inspected for both formal cases: white-on-black visible target only, pure red highlight on the same target, no background/rod/actuator leakage as applicable."
+      ],
+      "inspected_files": {
+        "axis-contact-v5/active_coil_count_stiffness_order_reversal.jpg": "5d17a3185a08c41fed5e2315cc30b817f6c1dbfa9d6b1592d0fff851b3dba90b",
+        "backups/inspection-v5/active_coil_count_stiffness_order_reversal/active_coil_count_stiffness_order_reversal_00000042/decoded-contact-sheet.jpg": "f36b8a247c80d9e639016e00ad888df6e22b71c3b7c58c9445caf3cec1219e4b",
+        "native-edge-inspection-v5/active_coil_count_stiffness_order_reversal_00000042/consecutive-native.png": "f4004bc496e3ace50fca21bf318dbbcafe42554b9227cebf006d0ecce163e601",
+        "full-clip-visual-v5/active_coil_count_stiffness_order_reversal_00000042/true-all120.jpg": "2cee795308494efd27fbccc8282ec996e2228c4f88f08116cf6cb1dde3dbeafb",
+        "full-clip-visual-v5/active_coil_count_stiffness_order_reversal_00000042/counterfactual-all120.jpg": "2a5f5091c764337bc0becf5d6431e222d64e342bcd4b6ac80dbc040065b59195",
+        "backups/inspection-v5/active_coil_count_stiffness_order_reversal/active_coil_count_stiffness_order_reversal_00000098/decoded-contact-sheet.jpg": "31bd3ba7d437b77a00062c84a9169f8ba66cc4038670a8837cf7da8db9d8830b",
+        "native-edge-inspection-v5/active_coil_count_stiffness_order_reversal_00000098/consecutive-native.png": "1a03f6801b9d392db293cca1b6d865024ef1039e195f5fb1812944b56647b979",
+        "full-clip-visual-v5/active_coil_count_stiffness_order_reversal_00000098/true-all120.jpg": "1e667a568e605bc334beb0cf8782f2a00efbd22e69b442bbd8422f9d56fa7a43",
+        "full-clip-visual-v5/active_coil_count_stiffness_order_reversal_00000098/counterfactual-all120.jpg": "c82f876a324f0c263f87e9a4a4518af6bbd2c83139ff3129f1e5fafeb1323b9b",
+        "backups/independent-v5/active_coil_count_stiffness_order_reversal_00000042-decoded-contact-sheet.jpg": "c98228e374be6b8d97151e2470089b7314d6d9f6f7510ba10eba5c190f85a3e3",
+        "backups/independent-v5/active_coil_count_stiffness_order_reversal_00000098-decoded-contact-sheet.jpg": "587925d3a2fa4cd205a7fb90eaea4fdce0fcc478746fa0f9db4a64d067a6ec6f"
+      },
+      "status": "PASS",
+      "standalone_prompts_inspected": true,
+      "mask_and_overlay_visual_pass": true
+    },
+    "center_of_percussion_support_impulse_creation": {
+      "head_sha": "61690f495d943c22c9832c7f8e8e91fbc299b596",
+      "full_rgb_clips_inspected": 4,
+      "all_120_frames": true,
+      "observations": [
+        "The cart visibly moves right immediately after impact in CF, with substantially greater travel than the previous revision.",
+        "True rod initially rotates without the CF support kick; later smooth carriage motion is present and is not labeled anomalous.",
+        "Both full clips retain ball/rod separation, connected axle, carriage on rail and continuous centring springs. No text objects.",
+        "Consecutive native edges show smooth displacement and silhouette, attached pointer and real axle bore.",
+        "Controlled physical-axis probes maintain the same outcome with visible timing, dimensions, angle/travel and viewpoint variation.",
+        "Four-stream native contact sheets inspected for both formal cases: white-on-black visible target only, pure red highlight on the same target, no background/rod/actuator leakage as applicable."
+      ],
+      "inspected_files": {
+        "axis-contact-v5/center_of_percussion_support_impulse_creation.jpg": "d459c27db3da1762911e6c57b165f223e85cc8b37c423a77185bb96599ce0386",
+        "backups/inspection-v5/center_of_percussion_support_impulse_creation/center_of_percussion_support_impulse_creation_00000042/decoded-contact-sheet.jpg": "cb8137024f672d9250e4db679e447b52a38f732b4eca2dd2b6e051c21ef18df8",
+        "native-edge-inspection-v5/center_of_percussion_support_impulse_creation_00000042/consecutive-native.png": "62c00d71a23d797b8e0823c196fea84f9bc8f5b7ac0a288fd2cbfd864adbd646",
+        "full-clip-visual-v5/center_of_percussion_support_impulse_creation_00000042/true-all120.jpg": "e5c9c380b0fa21fd58f218f271977f5311071877b833030a309f1b3e9115813e",
+        "full-clip-visual-v5/center_of_percussion_support_impulse_creation_00000042/counterfactual-all120.jpg": "ed66ddb4b1683cfdae8ec82d5fef4d8f618ba19d7323f3c75e2e136cd657930f",
+        "backups/inspection-v5/center_of_percussion_support_impulse_creation/center_of_percussion_support_impulse_creation_00000098/decoded-contact-sheet.jpg": "1ad22a413570ddac1d1a8846378a236f5f83c78899c026e27f6b11d439136fec",
+        "native-edge-inspection-v5/center_of_percussion_support_impulse_creation_00000098/consecutive-native.png": "e0e2e4d27bccf8c7b177762a77f849f4bb4b5c40f039ded39bc073da5febe2d2",
+        "full-clip-visual-v5/center_of_percussion_support_impulse_creation_00000098/true-all120.jpg": "885d3be337156e72798ef366d86d776018fd48397a8bdbb62b7ec383fca1acfa",
+        "full-clip-visual-v5/center_of_percussion_support_impulse_creation_00000098/counterfactual-all120.jpg": "90ae4b16b6cb1f47058f649ef3963184a02a995dda7676557dd40daad583d863",
+        "backups/independent-v5/center_of_percussion_support_impulse_creation_00000042-decoded-contact-sheet.jpg": "60a0a1cc014ef739ae4c321dc2b93f0c73f191a3aa3008f815b1fb04a6f42d5a",
+        "backups/independent-v5/center_of_percussion_support_impulse_creation_00000098-decoded-contact-sheet.jpg": "807827276049e0f8f7926bd3fd2adc36eb2c7a02913e01eaa47d20c2725131ee"
+      },
+      "status": "PASS",
+      "standalone_prompts_inspected": true,
+      "mask_and_overlay_visual_pass": true
+    }
+  },
+  "verified_at": "2026-10-17T10:15:01.767896+00:00",
+  "scope": "Actual visual inspection of all 8 native RGB clips as complete 120-frame sequences, four-stream decoded contact sheets, selected native scene frames, four consecutive-native edge sheets and two controlled-axis sheets. This PASS is native visual scope only; hosted browser playback remains NOT_VERIFIED.",
+  "heads": {
+    "active_coil_count_stiffness_order_reversal": "bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b",
+    "center_of_percussion_support_impulse_creation": "61690f495d943c22c9832c7f8e8e91fbc299b596"
+  }
+}

@@ -4,12 +4,16 @@
     "sha256": "8021214025138e81e628efa0e58f02ffaf1278e5c631f1f4b1eab241cf9bb622"
   },
   "application.json": {
-    "bytes": 546,
-    "sha256": "db26a32aaa5f020739ad10e9a8548664f59558751e91a014e3e44166726b00d0"
+    "bytes": 1076,
+    "sha256": "d93db9ff830b6d194f3da0109555994820fb9228cd5941a07c96eb3faea161bb"
   },
   "cases/center_of_percussion_support_impulse_creation_00000042/browser-derivatives.json": {
     "bytes": 754,
     "sha256": "df8be21c8f977aef19d74b5c46967d9adbe6b3649ec16c6a3d413885c18dc7d0"
+  },
+  "cases/center_of_percussion_support_impulse_creation_00000042/consecutive-native.png": {
+    "bytes": 79396,
+    "sha256": "62c00d71a23d797b8e0823c196fea84f9bc8f5b7ac0a288fd2cbfd864adbd646"
   },
   "cases/center_of_percussion_support_impulse_creation_00000042/counterfactual-all120.jpg": {
     "bytes": 391963,
@@ -42,6 +46,10 @@
   "cases/center_of_percussion_support_impulse_creation_00000042/decoded-contact-sheet.jpg": {
     "bytes": 394206,
     "sha256": "60a0a1cc014ef739ae4c321dc2b93f0c73f191a3aa3008f815b1fb04a6f42d5a"
+  },
+  "cases/center_of_percussion_support_impulse_creation_00000042/edge-binding.json": {
+    "bytes": 226,
+    "sha256": "f93148b31ea40076075743837e5eab1fcb0592da1e6cc22200be70383276e10f"
   },
   "cases/center_of_percussion_support_impulse_creation_00000042/frame-hashes.json": {
     "bytes": 34640,
@@ -79,6 +87,10 @@
     "bytes": 754,
     "sha256": "2dc02adf510385760f00ef2ac5d2a3eac132e71b1b04d98185019f554218fd1e"
   },
+  "cases/center_of_percussion_support_impulse_creation_00000098/consecutive-native.png": {
+    "bytes": 80115,
+    "sha256": "e0e2e4d27bccf8c7b177762a77f849f4bb4b5c40f039ded39bc073da5febe2d2"
+  },
   "cases/center_of_percussion_support_impulse_creation_00000098/counterfactual-all120.jpg": {
     "bytes": 394244,
     "sha256": "972bdc591aa2c2cdbdb05542ec4efac6b37f1561c35a8d4e3316dba348e9b96e"
@@ -111,6 +123,10 @@
     "bytes": 404327,
     "sha256": "807827276049e0f8f7926bd3fd2adc36eb2c7a02913e01eaa47d20c2725131ee"
   },
+  "cases/center_of_percussion_support_impulse_creation_00000098/edge-binding.json": {
+    "bytes": 226,
+    "sha256": "850b8a87318f6b8851bae9a1b6d54dab8d48e1b0696f5637f12d6982b0a29189"
+  },
   "cases/center_of_percussion_support_impulse_creation_00000098/frame-hashes.json": {
     "bytes": 34640,
     "sha256": "1dd1e5105c35b8485777ab37ccecc3858925860d69e2268c16d8d58cc41500cd"
@@ -142,6 +158,26 @@
   "cases/center_of_percussion_support_impulse_creation_00000098/true-all120.jpg": {
     "bytes": 393333,
     "sha256": "8100052dd5f6e2b559a8c8eef9112cc7de7686fdabe367d7e6bfb18c82c9139d"
+  },
+  "evidence/2026-10-17_amplitude-clearance-v5.json": {
+    "bytes": 11892,
+    "sha256": "d30cfbbde8f9e03a10e55b105167f8cb2f444dccd9c02870dfb7d1de15a5a1c6"
+  },
+  "evidence/2026-10-17_browser-file-decode-v5.json": {
+    "bytes": 9913,
+    "sha256": "1b13506d1bf52f6b6992a9d0f163527e5d63755bc9e4222fccc3edcddda918de"
+  },
+  "evidence/2026-10-17_browser-playback-blocker-v5.json": {
+    "bytes": 546,
+    "sha256": "8f2a677563fa22688ce41cf61e1a5fc130bbf662101170de5e36fc7a0ef74e95"
+  },
+  "evidence/2026-10-17_spring-amplitude-measurements-v5.json": {
+    "bytes": 878,
+    "sha256": "b705e72a85fa26fd53b8b1f14f009b60e07a4bf42fd88074f96dd2827325e64d"
+  },
+  "evidence/2026-10-17_visual-review-v5.json": {
+    "bytes": 6930,
+    "sha256": "4ee49a99bc944a7d6138b0ad81828fc2765040f783ab323ccdfa523a94cc84c8"
   },
   "evidence/accepted.jsonl": {
     "bytes": 338,
@@ -208,15 +244,15 @@
     "sha256": "a82a684a314141c647256327ff845d0b65729a99b2e199a7d7745fdd13b5c885"
   },
   "index.html": {
-    "bytes": 15169,
-    "sha256": "17393e8c36fd3f4ed597f3133c7cb823958f979c96d156df20f74e7b586ae8a6"
+    "bytes": 16476,
+    "sha256": "3a928b42334199a08d059e05e79ff8476f692213f342b183da3fab95c59c296d"
   },
   "native-media.json": {
     "bytes": 4801,
     "sha256": "e5fdb9a9d427248b8de4a4a58fbd08757d65b65abe90e35a67b8906f3c0c769b"
   },
   "review-report.md": {
-    "bytes": 5450,
-    "sha256": "542037178937e7eba2ba72cf0d525cec3d8e526340606d76301b9184f065d5db"
+    "bytes": 5837,
+    "sha256": "77f3acca9e18bf7ce3e695b3b5f8c8c6590cc06c2cf3879fdc3e5c053e7ddfbc"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "status": "NOT_VERIFIED",
+  "checked_at": "2026-10-17T09:31:25.752959+00:00",
+  "observation": "CUA getState returned apps=[], browsers=[], error: Sky Computer Use native pipe startup failed",
+  "scope": "Actual hosted UI playback and seeking cannot be observed; file decoding and public HTTP verification remain independent checks",
+  "heads": {
+    "active_coil_count_stiffness_order_reversal": "bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b",
+    "center_of_percussion_support_impulse_creation": "61690f495d943c22c9832c7f8e8e91fbc299b596"
+  }
+}

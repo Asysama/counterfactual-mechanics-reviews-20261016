@@ -1,0 +1,391 @@
+{
+  "status": "PASS",
+  "head_sha": "61690f495d943c22c9832c7f8e8e91fbc299b596",
+  "scope": "All 120 recorded poses in both branches, 16 combined physical corners, independent rod/striker distance and swept support clearance",
+  "cases": [
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "branches": {
+        "true": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.6045413640062542,
+          "minimum_rod_base_gap": 0.45457028228830765,
+          "maximum_cart_x": 0.1304586359937457,
+          "impact_velocity": 0.0
+        },
+        "counterfactual": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.20552091289723917,
+          "minimum_rod_base_gap": 0.45456987960596484,
+          "maximum_cart_x": 0.5294790871027608,
+          "impact_velocity": 0.9630505468041833
+        }
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "branches": {
+        "true": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.6042516435672711,
+          "minimum_rod_base_gap": 0.45405832354027786,
+          "maximum_cart_x": 0.1307483564327289,
+          "impact_velocity": 0.0
+        },
+        "counterfactual": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.20633771370174114,
+          "minimum_rod_base_gap": 0.4540583587351207,
+          "maximum_cart_x": 0.5286622862982588,
+          "impact_velocity": 0.9543534291967973
+        }
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "branches": {
+        "true": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.6045413640062542,
+          "minimum_rod_base_gap": 0.45457028228830765,
+          "maximum_cart_x": 0.1304586359937457,
+          "impact_velocity": 0.0
+        },
+        "counterfactual": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.20552091289723917,
+          "minimum_rod_base_gap": 0.45456987960596484,
+          "maximum_cart_x": 0.5294790871027608,
+          "impact_velocity": 0.9630505468041833
+        }
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "branches": {
+        "true": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.6042516435672711,
+          "minimum_rod_base_gap": 0.45405832354027786,
+          "maximum_cart_x": 0.1307483564327289,
+          "impact_velocity": 0.0
+        },
+        "counterfactual": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.20633771370174114,
+          "minimum_rod_base_gap": 0.4540583587351207,
+          "maximum_cart_x": 0.5286622862982588,
+          "impact_velocity": 0.9543534291967973
+        }
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "branches": {
+        "true": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.5629991251665647,
+          "minimum_rod_base_gap": 0.45456988632001905,
+          "maximum_cart_x": 0.1720008748334352,
+          "impact_velocity": 0.0
+        },
+        "counterfactual": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.03723286420318683,
+          "minimum_rod_base_gap": 0.4545704403837195,
+          "maximum_cart_x": 0.6977671357968132,
+          "impact_velocity": 1.2689607204949238
+        }
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "branches": {
+        "true": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.5626196599085599,
+          "minimum_rod_base_gap": 0.45405809027602173,
+          "maximum_cart_x": 0.1723803400914401,
+          "impact_velocity": 0.0
+        },
+        "counterfactual": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.03839173105637961,
+          "minimum_rod_base_gap": 0.45405807946080057,
+          "maximum_cart_x": 0.6966082689436204,
+          "impact_velocity": 1.2575009890593094
+        }
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "branches": {
+        "true": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.5629991251665647,
+          "minimum_rod_base_gap": 0.45456988632001905,
+          "maximum_cart_x": 0.1720008748334352,
+          "impact_velocity": 0.0
+        },
+        "counterfactual": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.03723286420318683,
+          "minimum_rod_base_gap": 0.4545704403837195,
+          "maximum_cart_x": 0.6977671357968132,
+          "impact_velocity": 1.2689607204949238
+        }
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "branches": {
+        "true": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.5626196599085599,
+          "minimum_rod_base_gap": 0.45405809027602173,
+          "maximum_cart_x": 0.1723803400914401,
+          "impact_velocity": 0.0
+        },
+        "counterfactual": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.03839173105637961,
+          "minimum_rod_base_gap": 0.45405807946080057,
+          "maximum_cart_x": 0.6966082689436204,
+          "impact_velocity": 1.2575009890593094
+        }
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "branches": {
+        "true": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.5991161189210471,
+          "minimum_rod_base_gap": 0.6182150533938536,
+          "maximum_cart_x": 0.1848020782673759,
+          "impact_velocity": 0.0
+        },
+        "counterfactual": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.21696084077936195,
+          "minimum_rod_base_gap": 0.6182151397452534,
+          "maximum_cart_x": 0.7045332565400678,
+          "impact_velocity": 0.9630505468041828
+        }
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "branches": {
+        "true": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.5994419811234628,
+          "minimum_rod_base_gap": 0.6175189809392371,
+          "maximum_cart_x": 0.1843589056720905,
+          "impact_velocity": 0.0
+        },
+        "counterfactual": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.2171149954088447,
+          "minimum_rod_base_gap": 0.6175203070315599,
+          "maximum_cart_x": 0.7043236062439712,
+          "impact_velocity": 0.954353429196797
+        }
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "branches": {
+        "true": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.5991161189210471,
+          "minimum_rod_base_gap": 0.618215197520719,
+          "maximum_cart_x": 0.1848020782673759,
+          "impact_velocity": 0.0
+        },
+        "counterfactual": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.21696084077936195,
+          "minimum_rod_base_gap": 0.6182151397452534,
+          "maximum_cart_x": 0.7045332565400678,
+          "impact_velocity": 0.9630505468041828
+        }
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "branches": {
+        "true": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.5994419811234628,
+          "minimum_rod_base_gap": 0.6175189809392371,
+          "maximum_cart_x": 0.1843589056720905,
+          "impact_velocity": 0.0
+        },
+        "counterfactual": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.2171149954088447,
+          "minimum_rod_base_gap": 0.6175203070315599,
+          "maximum_cart_x": 0.7043236062439712,
+          "impact_velocity": 0.954353429196797
+        }
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "branches": {
+        "true": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.5559778217696925,
+          "minimum_rod_base_gap": 0.6182150341362461,
+          "maximum_cart_x": 0.2434701623932183,
+          "impact_velocity": 0.0
+        },
+        "counterfactual": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.051676626048384744,
+          "minimum_rod_base_gap": 0.6182152043016892,
+          "maximum_cart_x": 0.9293197885741967,
+          "impact_velocity": 1.2689607204949231
+        }
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "branches": {
+        "true": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.5564150551293523,
+          "minimum_rod_base_gap": 0.6175189852992208,
+          "maximum_cart_x": 0.24287552502408083,
+          "impact_velocity": 0.0
+        },
+        "counterfactual": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.05198012279898012,
+          "minimum_rod_base_gap": 0.6175192110966855,
+          "maximum_cart_x": 0.9289070329933871,
+          "impact_velocity": 1.257500989059309
+        }
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "branches": {
+        "true": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.5559778217696925,
+          "minimum_rod_base_gap": 0.6182150341362461,
+          "maximum_cart_x": 0.2434701623932183,
+          "impact_velocity": 0.0
+        },
+        "counterfactual": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.051676626048384744,
+          "minimum_rod_base_gap": 0.6182152043016892,
+          "maximum_cart_x": 0.9293197885741967,
+          "impact_velocity": 1.2689607204949231
+        }
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "branches": {
+        "true": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.5564150551293523,
+          "minimum_rod_base_gap": 0.6175189852992208,
+          "maximum_cart_x": 0.24287552502408083,
+          "impact_velocity": 0.0
+        },
+        "counterfactual": {
+          "min_striker_rod_gap": 0.0,
+          "min_cart_brace_clearance_fraction": 0.05198012279898012,
+          "minimum_rod_base_gap": 0.6175192110966855,
+          "maximum_cart_x": 0.9289070329933871,
+          "impact_velocity": 1.257500989059309
+        }
+      }
+    }
+  ]
+}

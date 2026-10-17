@@ -1,0 +1,22 @@
+[
+  {
+    "seed": 42,
+    "old_left_extension_scene_fraction": 0.07354876694057152,
+    "new_left_extension_scene_fraction": 0.21111111111111114,
+    "new_right_true_extension_fraction": 0.10555555555555557,
+    "new_right_cf_extension_fraction": 0.6333333333333334,
+    "old_cf_left_right_difference_fraction": 0.07354876694057152,
+    "new_cf_left_right_difference_fraction": 0.4222222222222223,
+    "framing_linear_enlargement": 1.2
+  },
+  {
+    "seed": 98,
+    "old_left_extension_scene_fraction": 0.3963076923076925,
+    "new_left_extension_scene_fraction": 0.25000000000000006,
+    "new_right_true_extension_fraction": 0.12500000000000003,
+    "new_right_cf_extension_fraction": 0.7500000000000002,
+    "old_cf_left_right_difference_fraction": 0.3963076923076925,
+    "new_cf_left_right_difference_fraction": 0.5000000000000001,
+    "framing_linear_enlargement": 1.2
+  }
+]
