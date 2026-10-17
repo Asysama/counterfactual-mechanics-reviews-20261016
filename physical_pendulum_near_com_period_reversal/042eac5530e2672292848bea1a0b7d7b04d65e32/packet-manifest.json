@@ -3,9 +3,17 @@
     "bytes": 202,
     "sha256": "458900c27faedcbd62c19b331ae7c44daadb8dad48b7c62218269409da72972c"
   },
+  "application.json": {
+    "bytes": 1015,
+    "sha256": "7d9caf4505a5f4c8f1016e9bf41c0f972026c3172ceb09d777a1090732ee9605"
+  },
   "cases/physical_pendulum_near_com_period_reversal_00000042/browser-derivatives.json": {
     "bytes": 769,
     "sha256": "c3a5c0afcb730c090069e7d65992a4b58273a28c53a5d7a53c3b54dbd165be7f"
+  },
+  "cases/physical_pendulum_near_com_period_reversal_00000042/consecutive-native.png": {
+    "bytes": 56191,
+    "sha256": "fb98a78de0ea716fca03453ce62b2341800be2bd4b7d60a58e4b35af8e58de8b"
   },
   "cases/physical_pendulum_near_com_period_reversal_00000042/counterfactual-all120.jpg": {
     "bytes": 301399,
@@ -38,6 +46,10 @@
   "cases/physical_pendulum_near_com_period_reversal_00000042/decoded-contact-sheet.jpg": {
     "bytes": 307671,
     "sha256": "abd2a0dbf9e3f5c073e6a4cd444254459c1146730d891016e6e7d083cf37a829"
+  },
+  "cases/physical_pendulum_near_com_period_reversal_00000042/edge-binding.json": {
+    "bytes": 223,
+    "sha256": "e75617eb385fa4dcc680dea9401f7561dbfd605b49dc82ac5a669d00bdd6f210"
   },
   "cases/physical_pendulum_near_com_period_reversal_00000042/frame-hashes.json": {
     "bytes": 34640,
@@ -75,6 +87,10 @@
     "bytes": 769,
     "sha256": "425b8198216e76267ec3658ba6034c1d6b4031aa64046c487ecb317925f08e72"
   },
+  "cases/physical_pendulum_near_com_period_reversal_00000098/consecutive-native.png": {
+    "bytes": 53011,
+    "sha256": "9dfc8fdbaf61fa88032f99e89c31eee0ce934118d87ea39ce21eab4653855f04"
+  },
   "cases/physical_pendulum_near_com_period_reversal_00000098/counterfactual-all120.jpg": {
     "bytes": 300945,
     "sha256": "82e9250762071fab051d91668150173f5ca2b16e946c6a3ca0e0f317de73eb9c"
@@ -107,6 +123,10 @@
     "bytes": 312056,
     "sha256": "fe39d31c35f18e5607a3c6bfd7d4adfb549908b52aba2d1abee126af3fef832e"
   },
+  "cases/physical_pendulum_near_com_period_reversal_00000098/edge-binding.json": {
+    "bytes": 223,
+    "sha256": "e767f856ca22e8f6ae8a27e1a58b5720d39cb0e8248f1aa8ecad355935fc3251"
+  },
   "cases/physical_pendulum_near_com_period_reversal_00000098/frame-hashes.json": {
     "bytes": 34640,
     "sha256": "f00918fef0f6c7e3ff54f4fcaabc8555267b9e841b7129a7f2c9bfa633bcf16b"
@@ -138,6 +158,18 @@
   "cases/physical_pendulum_near_com_period_reversal_00000098/true-all120.jpg": {
     "bytes": 301122,
     "sha256": "bf06e3118286198d691cb7927a8755af6f8a23a123116bf0176c1bf0408e0621"
+  },
+  "evidence/2026-10-17_browser-file-decode-v4.json": {
+    "bytes": 19423,
+    "sha256": "caa2835bd5189ae8358275e7a782836c89eaf5f40c0cc9cc4ede4066b152ba03"
+  },
+  "evidence/2026-10-17_browser-playback-blocker-v4.json": {
+    "bytes": 741,
+    "sha256": "c03e4f774794b76e42b6a933d6dce3c3dac629c4af040551b63ce046fef37ec3"
+  },
+  "evidence/2026-10-17_visual-review-v4.json": {
+    "bytes": 20220,
+    "sha256": "85fbed50d9d7c0edfb687200e79655c80b18484ac84441508c56539830441598"
   },
   "evidence/accepted.jsonl": {
     "bytes": 332,
@@ -204,15 +236,15 @@
     "sha256": "3b47581e7c535dff89573818cce83a5146d1b4e462baa7a6612c990904cc7b89"
   },
   "index.html": {
-    "bytes": 14505,
-    "sha256": "cda4e619b583fb4e676db6716176b1aae4c7c769533e1cc01b8cd4d0ff16262a"
+    "bytes": 15800,
+    "sha256": "ae261608d54c27a9372bf4027c3ee087bedb0f12788fd6e1cd4cf1810f34c720"
   },
   "native-media.json": {
     "bytes": 4783,
     "sha256": "e238236dec3d79384ba5faab21b5436490d61b2147baed00e375fc694dea43b1"
   },
   "review-report.md": {
-    "bytes": 5149,
-    "sha256": "0930f3659dae93131755ee66f55d0ae95eff5f0b3f966fbb96710d87357dbbe3"
+    "bytes": 5536,
+    "sha256": "8af3530fb8cd7c40f5a2cdf0211383224268c4963fb4310edca551af241e9bfc"
   }
 }

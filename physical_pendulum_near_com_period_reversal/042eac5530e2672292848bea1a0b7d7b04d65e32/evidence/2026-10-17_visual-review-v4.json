@@ -1,0 +1,326 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T08:32:21.975026+00:00",
+  "generators": {
+    "active_coil_count_stiffness_order_reversal": {
+      "head_sha": "67448ea6661d93e5a3b885fa72449f717ae4d28b",
+      "true_and_counterfactual_full_120_frame_sheets_viewed_for_seeds": [
+        42,
+        98
+      ],
+      "selected_decoded_rgb_sheets_viewed": true,
+      "observations": "No floating text or unsupported datum line; continuously attached apparatus; equal gauge loading; correct lower extension with fewer turns in True and reversed extension in CF; outcome visible through final frame.",
+      "files": {
+        "full-clip-visual-v4/active_coil_count_stiffness_order_reversal_00000042/true-all120.jpg": "ad26acbb029c4307cbbbeebe95da8a6ecf450fb05d5dbe83bbbcfe8821f22a32",
+        "full-clip-visual-v4/active_coil_count_stiffness_order_reversal_00000042/counterfactual-all120.jpg": "2d390e638dd234f2a568bc84e0dd293a717226375833368024bd13c49f6f59da",
+        "backups/inspection-v4/active_coil_count_stiffness_order_reversal/active_coil_count_stiffness_order_reversal_00000042/decoded-contact-sheet.jpg": "f48700b469c77ed2ed269dd7091350bb2ade1f68ac3ce08a9584499d36ec828b",
+        "full-clip-visual-v4/active_coil_count_stiffness_order_reversal_00000098/true-all120.jpg": "7823cf3e5397115da357b56c737f2798712710bcc3b4a8ecb4aeb0cef52cbe6e",
+        "full-clip-visual-v4/active_coil_count_stiffness_order_reversal_00000098/counterfactual-all120.jpg": "5432be7e28a064eb71099fd465f2894e961106b14c906dcf896250a033225fcb",
+        "backups/inspection-v4/active_coil_count_stiffness_order_reversal/active_coil_count_stiffness_order_reversal_00000098/decoded-contact-sheet.jpg": "9a62ffa1f969ae1edc17329226fe99f0c2fe27d9be4acb1aaeef753e3300a72b"
+      },
+      "controlled_axis_sheet_viewed": {
+        "file": "axis-contact-v4/active_coil_count_stiffness_order_reversal.jpg",
+        "sha256": "ca6432a50d23993bd95b4971f9b96057df8881abf46873ef2a6e79d63e18b821",
+        "observations": "Low/high physical, timing, appearance and viewpoint changes are visible without floating text or disconnected apparatus. These diagnostic stills do not replace the native formal clips."
+      },
+      "native_consecutive_edge_inspection": [
+        {
+          "head_sha": "67448ea6661d93e5a3b885fa72449f717ae4d28b",
+          "case_id": "active_coil_count_stiffness_order_reversal_00000042",
+          "frames": [
+            50,
+            51,
+            52
+          ],
+          "crop": [
+            1167,
+            587,
+            512,
+            512
+          ],
+          "sha256": "55fc03f182d74e0eb7f3cb5ed1c1b0fa25a5d917aa83116448708bd97ffc7ef1",
+          "actually_viewed": true,
+          "observations": "Unscaled moving silhouettes and thin connectors remain continuous across three consecutive native frames; no conspicuous pixel stepping, disconnected facets or flickering component observed."
+        },
+        {
+          "head_sha": "67448ea6661d93e5a3b885fa72449f717ae4d28b",
+          "case_id": "active_coil_count_stiffness_order_reversal_00000098",
+          "frames": [
+            37,
+            38,
+            39
+          ],
+          "crop": [
+            1171,
+            611,
+            512,
+            512
+          ],
+          "sha256": "13829bdfd9f92230f893b00892ebda201c57d9ec66772a386632aaf214e65b84",
+          "actually_viewed": true,
+          "observations": "Unscaled moving silhouettes and thin connectors remain continuous across three consecutive native frames; no conspicuous pixel stepping, disconnected facets or flickering component observed."
+        }
+      ],
+      "four_stream_contact_inspection": [
+        {
+          "seed": 42,
+          "actually_viewed": true,
+          "file": "backups/independent-v4/active_coil_count_stiffness_order_reversal_00000042-decoded-contact-sheet.jpg",
+          "sha256": "f62da2134444d70374fecfddf851a8fdbb32a45305ebc34110069154c6f197c4",
+          "observations": "Mask/overlay isolate the right lower five active turns, excluding the clamped upper turns, stands, gauge and downstream actuator. Matched initial appearance, visible declared contrast, no floating text and complete visible outcome."
+        },
+        {
+          "seed": 98,
+          "actually_viewed": true,
+          "file": "backups/independent-v4/active_coil_count_stiffness_order_reversal_00000098-decoded-contact-sheet.jpg",
+          "sha256": "c7a1445ab610253ebf66604516f39c48d1469ff39767956a7075e575be114cb2",
+          "observations": "Mask/overlay isolate the right lower five active turns, excluding the clamped upper turns, stands, gauge and downstream actuator. Matched initial appearance, visible declared contrast, no floating text and complete visible outcome."
+        }
+      ],
+      "standalone_prompts_reviewed": true,
+      "visual_status": "PASS"
+    },
+    "center_of_percussion_support_impulse_creation": {
+      "head_sha": "a9a5fbe3a08a2b74109c4b642730a6bc4064fb85",
+      "true_and_counterfactual_full_120_frame_sheets_viewed_for_seeds": [
+        42,
+        98
+      ],
+      "selected_decoded_rgb_sheets_viewed": true,
+      "observations": "No floating text or detached annotation. Guided projectile approaches, contacts and rebounds; rod remains joined to carriage. True response remains smooth while CF carriage displacement is conspicuous following the impact. Ruler braces and rail clear the carriage throughout, and all apparatus remains visible.",
+      "files": {
+        "full-clip-visual-v4/center_of_percussion_support_impulse_creation_00000042/true-all120.jpg": "e5c9c380b0fa21fd58f218f271977f5311071877b833030a309f1b3e9115813e",
+        "full-clip-visual-v4/center_of_percussion_support_impulse_creation_00000042/counterfactual-all120.jpg": "f9edef7c96f5cfd36c1b724e143411c0838bebe0e751f7a934920a1e8f7fbd58",
+        "backups/inspection-v4/center_of_percussion_support_impulse_creation/center_of_percussion_support_impulse_creation_00000042/decoded-contact-sheet.jpg": "7964d0bbdb2a75187512440a6f2aaeec8039e95b1245600291c4ac9228420f5a",
+        "full-clip-visual-v4/center_of_percussion_support_impulse_creation_00000098/true-all120.jpg": "885d3be337156e72798ef366d86d776018fd48397a8bdbb62b7ec383fca1acfa",
+        "full-clip-visual-v4/center_of_percussion_support_impulse_creation_00000098/counterfactual-all120.jpg": "0c538e3392be3939510f4c6c3b208a1b7c8ba7c24126a24141da276a157a5e29",
+        "backups/inspection-v4/center_of_percussion_support_impulse_creation/center_of_percussion_support_impulse_creation_00000098/decoded-contact-sheet.jpg": "8004b4046282942e5e70bc489092902f476fa6330e98f68fb94e6679a96c253a"
+      },
+      "controlled_axis_sheet_viewed": {
+        "file": "axis-contact-v4/center_of_percussion_support_impulse_creation.jpg",
+        "sha256": "ff945e6b72c63e94d9d7efdf67572b7e32ae8b95d7fafe1f6870eeb235478b1b",
+        "observations": "Low/high physical, timing, appearance and viewpoint changes are visible without floating text or disconnected apparatus. These diagnostic stills do not replace the native formal clips."
+      },
+      "native_consecutive_edge_inspection": [
+        {
+          "head_sha": "a9a5fbe3a08a2b74109c4b642730a6bc4064fb85",
+          "case_id": "center_of_percussion_support_impulse_creation_00000042",
+          "frames": [
+            27,
+            28,
+            29
+          ],
+          "crop": [
+            1018,
+            392,
+            512,
+            512
+          ],
+          "sha256": "76f9880de185ad7c7288fba0c05a85176a6f991938c6354fffc8cbf3eec5ab2b",
+          "actually_viewed": true,
+          "observations": "Unscaled moving silhouettes and thin connectors remain continuous across three consecutive native frames; no conspicuous pixel stepping, disconnected facets or flickering component observed."
+        },
+        {
+          "head_sha": "a9a5fbe3a08a2b74109c4b642730a6bc4064fb85",
+          "case_id": "center_of_percussion_support_impulse_creation_00000098",
+          "frames": [
+            30,
+            31,
+            32
+          ],
+          "crop": [
+            1044,
+            404,
+            512,
+            512
+          ],
+          "sha256": "0268a1839d73f1db1050955cf4d9e86c119e5dfef5e68d33279c0be20ccaeece",
+          "actually_viewed": true,
+          "observations": "Unscaled moving silhouettes and thin connectors remain continuous across three consecutive native frames; no conspicuous pixel stepping, disconnected facets or flickering component observed."
+        }
+      ],
+      "four_stream_contact_inspection": [
+        {
+          "seed": 42,
+          "actually_viewed": true,
+          "file": "backups/independent-v4/center_of_percussion_support_impulse_creation_00000042-decoded-contact-sheet.jpg",
+          "sha256": "06f9fb6af1fd2dec835c49240466b185111e5bf1ffde2480d4ecfe1bed8aca3f",
+          "observations": "Mask/overlay follow the carriage, attached pivot hardware and pointer; striker, rod and fixed rail/ruler remain excluded. Matched initial appearance, visible declared contrast, no floating text and complete visible outcome."
+        },
+        {
+          "seed": 98,
+          "actually_viewed": true,
+          "file": "backups/independent-v4/center_of_percussion_support_impulse_creation_00000098-decoded-contact-sheet.jpg",
+          "sha256": "1e5d1fc9d8549f3bdc290ee73ae935abc850055ba9a56dcc65f7eb58d1e3c1f3",
+          "observations": "Mask/overlay follow the carriage, attached pivot hardware and pointer; striker, rod and fixed rail/ruler remain excluded. Matched initial appearance, visible declared contrast, no floating text and complete visible outcome."
+        }
+      ],
+      "standalone_prompts_reviewed": true,
+      "visual_status": "PASS"
+    },
+    "differential_screw_pitch_difference_to_sum": {
+      "head_sha": "c003b54deb9397f9fd92b6c3ea4301c5a89c1e94",
+      "true_and_counterfactual_full_120_frame_sheets_viewed_for_seeds": [
+        42,
+        98
+      ],
+      "selected_decoded_rgb_sheets_viewed": true,
+      "observations": "No floating pitch annotation. Fixed supported ruler remains. Same smooth wheel rotation and shaft advance; correct small carriage travel versus conspicuously larger CF travel. Shaft, supported nuts and carriage remain continuously connected and visible through the stopping tail. Standalone prompts agree with the visible sequence.",
+      "files": {
+        "full-clip-visual-v4/differential_screw_pitch_difference_to_sum_00000042/true-all120.jpg": "82570b357b390c5db433634e33ad54a214ea1bf68aea1d081e5dbaa6bf5e6396",
+        "full-clip-visual-v4/differential_screw_pitch_difference_to_sum_00000042/counterfactual-all120.jpg": "8634a2a2cfa24120d01d3bbe6a1925ee74978c5b9d06a61c703930ffb59ce8bf",
+        "backups/inspection-v4/differential_screw_pitch_difference_to_sum/differential_screw_pitch_difference_to_sum_00000042/decoded-contact-sheet.jpg": "33c7c9ca3835576eca80044acfbd343b63ed5affe9a86b7ff7f71c45422af87e",
+        "full-clip-visual-v4/differential_screw_pitch_difference_to_sum_00000098/true-all120.jpg": "e94ba147685e9847148d9430c49ca5c20eff43eb1b58c26543ed0f766eb960ee",
+        "full-clip-visual-v4/differential_screw_pitch_difference_to_sum_00000098/counterfactual-all120.jpg": "093daff535d4f9e63e37f270197f3f99b83ffc55136ff50d6ce40b7566b49a98",
+        "backups/inspection-v4/differential_screw_pitch_difference_to_sum/differential_screw_pitch_difference_to_sum_00000098/decoded-contact-sheet.jpg": "e6844a1f41b5c8a497744e81a8e24a6e7b77c89eb0d6f585edabcc5b7a86d3ac"
+      },
+      "controlled_axis_sheet_viewed": {
+        "file": "axis-contact-v4/differential_screw_pitch_difference_to_sum.jpg",
+        "sha256": "703b22349e55d60d1cc9193ec734cc457abbb3e3e91521f871e6b47a53a4f3e6",
+        "observations": "All six controlled axes inspected; changed size, timing, travel, depth, material and viewpoint remain coherent. Diagnostic probes are not formal acceptance clips."
+      },
+      "native_consecutive_edge_inspection": [
+        {
+          "head_sha": "c003b54deb9397f9fd92b6c3ea4301c5a89c1e94",
+          "case_id": "differential_screw_pitch_difference_to_sum_00000042",
+          "frames": [
+            51,
+            52,
+            53
+          ],
+          "crop": [
+            1236,
+            843,
+            512,
+            512
+          ],
+          "sha256": "cecc7577710c855dbf74bb0bf746ecde954ca87777b766bb38af4a3263ecf6f1",
+          "actually_viewed": true,
+          "observations": "Unscaled moving silhouettes and thin connectors remain continuous across three consecutive native frames; no conspicuous pixel stepping, disconnected facets or flickering component observed."
+        },
+        {
+          "head_sha": "c003b54deb9397f9fd92b6c3ea4301c5a89c1e94",
+          "case_id": "differential_screw_pitch_difference_to_sum_00000098",
+          "frames": [
+            53,
+            54,
+            55
+          ],
+          "crop": [
+            1245,
+            875,
+            512,
+            512
+          ],
+          "sha256": "afc430319860d5423d79d1d7f920dbe1c5c832a458580890689816a386c5d789",
+          "actually_viewed": true,
+          "observations": "Unscaled moving silhouettes and thin connectors remain continuous across three consecutive native frames; no conspicuous pixel stepping, disconnected facets or flickering component observed."
+        }
+      ],
+      "four_stream_contact_inspection": [
+        {
+          "seed": 42,
+          "actually_viewed": true,
+          "file": "backups/independent-v4/differential_screw_pitch_difference_to_sum_00000042-decoded-contact-sheet.jpg",
+          "sha256": "0547f8460b4a4534d212c41b3d0b62e2359655214dba5408472280ec475264c9",
+          "observations": "Mask/overlay follow the moving output nut and carriage. Fixed ruler occlusion is retained, including the small exposed lower carriage edge; shaft and bed remain excluded. Matched initial appearance, visible declared contrast, no floating text and complete visible outcome."
+        },
+        {
+          "seed": 98,
+          "actually_viewed": true,
+          "file": "backups/independent-v4/differential_screw_pitch_difference_to_sum_00000098-decoded-contact-sheet.jpg",
+          "sha256": "3bd5750c51de4eb7e0bef4ed8f6e37b0ae2d3cd1c2395546809c440b2fe4b218",
+          "observations": "Mask/overlay follow the moving output nut and carriage. Fixed ruler occlusion is retained, including the small exposed lower carriage edge; shaft and bed remain excluded. Matched initial appearance, visible declared contrast, no floating text and complete visible outcome."
+        }
+      ],
+      "standalone_prompts_reviewed": true,
+      "visual_status": "PASS"
+    },
+    "physical_pendulum_near_com_period_reversal": {
+      "head_sha": "042eac5530e2672292848bea1a0b7d7b04d65e32",
+      "true_and_counterfactual_full_120_frame_sheets_viewed_for_seeds": [
+        42,
+        98
+      ],
+      "selected_decoded_rgb_sheets_viewed": true,
+      "observations": "No floating pivot labels or unsupported vertical datum. Both rods remain connected to grounded pillars through axles. True near-COM rod oscillates slower; CF near-COM rod cycles faster while the other rod retains its normal motion. Rods stay clear of the base and visible throughout.",
+      "files": {
+        "full-clip-visual-v4/physical_pendulum_near_com_period_reversal_00000042/true-all120.jpg": "5300d1bbf2698ca4ef7aa82c6460aa69be6a437bac8d1b705a8fa0c26cc3c51e",
+        "full-clip-visual-v4/physical_pendulum_near_com_period_reversal_00000042/counterfactual-all120.jpg": "0f902859ce2994e1747d62b13f1388eec4170ce57ce3968ee34e16a261417f98",
+        "backups/inspection-v4/physical_pendulum_near_com_period_reversal/physical_pendulum_near_com_period_reversal_00000042/decoded-contact-sheet.jpg": "06ab63ec917efa7d1c1f0470c4f0431e09cd807d79082fcbc6e5f1689cfc6a31",
+        "full-clip-visual-v4/physical_pendulum_near_com_period_reversal_00000098/true-all120.jpg": "a21dcec2fe2949351a8107910afb6257adb68cf83a80fb7d46b793f55e5981c9",
+        "full-clip-visual-v4/physical_pendulum_near_com_period_reversal_00000098/counterfactual-all120.jpg": "b9ec03b8a8c2cd68f31df4153e0a04f3d7373c46ace842c6a9d34ba7418e5041",
+        "backups/inspection-v4/physical_pendulum_near_com_period_reversal/physical_pendulum_near_com_period_reversal_00000098/decoded-contact-sheet.jpg": "aef12b9fbf36e28eb76e2b7de24986890edb0896829fea25761b7023a6ed22ae"
+      },
+      "controlled_axis_sheet_viewed": {
+        "file": "axis-contact-v4/physical_pendulum_near_com_period_reversal.jpg",
+        "sha256": "6d6ae82e433146e73bcddbc0562a0a72de7a8f194a1cdfa3d53307a465be98e4",
+        "observations": "Low/high changes preserve visible supported rods and the period comparison. Diagnostic probes remain distinct from native formal evidence."
+      },
+      "native_consecutive_edge_inspection": [
+        {
+          "head_sha": "042eac5530e2672292848bea1a0b7d7b04d65e32",
+          "case_id": "physical_pendulum_near_com_period_reversal_00000042",
+          "frames": [
+            39,
+            40,
+            41
+          ],
+          "crop": [
+            1223,
+            670,
+            512,
+            512
+          ],
+          "sha256": "fb98a78de0ea716fca03453ce62b2341800be2bd4b7d60a58e4b35af8e58de8b",
+          "actually_viewed": true,
+          "observations": "Native rod silhouette, pivot axle and attached centre mark remain continuous across three consecutive frames; no conspicuous stair-stepping or disconnected/flickering part."
+        },
+        {
+          "head_sha": "042eac5530e2672292848bea1a0b7d7b04d65e32",
+          "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+          "frames": [
+            41,
+            42,
+            43
+          ],
+          "crop": [
+            1234,
+            698,
+            512,
+            512
+          ],
+          "sha256": "9dfc8fdbaf61fa88032f99e89c31eee0ce934118d87ea39ce21eab4653855f04",
+          "actually_viewed": true,
+          "observations": "Native rod silhouette, pivot axle and attached centre mark remain continuous across three consecutive frames; no conspicuous stair-stepping or disconnected/flickering part."
+        }
+      ],
+      "four_stream_contact_inspection": [
+        {
+          "seed": 42,
+          "actually_viewed": true,
+          "file": "backups/independent-v4/physical_pendulum_near_com_period_reversal_00000042-decoded-contact-sheet.jpg",
+          "sha256": "abd2a0dbf9e3f5c073e6a4cd444254459c1146730d891016e6e7d083cf37a829",
+          "observations": "Mask/overlay isolate the right rod and attached centre stripe while excluding the axle aperture/occluding axle and static stand. Matched initial appearance, visible declared contrast, no floating text and complete visible outcome."
+        },
+        {
+          "seed": 98,
+          "actually_viewed": true,
+          "file": "backups/independent-v4/physical_pendulum_near_com_period_reversal_00000098-decoded-contact-sheet.jpg",
+          "sha256": "fe39d31c35f18e5607a3c6bfd7d4adfb549908b52aba2d1abee126af3fef832e",
+          "observations": "Mask/overlay isolate the right rod and attached centre stripe while excluding the axle aperture/occluding axle and static stand. Matched initial appearance, visible declared contrast, no floating text and complete visible outcome."
+        }
+      ],
+      "standalone_prompts_reviewed": true,
+      "visual_status": "PASS"
+    }
+  },
+  "remaining": "Hosted browser playback and seeking remain NOT_VERIFIED; no Sara submission.",
+  "heads": {
+    "active_coil_count_stiffness_order_reversal": "67448ea6661d93e5a3b885fa72449f717ae4d28b",
+    "center_of_percussion_support_impulse_creation": "a9a5fbe3a08a2b74109c4b642730a6bc4064fb85",
+    "differential_screw_pitch_difference_to_sum": "c003b54deb9397f9fd92b6c3ea4301c5a89c1e94",
+    "physical_pendulum_near_com_period_reversal": "042eac5530e2672292848bea1a0b7d7b04d65e32"
+  },
+  "scope": "Actual native visual inspection of all 16 RGB clips through every-frame sheets, selected full-scene frames, eight consecutive-native edge sheets and eight four-stream contacts, plus controlled-axis stills and independent geometry evidence. This PASS does not certify hosted browser UI playback, final delivery self-check or human approval."
+}

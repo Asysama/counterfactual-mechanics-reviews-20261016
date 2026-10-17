@@ -2,33 +2,33 @@
   {
     "generator_name": "active_coil_count_stiffness_order_reversal",
     "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/701",
-    "head_sha": "8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad",
-    "review_url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/8cc035e2dbea203d1642b98ec7bedb7a1a2ea8ad/index.html",
-    "note": "Contributor self-check complete: two native 2048×2048, 24fps, 120-frame cases (42, 98); all four decoded streams, exact matched prefix, object-only binary masks/red overlays, independent mechanics and geometry checks, runtime witness/index, 100000 static CGC-v1 profiles, controlled rendered axes, 16 physical corner profiles and seed42 reproduction verified. Public browser videos played and sought. User review pending; no Sara application submitted.",
-    "self_check_complete": true
+    "head_sha": "67448ea6661d93e5a3b885fa72449f717ae4d28b",
+    "review_url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/67448ea6661d93e5a3b885fa72449f717ae4d28b/index.html",
+    "note": "Floating scene text and unsupported schematic datum markers removed; spring gauge mounts added. Two native 2048-square, 24fps, 120-frame cases, independent mechanics/decoded checks, visual inspection, runtime witnesses, reproduction, 100000 static profiles, rendered axes and physical corners verified. All public video URLs checked and all 32 browser derivatives decoded successfully. Hosted browser playback and seeking remain NOT_VERIFIED because the browser connection is unavailable. This is a draft; self-check is not complete. User review pending; no Sara form opened or submitted.",
+    "self_check_complete": false
   },
   {
     "generator_name": "center_of_percussion_support_impulse_creation",
     "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/702",
-    "head_sha": "0da5ed49346ea1e7a1e7572c5c374379519f56e7",
-    "review_url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/0da5ed49346ea1e7a1e7572c5c374379519f56e7/index.html",
-    "note": "Contributor self-check complete: two native 2048×2048, 24fps, 120-frame cases (42, 98); all four decoded streams, exact matched prefix, object-only binary masks/red overlays, independent mechanics and geometry checks, runtime witness/index, 100000 static CGC-v1 profiles, controlled rendered axes, 16 physical corner profiles and seed42 reproduction verified. Public browser videos played and sought. User review pending; no Sara application submitted.",
-    "self_check_complete": true
+    "head_sha": "a9a5fbe3a08a2b74109c4b642730a6bc4064fb85",
+    "review_url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/a9a5fbe3a08a2b74109c4b642730a6bc4064fb85/index.html",
+    "note": "Floating scene text and unsupported schematic datum markers removed; spring gauge mounts added. Two native 2048-square, 24fps, 120-frame cases, independent mechanics/decoded checks, visual inspection, runtime witnesses, reproduction, 100000 static profiles, rendered axes and physical corners verified. All public video URLs checked and all 32 browser derivatives decoded successfully. Hosted browser playback and seeking remain NOT_VERIFIED because the browser connection is unavailable. This is a draft; self-check is not complete. User review pending; no Sara form opened or submitted.",
+    "self_check_complete": false
   },
   {
     "generator_name": "differential_screw_pitch_difference_to_sum",
     "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/703",
-    "head_sha": "b0b5d64682948824e372dca75ea4b2832e4868c6",
-    "review_url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/b0b5d64682948824e372dca75ea4b2832e4868c6/index.html",
-    "note": "Contributor self-check complete: two native 2048×2048, 24fps, 120-frame cases (42, 98); all four decoded streams, exact matched prefix, object-only binary masks/red overlays, independent mechanics and geometry checks, runtime witness/index, 100000 static CGC-v1 profiles, controlled rendered axes, 16 physical corner profiles and seed42 reproduction verified. Public browser videos played and sought. User review pending; no Sara application submitted.",
-    "self_check_complete": true
+    "head_sha": "c003b54deb9397f9fd92b6c3ea4301c5a89c1e94",
+    "review_url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/c003b54deb9397f9fd92b6c3ea4301c5a89c1e94/index.html",
+    "note": "Floating scene text and unsupported schematic datum markers removed; spring gauge mounts added. Two native 2048-square, 24fps, 120-frame cases, independent mechanics/decoded checks, visual inspection, runtime witnesses, reproduction, 100000 static profiles, rendered axes and physical corners verified. All public video URLs checked and all 32 browser derivatives decoded successfully. Hosted browser playback and seeking remain NOT_VERIFIED because the browser connection is unavailable. This is a draft; self-check is not complete. User review pending; no Sara form opened or submitted.",
+    "self_check_complete": false
   },
   {
     "generator_name": "physical_pendulum_near_com_period_reversal",
     "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/704",
-    "head_sha": "f694dbcd7f0e0e06b1746f05affbe166420196f5",
-    "review_url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/f694dbcd7f0e0e06b1746f05affbe166420196f5/index.html",
-    "note": "Contributor self-check complete: two native 2048×2048, 24fps, 120-frame cases (42, 98); all four decoded streams, exact matched prefix, object-only binary masks/red overlays, independent mechanics and geometry checks, runtime witness/index, 100000 static CGC-v1 profiles, controlled rendered axes, 16 physical corner profiles and seed42 reproduction verified. Public browser videos played and sought. User review pending; no Sara application submitted.",
-    "self_check_complete": true
+    "head_sha": "042eac5530e2672292848bea1a0b7d7b04d65e32",
+    "review_url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/042eac5530e2672292848bea1a0b7d7b04d65e32/index.html",
+    "note": "Floating scene text and unsupported schematic datum markers removed; spring gauge mounts added. Two native 2048-square, 24fps, 120-frame cases, independent mechanics/decoded checks, visual inspection, runtime witnesses, reproduction, 100000 static profiles, rendered axes and physical corners verified. All public video URLs checked and all 32 browser derivatives decoded successfully. Hosted browser playback and seeking remain NOT_VERIFIED because the browser connection is unavailable. This is a draft; self-check is not complete. User review pending; no Sara form opened or submitted.",
+    "self_check_complete": false
   }
 ]

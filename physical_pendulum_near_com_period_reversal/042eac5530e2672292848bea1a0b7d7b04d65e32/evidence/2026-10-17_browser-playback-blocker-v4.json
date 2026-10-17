@@ -1,0 +1,12 @@
+{
+  "status": "NOT_VERIFIED",
+  "at": "2026-10-17T08:16:51.836306+00:00",
+  "heads": {
+    "active_coil_count_stiffness_order_reversal": "67448ea6661d93e5a3b885fa72449f717ae4d28b",
+    "center_of_percussion_support_impulse_creation": "a9a5fbe3a08a2b74109c4b642730a6bc4064fb85",
+    "differential_screw_pitch_difference_to_sum": "c003b54deb9397f9fd92b6c3ea4301c5a89c1e94",
+    "physical_pendulum_near_com_period_reversal": "042eac5530e2672292848bea1a0b7d7b04d65e32"
+  },
+  "reason": "CUA reported Browser is not available for selected browser 1; surface inventory returned no browsers or native apps. User was asked asynchronously to reconnect. No hosted playback results have been claimed for these new heads.",
+  "sara_form_opened": false
+}

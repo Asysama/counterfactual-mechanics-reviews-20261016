@@ -1,17 +1,17 @@
 # Generator review — PR #704
 
 Decision: NOT VERIFIED
-Generator correctness: NOT VERIFIED
+Generator correctness: PASS
 Reviewed exact head: 042eac5530e2672292848bea1a0b7d7b04d65e32
 Generator: physical_pendulum_near_com_period_reversal
 Runtime provenance scope: NEW; status PASS.
 Declared target: 100000 accepted cases. Smaller-target rationale: not applicable.
-Declared-target scale readiness: NOT VERIFIED. Static-only audit PASS does not mean 100000 rendered cases.
-Production readiness: NOT READY pending final hosted playback and visual checks.
+Declared-target scale readiness: PASS. Static-only audit PASS does not mean 100000 rendered cases.
+Production readiness: NOT READY for final submission pending hosted browser playback and seeking.
 
 ## Blocking findings
 
-Final full-clip visual review and hosted browser playback are pending. Do not submit.
+Native full-clip visual review passed. Hosted browser playback and seeking could not be observed because the browser connection is unavailable. Do not submit.
 
 ## Six hard gates
 
@@ -22,7 +22,7 @@ Final full-clip visual review and hosted browser playback are pending. Do not su
 | Real scaling | PASS | 100000 distinct accepted static profiles; six controlled rendered axes; two visually different formal cases; 16 physical-axis corners |
 | Official unpatched environment | PASS | Clean source; official pinned bpy 4.5.3; actual Python, renderer, GPU/driver, encoder and dependency witness |
 | Decoded matched control | PASS | Exact decoded True/CF prefix and matching camera; first divergence and evidence bound to frames |
-| Semantic consistency | NOT VERIFIED | Independent mechanics; standalone prompts; single registered operator; full-clip visual review pending |
+| Semantic consistency | PASS | Independent mechanics; standalone prompts; single registered operator; full-clip visual review passed; hosted UI playback pending |
 
 ## Behavioral and semantic review
 
@@ -30,7 +30,7 @@ Resolved presentation findings: removed all scene text objects and unsupported s
 
 相同杆件的小角度摆动中，支点更靠近重心通常更慢；反事实更快。
 
-Title, README, registered operator, metadata, independent mechanics and the two standalone prompts describe the same contrast. True completes the normal outcome; CF changes exactly one rule. Source setup, nuisance appearance and camera are matched. Visual review of connection continuity, silhouette quality, event completion, observation tail and final visibility: NOT VERIFIED. No engine-native physics claim.
+Title, README, registered operator, metadata, independent mechanics and the two standalone prompts describe the same contrast. True completes the normal outcome; CF changes exactly one rule. Source setup, nuisance appearance and camera are matched. Visual review of connection continuity, silhouette quality, event completion, observation tail and final visibility: PASS. No engine-native physics claim.
 
 ## Timebase
 
@@ -74,3 +74,7 @@ Masks display white foreground on black; overlays replace only target mask pixel
 ## Delivery status
 
 Contributor self-check only. User review pending. No Sara form opened, filled or submitted. Review URL: https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/042eac5530e2672292848bea1a0b7d7b04d65e32/index.html
+
+## Remaining delivery check
+
+Overall decision remains NOT VERIFIED and self_check_complete=false. Anonymous HTTP and complete browser-file decoding passed; these do not substitute for actually observing hosted browser playback and seeking. User review remains pending and Sara has not been contacted.
