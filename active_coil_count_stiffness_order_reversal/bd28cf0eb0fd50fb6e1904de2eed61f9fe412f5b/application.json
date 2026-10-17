@@ -1,0 +1,8 @@
+{
+  "generator_name": "active_coil_count_stiffness_order_reversal",
+  "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/701",
+  "head_sha": "bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b",
+  "review_url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b/index.html",
+  "note": "Preparation only: machine evidence available; public playback and final visual self-check pending. Do not submit.",
+  "self_check_complete": false
+}

@@ -1,0 +1,361 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "head_sha": "61690f495d943c22c9832c7f8e8e91fbc299b596",
+      "case_id": "center_of_percussion_support_impulse_creation_00000042",
+      "status": "PASS",
+      "target_projection_min_fraction": 0.22013473510742188,
+      "independent_identity_frames": [
+        {
+          "frame": 24,
+          "targets": [
+            "carriage_arm",
+            "carriage_pointer",
+            "carriage_pointer_arm",
+            "pivot_axle",
+            "pivot_carriage"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 25,
+          "targets": [
+            "carriage_arm",
+            "carriage_pointer",
+            "carriage_pointer_arm",
+            "pivot_axle",
+            "pivot_carriage"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 60,
+          "targets": [
+            "carriage_arm",
+            "carriage_pointer",
+            "carriage_pointer_arm",
+            "pivot_axle",
+            "pivot_carriage"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 90,
+          "targets": [
+            "carriage_arm",
+            "carriage_pointer",
+            "carriage_pointer_arm",
+            "pivot_axle",
+            "pivot_carriage"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 119,
+          "targets": [
+            "carriage_arm",
+            "carriage_pointer",
+            "carriage_pointer_arm",
+            "pivot_axle",
+            "pivot_carriage"
+          ],
+          "decoded_identity_exact": true
+        }
+      ],
+      "visual_review": "PENDING",
+      "no_scene_text_objects": true
+    },
+    {
+      "head_sha": "61690f495d943c22c9832c7f8e8e91fbc299b596",
+      "case_id": "center_of_percussion_support_impulse_creation_00000098",
+      "status": "PASS",
+      "target_projection_min_fraction": 0.16700398921966553,
+      "independent_identity_frames": [
+        {
+          "frame": 28,
+          "targets": [
+            "carriage_arm",
+            "carriage_pointer",
+            "carriage_pointer_arm",
+            "pivot_axle",
+            "pivot_carriage"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 29,
+          "targets": [
+            "carriage_arm",
+            "carriage_pointer",
+            "carriage_pointer_arm",
+            "pivot_axle",
+            "pivot_carriage"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 60,
+          "targets": [
+            "carriage_arm",
+            "carriage_pointer",
+            "carriage_pointer_arm",
+            "pivot_axle",
+            "pivot_carriage"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 90,
+          "targets": [
+            "carriage_arm",
+            "carriage_pointer",
+            "carriage_pointer_arm",
+            "pivot_axle",
+            "pivot_carriage"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 119,
+          "targets": [
+            "carriage_arm",
+            "carriage_pointer",
+            "carriage_pointer_arm",
+            "pivot_axle",
+            "pivot_carriage"
+          ],
+          "decoded_identity_exact": true
+        }
+      ],
+      "visual_review": "PENDING",
+      "no_scene_text_objects": true
+    }
+  ],
+  "contact_checks": [
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000042",
+      "branch": "true",
+      "frame": 0,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.027520000000000003,
+      "striker_rod_gap": 0.8720833333333333
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000042",
+      "branch": "true",
+      "frame": 23,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.027520000000000003,
+      "striker_rod_gap": -1.3877787807814457e-17
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000042",
+      "branch": "true",
+      "frame": 24,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.027520000000000003,
+      "striker_rod_gap": 0.020787191759060117
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000042",
+      "branch": "true",
+      "frame": 25,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.027520000000000003,
+      "striker_rod_gap": 0.04128865507437564
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000042",
+      "branch": "true",
+      "frame": 60,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.027520000000000003,
+      "striker_rod_gap": 0.4780396072657238
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000042",
+      "branch": "true",
+      "frame": 90,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.027520000000000003,
+      "striker_rod_gap": 0.6662738343193337
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000042",
+      "branch": "true",
+      "frame": 119,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.027520000000000003,
+      "striker_rod_gap": 0.7584158649949331
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000042",
+      "branch": "counterfactual",
+      "frame": 0,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.027520000000000003,
+      "striker_rod_gap": 0.8720833333333333
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000042",
+      "branch": "counterfactual",
+      "frame": 23,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.027520000000000003,
+      "striker_rod_gap": -1.3877787807814457e-17
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000042",
+      "branch": "counterfactual",
+      "frame": 24,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.027520000000000003,
+      "striker_rod_gap": 0.02089968197866661
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000042",
+      "branch": "counterfactual",
+      "frame": 25,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.027520000000000003,
+      "striker_rod_gap": 0.04217625484136604
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000042",
+      "branch": "counterfactual",
+      "frame": 60,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.027520000000000003,
+      "striker_rod_gap": 0.9213105490025975
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000042",
+      "branch": "counterfactual",
+      "frame": 90,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.027520000000000003,
+      "striker_rod_gap": 1.0587269291918253
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000042",
+      "branch": "counterfactual",
+      "frame": 119,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.027520000000000003,
+      "striker_rod_gap": 0.8367592507545565
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000098",
+      "branch": "true",
+      "frame": 0,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.02236,
+      "striker_rod_gap": 1.2600000000000002
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000098",
+      "branch": "true",
+      "frame": 27,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.02236,
+      "striker_rod_gap": -6.938893903907228e-18
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000098",
+      "branch": "true",
+      "frame": 28,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.02236,
+      "striker_rod_gap": 0.02556307142237306
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000098",
+      "branch": "true",
+      "frame": 29,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.02236,
+      "striker_rod_gap": 0.05068735901258649
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000098",
+      "branch": "true",
+      "frame": 60,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.02236,
+      "striker_rod_gap": 0.5157430786110994
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000098",
+      "branch": "true",
+      "frame": 90,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.02236,
+      "striker_rod_gap": 0.7243603522986564
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000098",
+      "branch": "true",
+      "frame": 119,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.02236,
+      "striker_rod_gap": 0.8444709549274189
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000098",
+      "branch": "counterfactual",
+      "frame": 0,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.02236,
+      "striker_rod_gap": 1.2600000000000002
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000098",
+      "branch": "counterfactual",
+      "frame": 27,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.02236,
+      "striker_rod_gap": -6.938893903907228e-18
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000098",
+      "branch": "counterfactual",
+      "frame": 28,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.02236,
+      "striker_rod_gap": 0.025703547093141696
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000098",
+      "branch": "counterfactual",
+      "frame": 29,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.02236,
+      "striker_rod_gap": 0.051851249569546606
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000098",
+      "branch": "counterfactual",
+      "frame": 60,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.02236,
+      "striker_rod_gap": 0.9734719357800548
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000098",
+      "branch": "counterfactual",
+      "frame": 90,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.02236,
+      "striker_rod_gap": 0.976275722730402
+    },
+    {
+      "case_id": "center_of_percussion_support_impulse_creation_00000098",
+      "branch": "counterfactual",
+      "frame": 119,
+      "rod_full_rectangular_dimensions": true,
+      "rod_track_side_clearance": 0.02236,
+      "striker_rod_gap": 0.6666450879514974
+    }
+  ]
+}

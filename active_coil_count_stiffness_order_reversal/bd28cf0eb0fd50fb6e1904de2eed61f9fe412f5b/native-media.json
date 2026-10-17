@@ -1,0 +1,61 @@
+{
+  "head_sha": "bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b",
+  "files": {
+    "active_coil_count_stiffness_order_reversal_00000042/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-amplitude-v5/active_coil_count_stiffness_order_reversal-bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b-42-true.mp4",
+      "bytes": 46075122,
+      "sha256": "692dcd319d71d72e79237a15e6cd733e32a2a966e29a8da8beeda82dffdd7d48",
+      "github_asset_id": 650118903,
+      "server_digest": "sha256:692dcd319d71d72e79237a15e6cd733e32a2a966e29a8da8beeda82dffdd7d48"
+    },
+    "active_coil_count_stiffness_order_reversal_00000042/counterfactual_clamped_active_coil_compliance_reversal/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-amplitude-v5/active_coil_count_stiffness_order_reversal-bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b-42-counterfactual.mp4",
+      "bytes": 46455286,
+      "sha256": "1d37a85e0875538ef51e253898a0f34a200791346559a879ab5f7c962e2357e1",
+      "github_asset_id": 650118898,
+      "server_digest": "sha256:1d37a85e0875538ef51e253898a0f34a200791346559a879ab5f7c962e2357e1"
+    },
+    "active_coil_count_stiffness_order_reversal_00000042/counterfactual_clamped_active_coil_compliance_reversal/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-amplitude-v5/active_coil_count_stiffness_order_reversal-bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b-42-mask.mp4",
+      "bytes": 3479876,
+      "sha256": "0729be25856b76aaf9ee276cae8bcc3b568c6825e48121f97fe61dbbae116493",
+      "github_asset_id": 650118901,
+      "server_digest": "sha256:0729be25856b76aaf9ee276cae8bcc3b568c6825e48121f97fe61dbbae116493"
+    },
+    "active_coil_count_stiffness_order_reversal_00000042/counterfactual_clamped_active_coil_compliance_reversal/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-amplitude-v5/active_coil_count_stiffness_order_reversal-bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b-42-overlay.mp4",
+      "bytes": 44601187,
+      "sha256": "42e229cf244f683633909e5e870ad86d26b3672b1e67240dbb5bea32d1b2aec5",
+      "github_asset_id": 650118911,
+      "server_digest": "sha256:42e229cf244f683633909e5e870ad86d26b3672b1e67240dbb5bea32d1b2aec5"
+    },
+    "active_coil_count_stiffness_order_reversal_00000098/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-amplitude-v5/active_coil_count_stiffness_order_reversal-bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b-98-true.mp4",
+      "bytes": 47767963,
+      "sha256": "9ff3631b16fc5b360ed72db97947ec9323ab3251e02db08217aadd0af930b7bb",
+      "github_asset_id": 650118888,
+      "server_digest": "sha256:9ff3631b16fc5b360ed72db97947ec9323ab3251e02db08217aadd0af930b7bb"
+    },
+    "active_coil_count_stiffness_order_reversal_00000098/counterfactual_clamped_active_coil_compliance_reversal/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-amplitude-v5/active_coil_count_stiffness_order_reversal-bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b-98-counterfactual.mp4",
+      "bytes": 47965166,
+      "sha256": "196ffffe31048cbe58c19e11d178077a0b91fe14336a52dc7e14d20558c9593e",
+      "github_asset_id": 650119218,
+      "server_digest": "sha256:196ffffe31048cbe58c19e11d178077a0b91fe14336a52dc7e14d20558c9593e"
+    },
+    "active_coil_count_stiffness_order_reversal_00000098/counterfactual_clamped_active_coil_compliance_reversal/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-amplitude-v5/active_coil_count_stiffness_order_reversal-bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b-98-mask.mp4",
+      "bytes": 3537695,
+      "sha256": "293664babfbe7fbdafe410568fa30f3eafe288ef70dcbebacaeff2c93175676d",
+      "github_asset_id": 650121841,
+      "server_digest": "sha256:293664babfbe7fbdafe410568fa30f3eafe288ef70dcbebacaeff2c93175676d"
+    },
+    "active_coil_count_stiffness_order_reversal_00000098/counterfactual_clamped_active_coil_compliance_reversal/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-amplitude-v5/active_coil_count_stiffness_order_reversal-bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b-98-overlay.mp4",
+      "bytes": 46588974,
+      "sha256": "9b299ab82267c8c6bb937934b5676a8636b8bb7abe86f59e5449a435dda26083",
+      "github_asset_id": 650122080,
+      "server_digest": "sha256:9b299ab82267c8c6bb937934b5676a8636b8bb7abe86f59e5449a435dda26083"
+    }
+  }
+}
