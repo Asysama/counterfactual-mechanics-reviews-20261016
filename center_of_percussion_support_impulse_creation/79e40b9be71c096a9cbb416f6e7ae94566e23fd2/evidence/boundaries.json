@@ -1,0 +1,327 @@
+{
+  "status": "PASS",
+  "head_sha": "79e40b9be71c096a9cbb416f6e7ae94566e23fd2",
+  "scope": "16 combined physical-axis corners, non-rendering independent mechanics verification",
+  "cases": [
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_pivot_impact_velocity": 1.5149780938339878e-18,
+        "cf_pivot_impact_velocity": 0.9630505468041832,
+        "momentum_residual": 2.7755575615628914e-17,
+        "restitution_residual": 2.7755575615628914e-16,
+        "impact_energy_before": 0.0830875,
+        "impact_energy_after": 0.03796781869772444,
+        "cf_generalized_impulse": [
+          0.714,
+          -1.2295887235853095e-16
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_pivot_impact_velocity": -1.1966127888177585e-17,
+        "cf_pivot_impact_velocity": 0.9543534291967973,
+        "momentum_residual": 2.7755575615628914e-17,
+        "restitution_residual": 5.551115123125783e-17,
+        "impact_energy_before": 0.0830875,
+        "impact_energy_after": 0.03805185285234387,
+        "cf_generalized_impulse": [
+          0.7140000000000001,
+          8.259796901281325e-17
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_pivot_impact_velocity": 1.5149780938339878e-18,
+        "cf_pivot_impact_velocity": 0.9630505468041832,
+        "momentum_residual": 2.7755575615628914e-17,
+        "restitution_residual": 2.7755575615628914e-16,
+        "impact_energy_before": 0.0830875,
+        "impact_energy_after": 0.03796781869772444,
+        "cf_generalized_impulse": [
+          0.714,
+          -1.2295887235853095e-16
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_pivot_impact_velocity": -1.1966127888177585e-17,
+        "cf_pivot_impact_velocity": 0.9543534291967973,
+        "momentum_residual": 2.7755575615628914e-17,
+        "restitution_residual": 5.551115123125783e-17,
+        "impact_energy_before": 0.0830875,
+        "impact_energy_after": 0.03805185285234387,
+        "cf_generalized_impulse": [
+          0.7140000000000001,
+          8.259796901281325e-17
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_pivot_impact_velocity": 4.74305822563916e-18,
+        "cf_pivot_impact_velocity": 1.268960720494924,
+        "momentum_residual": 1.1102230246251565e-16,
+        "restitution_residual": 1.1102230246251565e-16,
+        "impact_energy_before": 0.14425600000000005,
+        "impact_energy_after": 0.06591949034522573,
+        "cf_generalized_impulse": [
+          0.9408000000000003,
+          8.452832445007887e-17
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_pivot_impact_velocity": -2.5492460521637204e-17,
+        "cf_pivot_impact_velocity": 1.2575009890593094,
+        "momentum_residual": 5.551115123125783e-17,
+        "restitution_residual": -2.220446049250313e-16,
+        "impact_energy_before": 0.14425600000000005,
+        "impact_energy_after": 0.06606538992107983,
+        "cf_generalized_impulse": [
+          0.9408000000000001,
+          7.294881521623619e-18
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_pivot_impact_velocity": 4.74305822563916e-18,
+        "cf_pivot_impact_velocity": 1.268960720494924,
+        "momentum_residual": 1.1102230246251565e-16,
+        "restitution_residual": 1.1102230246251565e-16,
+        "impact_energy_before": 0.14425600000000005,
+        "impact_energy_after": 0.06591949034522573,
+        "cf_generalized_impulse": [
+          0.9408000000000003,
+          8.452832445007887e-17
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_pivot_impact_velocity": -2.5492460521637204e-17,
+        "cf_pivot_impact_velocity": 1.2575009890593094,
+        "momentum_residual": 5.551115123125783e-17,
+        "restitution_residual": -2.220446049250313e-16,
+        "impact_energy_before": 0.14425600000000005,
+        "impact_energy_after": 0.06606538992107983,
+        "cf_generalized_impulse": [
+          0.9408000000000001,
+          7.294881521623619e-18
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_pivot_impact_velocity": -1.926670784771817e-17,
+        "cf_pivot_impact_velocity": 0.9630505468041828,
+        "momentum_residual": -1.1102230246251565e-16,
+        "restitution_residual": 5.551115123125783e-17,
+        "impact_energy_before": 0.20900295040000003,
+        "impact_energy_after": 0.09550637735010317,
+        "cf_generalized_impulse": [
+          1.7960355839999997,
+          -1.540776627353353e-16
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_pivot_impact_velocity": 2.281734163624838e-17,
+        "cf_pivot_impact_velocity": 0.954353429196797,
+        "momentum_residual": 2.7755575615628914e-16,
+        "restitution_residual": 5.551115123125783e-17,
+        "impact_energy_before": 0.20900295040000003,
+        "impact_energy_after": 0.09571776156854553,
+        "cf_generalized_impulse": [
+          1.7960355839999997,
+          -3.9220332049843243e-17
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_pivot_impact_velocity": -1.926670784771817e-17,
+        "cf_pivot_impact_velocity": 0.9630505468041828,
+        "momentum_residual": -1.1102230246251565e-16,
+        "restitution_residual": 5.551115123125783e-17,
+        "impact_energy_before": 0.20900295040000003,
+        "impact_energy_after": 0.09550637735010317,
+        "cf_generalized_impulse": [
+          1.7960355839999997,
+          -1.540776627353353e-16
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_pivot_impact_velocity": 2.281734163624838e-17,
+        "cf_pivot_impact_velocity": 0.954353429196797,
+        "momentum_residual": 2.7755575615628914e-16,
+        "restitution_residual": 5.551115123125783e-17,
+        "impact_energy_before": 0.20900295040000003,
+        "impact_energy_after": 0.09571776156854553,
+        "cf_generalized_impulse": [
+          1.7960355839999997,
+          -3.9220332049843243e-17
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_pivot_impact_velocity": 2.3389310350224226e-17,
+        "cf_pivot_impact_velocity": 1.2689607204949231,
+        "momentum_residual": 1.1102230246251565e-16,
+        "restitution_residual": -2.220446049250313e-16,
+        "impact_energy_before": 0.3628696207360001,
+        "impact_energy_after": 0.1658175775058402,
+        "cf_generalized_impulse": [
+          2.3665410048,
+          -1.1410718577383578e-16
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_pivot_impact_velocity": -1.8780126297789017e-17,
+        "cf_pivot_impact_velocity": 1.257500989059309,
+        "momentum_residual": 0.0,
+        "restitution_residual": 0.0,
+        "impact_energy_before": 0.3628696207360001,
+        "impact_energy_after": 0.16618458146931972,
+        "cf_generalized_impulse": [
+          2.3665410047999993,
+          -3.7776049124932036e-16
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_pivot_impact_velocity": 2.3389310350224226e-17,
+        "cf_pivot_impact_velocity": 1.2689607204949231,
+        "momentum_residual": 1.1102230246251565e-16,
+        "restitution_residual": -2.220446049250313e-16,
+        "impact_energy_before": 0.3628696207360001,
+        "impact_energy_after": 0.1658175775058402,
+        "cf_generalized_impulse": [
+          2.3665410048,
+          -1.1410718577383578e-16
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_pivot_impact_velocity": -1.8780126297789017e-17,
+        "cf_pivot_impact_velocity": 1.257500989059309,
+        "momentum_residual": 0.0,
+        "restitution_residual": 0.0,
+        "impact_energy_before": 0.3628696207360001,
+        "impact_energy_after": 0.16618458146931972,
+        "cf_generalized_impulse": [
+          2.3665410047999993,
+          -3.7776049124932036e-16
+        ]
+      }
+    }
+  ]
+}

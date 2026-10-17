@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/opt/siyuan-cf-confident-four-20261016/verified-v7/center_of_percussion_support_impulse_creation/generators/center_of_percussion_support_impulse_creation/examples/generate.py", line 5, in <module>
+    if __name__=='__main__':cli()
+                            ^^^^^
+  File "/opt/siyuan-cf-confident-four-20261016/verified-v7/center_of_percussion_support_impulse_creation/generators/center_of_percussion_support_impulse_creation/engine/run.py", line 92, in cli
+    assert a.resume and json.loads(hf.read_text())==header,'incompatible resume'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: incompatible resume

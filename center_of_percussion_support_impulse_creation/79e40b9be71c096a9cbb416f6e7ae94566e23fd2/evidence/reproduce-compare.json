@@ -1,0 +1,22 @@
+{
+  "true/video.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 1.986821492513021e-09,
+    "max_frame_mean": 1.5894571940104166e-07
+  },
+  "counterfactual_unsupported_pivot_impulse/mask_overlay.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 1.986821492513021e-09,
+    "max_frame_mean": 1.5894571940104166e-07
+  },
+  "counterfactual_unsupported_pivot_impulse/mask.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 0.0,
+    "max_frame_mean": 0.0
+  },
+  "counterfactual_unsupported_pivot_impulse/video.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 1.986821492513021e-09,
+    "max_frame_mean": 1.5894571940104166e-07
+  }
+}
