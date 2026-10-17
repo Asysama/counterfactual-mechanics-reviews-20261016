@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "head_sha": "79e40b9be71c096a9cbb416f6e7ae94566e23fd2",
+  "parent_head": "61690f495d943c22c9832c7f8e8e91fbc299b596",
+  "scope": "Carriage/rod dynamics and stronger counterfactual impulse retained; comparison allows floating-point roundoff",
+  "cases": [
+    {
+      "seed": 42,
+      "branch": "true",
+      "cart_rod_max_absolute_difference": {
+        "cart_x": 4.163336342344337e-16,
+        "angle": 6.938893903907228e-17,
+        "cart_velocity": 2.7755575615628914e-16,
+        "omega": 2.7755575615628914e-16
+      }
+    },
+    {
+      "seed": 42,
+      "branch": "counterfactual",
+      "cart_rod_max_absolute_difference": {
+        "cart_x": 4.440892098500626e-16,
+        "angle": 1.6653345369377348e-16,
+        "cart_velocity": 5.551115123125783e-16,
+        "omega": 8.326672684688674e-16
+      }
+    },
+    {
+      "seed": 98,
+      "branch": "true",
+      "cart_rod_max_absolute_difference": {
+        "cart_x": 8.326672684688674e-17,
+        "angle": 4.85722573273506e-17,
+        "cart_velocity": 1.8041124150158794e-16,
+        "omega": 2.220446049250313e-16
+      }
+    },
+    {
+      "seed": 98,
+      "branch": "counterfactual",
+      "cart_rod_max_absolute_difference": {
+        "cart_x": 1.3877787807814457e-16,
+        "angle": 6.938893903907228e-17,
+        "cart_velocity": 3.885780586188048e-16,
+        "omega": 3.3306690738754696e-16
+      }
+    }
+  ]
+}

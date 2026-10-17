@@ -1,0 +1,23 @@
+{
+  "head_sha": "79e40b9be71c096a9cbb416f6e7ae94566e23fd2",
+  "case_id": "center_of_percussion_support_impulse_creation_00000098",
+  "native_sha256": "89049bde7425f8a0c523a739a7b5ed6ddb06d3bc4bb1c1cde25f67f2a6223380",
+  "crop": [
+    300,
+    1080,
+    1100,
+    240
+  ],
+  "groups": {
+    "launch": [
+      5,
+      6,
+      7
+    ],
+    "support-crossing": [
+      15,
+      16,
+      17
+    ]
+  }
+}

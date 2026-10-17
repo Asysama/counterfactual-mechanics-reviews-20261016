@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "verified_at": "2026-10-17T11:17:41.466937+00:00",
+  "scope": "Native visual inspection only: four complete 120-frame RGB sequences, two decoded four-stream sheets, consecutive native carriage and launcher/support crops, and controlled rendered axes. Hosted browser playback remains NOT_VERIFIED.",
+  "heads": {
+    "center_of_percussion_support_impulse_creation": "79e40b9be71c096a9cbb416f6e7ae94566e23fd2"
+  },
+  "generators": {
+    "center_of_percussion_support_impulse_creation": {
+      "status": "PASS",
+      "head_sha": "79e40b9be71c096a9cbb416f6e7ae94566e23fd2",
+      "full_rgb_clips_inspected": 4,
+      "all_120_frames": true,
+      "standalone_prompts_inspected": true,
+      "mask_and_overlay_visual_pass": true,
+      "observations": [
+        "Ball initially remains in contact with the extending launcher then separates; both branches share the same launch, impact and return path.",
+        "True rod rotates after impact; CF carriage makes the retained stronger rightward kick; later motion is smooth.",
+        "Complete five-second views preserve apparatus, ball and rod visibility; no scene text.",
+        "Seed98 also completes launch/free slide/impact/rebound toward launcher within the shot; both cases retain the larger anomalous carriage impulse.",
+        "Both decoded four-stream contact sheets show black pre-intervention masks, white carriage/axle/pointer-only foreground thereafter and pure-red highlights on the same target. Ball, launcher, supports and swinging rod are excluded.",
+        "Consecutive unscaled native crops show a smooth sphere silhouette, continuously extending spring/pushrod and ball clearance over the lowered crossbars and twin risers.",
+        "Carriage, axle bore, attached pointer and spring connections remain continuous in consecutive native frames; no conspicuous stair-stepping or flicker.",
+        "Controlled low/high probes visibly vary launcher placement, dimensions, impact response/timing, rod width, carriage appearance and camera while retaining the declared contrast.",
+        "Standalone prompts describe the visible passive launch, free slide, rod strike and rebound toward the launcher; the sole CF anomaly remains the unsupported carriage impulse."
+      ],
+      "inspected_files": {
+        "2026-10-17_early-formal42-true-all120-v7.jpg": "f041bb97e64a17b230fac2cb671e9dd6294c32261afff5ff11b4e5968145dbd3",
+        "2026-10-17_early-formal42-counterfactual-all120-v7.jpg": "ee5ee188d0cd073e7c5af18d652b14aec4ac2d2692a75c4088d383ded6a2a613",
+        "2026-10-17_early-formal98-true-all120-v7.jpg": "b44cdd427a2dd6ba73e5d440dd02d15f08414e485ad7aeee680e560d316d3ca0",
+        "2026-10-17_early-formal98-counterfactual-all120-v7.jpg": "bb824b5321792082c0e858ea23ec708c558bd6d7156f7dbd2cc8510978f755b4",
+        "backups/independent-v7/center_of_percussion_support_impulse_creation_00000042-decoded-contact-sheet.jpg": "0a33ff64780dc1b8ed98907a17bc470b9618bdf81c1bcf03221ea0b71f2a5d11",
+        "backups/independent-v7/center_of_percussion_support_impulse_creation_00000098-decoded-contact-sheet.jpg": "47a4ede54908e9fb6868c9720f655c740003eacea57e0d51b3a86018fafea098",
+        "native-edge-inspection-v7/center_of_percussion_support_impulse_creation_00000042/consecutive-native.png": "62c00d71a23d797b8e0823c196fea84f9bc8f5b7ac0a288fd2cbfd864adbd646",
+        "native-launch-inspection-v7/center_of_percussion_support_impulse_creation_00000042/launch.png": "16d97cc742b64123e0368c081206d38706abc6c17c2e756db925afa62196180b",
+        "native-launch-inspection-v7/center_of_percussion_support_impulse_creation_00000042/support-crossing.png": "d6d60eb1a8621d250828588890699aa4035e39ce012e63e8e35ab064fb4d0fad",
+        "native-edge-inspection-v7/center_of_percussion_support_impulse_creation_00000098/consecutive-native.png": "e0e2e4d27bccf8c7b177762a77f849f4bb4b5c40f039ded39bc073da5febe2d2",
+        "native-launch-inspection-v7/center_of_percussion_support_impulse_creation_00000098/launch.png": "dcba84d37597d2fdac6e7f6fcd29d42c2d66bfacc0b2539410bca6d2b5c8cf42",
+        "native-launch-inspection-v7/center_of_percussion_support_impulse_creation_00000098/support-crossing.png": "02e4c82eeac44021cba88ca9b6213e928fb644e12786b32a2c165acf603c54f1",
+        "axis-contact-v7/center_of_percussion_support_impulse_creation.jpg": "b575faddaffe30ac880e6f9fd49484ff73dda38618b6fb0db1764f8adfb4304f"
+      },
+      "delivery_urls_for_inspected_files": {
+        "2026-10-17_early-formal42-true-all120-v7.jpg": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/79e40b9be71c096a9cbb416f6e7ae94566e23fd2/cases/center_of_percussion_support_impulse_creation_00000042/reviewed-true-all120.jpg",
+        "2026-10-17_early-formal42-counterfactual-all120-v7.jpg": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/79e40b9be71c096a9cbb416f6e7ae94566e23fd2/cases/center_of_percussion_support_impulse_creation_00000042/reviewed-counterfactual-all120.jpg",
+        "native-edge-inspection-v7/center_of_percussion_support_impulse_creation_00000042/consecutive-native.png": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/79e40b9be71c096a9cbb416f6e7ae94566e23fd2/cases/center_of_percussion_support_impulse_creation_00000042/consecutive-native.png",
+        "native-launch-inspection-v7/center_of_percussion_support_impulse_creation_00000042/launch.png": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/79e40b9be71c096a9cbb416f6e7ae94566e23fd2/cases/center_of_percussion_support_impulse_creation_00000042/launch-native.png",
+        "native-launch-inspection-v7/center_of_percussion_support_impulse_creation_00000042/support-crossing.png": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/79e40b9be71c096a9cbb416f6e7ae94566e23fd2/cases/center_of_percussion_support_impulse_creation_00000042/support-native.png",
+        "backups/independent-v7/center_of_percussion_support_impulse_creation_00000042-decoded-contact-sheet.jpg": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/79e40b9be71c096a9cbb416f6e7ae94566e23fd2/cases/center_of_percussion_support_impulse_creation_00000042/decoded-contact-sheet.jpg",
+        "2026-10-17_early-formal98-true-all120-v7.jpg": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/79e40b9be71c096a9cbb416f6e7ae94566e23fd2/cases/center_of_percussion_support_impulse_creation_00000098/reviewed-true-all120.jpg",
+        "2026-10-17_early-formal98-counterfactual-all120-v7.jpg": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/79e40b9be71c096a9cbb416f6e7ae94566e23fd2/cases/center_of_percussion_support_impulse_creation_00000098/reviewed-counterfactual-all120.jpg",
+        "native-edge-inspection-v7/center_of_percussion_support_impulse_creation_00000098/consecutive-native.png": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/79e40b9be71c096a9cbb416f6e7ae94566e23fd2/cases/center_of_percussion_support_impulse_creation_00000098/consecutive-native.png",
+        "native-launch-inspection-v7/center_of_percussion_support_impulse_creation_00000098/launch.png": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/79e40b9be71c096a9cbb416f6e7ae94566e23fd2/cases/center_of_percussion_support_impulse_creation_00000098/launch-native.png",
+        "native-launch-inspection-v7/center_of_percussion_support_impulse_creation_00000098/support-crossing.png": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/79e40b9be71c096a9cbb416f6e7ae94566e23fd2/cases/center_of_percussion_support_impulse_creation_00000098/support-native.png",
+        "backups/independent-v7/center_of_percussion_support_impulse_creation_00000098-decoded-contact-sheet.jpg": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/79e40b9be71c096a9cbb416f6e7ae94566e23fd2/cases/center_of_percussion_support_impulse_creation_00000098/decoded-contact-sheet.jpg",
+        "axis-contact-v7/center_of_percussion_support_impulse_creation.jpg": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/79e40b9be71c096a9cbb416f6e7ae94566e23fd2/evidence/controlled-axes.jpg"
+      }
+    }
+  }
+}

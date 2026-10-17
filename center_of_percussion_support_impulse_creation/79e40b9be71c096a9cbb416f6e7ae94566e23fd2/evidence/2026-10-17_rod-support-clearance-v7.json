@@ -1,0 +1,153 @@
+{
+  "status": "PASS",
+  "heads": {
+    "center_of_percussion_support_impulse_creation": "79e40b9be71c096a9cbb416f6e7ae94566e23fd2"
+  },
+  "scope": "Both branches, all120 poses,16 physical corners; perpendicular cylinder/rotated rod rectangle clearance",
+  "cases": [
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "minimum_rod_crossbar_gap": 0.2920088283804565
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "minimum_rod_crossbar_gap": 0.2740535327911808
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "minimum_rod_crossbar_gap": 0.36772142308723393
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "minimum_rod_crossbar_gap": 0.3542581025993612
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "minimum_rod_crossbar_gap": 0.20618064443212997
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "minimum_rod_crossbar_gap": 0.1873780111554859
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "minimum_rod_crossbar_gap": 0.3099432716594537
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "minimum_rod_crossbar_gap": 0.297183752668214
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "minimum_rod_crossbar_gap": 0.7531000000000001
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "minimum_rod_crossbar_gap": 0.7327000000000001
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "minimum_rod_crossbar_gap": 0.7531000000000001
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "minimum_rod_crossbar_gap": 0.7327000000000001
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "minimum_rod_crossbar_gap": 0.7531000000000001
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "minimum_rod_crossbar_gap": 0.7327000000000001
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "minimum_rod_crossbar_gap": 0.7531000000000001
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "minimum_rod_crossbar_gap": 0.7327000000000001
+    }
+  ]
+}

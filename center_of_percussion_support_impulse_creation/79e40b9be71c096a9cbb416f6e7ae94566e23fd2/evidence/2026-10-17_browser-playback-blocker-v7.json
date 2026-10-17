@@ -1,0 +1,17 @@
+{
+  "status": "NOT_VERIFIED",
+  "at": "2026-10-17T10:37:18.830287+00:00",
+  "heads": {
+    "center_of_percussion_support_impulse_creation": "79e40b9be71c096a9cbb416f6e7ae94566e23fd2"
+  },
+  "attempt": "CUA rewriteDocumentation then getState",
+  "observed": {
+    "apps": [],
+    "browsers": [],
+    "errors": [
+      "Native apps: Error: Sky Computer Use native pipe startup failed"
+    ]
+  },
+  "impact": "No available browser to test hosted playback and seeking; ffmpeg decoding and anonymous HTTP cannot substitute. Keep self_check_complete=false. No Sara submission.",
+  "applies_to": "Browser connection unavailable for this delivery; original same-turn CUA inventory timestamp retained. No hosted playback claimed."
+}

@@ -12,7 +12,7 @@
     "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/702",
     "head_sha": "79e40b9be71c096a9cbb416f6e7ae94566e23fd2",
     "review_url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/79e40b9be71c096a9cbb416f6e7ae94566e23fd2/index.html",
-    "note": "Preparation only: machine evidence available; public playback and final visual self-check pending. Do not submit.",
+    "note": "Ball starts from rest under a visible passive spring pushrod, coasts to impact and returns toward a compression-damped buffer. Stronger support impulse retained. No floating scene text. Two native 2048-square, 24fps, 120-frame cases, independent mechanics/decoded checks, visual inspection, runtime witnesses, reproduction, 100000 static profiles, rendered axes and physical corners verified. All public video URLs checked and all 8 browser derivatives decoded successfully. Hosted browser playback and seeking remain NOT_VERIFIED because the browser connection is unavailable. This is a draft; self-check is not complete. User review pending; no Sara form opened or submitted.",
     "self_check_complete": false
   },
   {

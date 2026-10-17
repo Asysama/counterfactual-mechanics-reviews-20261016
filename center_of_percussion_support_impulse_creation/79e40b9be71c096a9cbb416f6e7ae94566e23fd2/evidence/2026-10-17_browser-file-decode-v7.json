@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "verified_at": "2026-10-17T11:19:19.228350+00:00",
+  "scope": "All browser derivative files independently decoded by FFmpeg. This is file-format verification, not hosted browser UI playback or seeking.",
+  "heads": {
+    "center_of_percussion_support_impulse_creation": "79e40b9be71c096a9cbb416f6e7ae94566e23fd2"
+  },
+  "files": [
+    {
+      "generator_name": "center_of_percussion_support_impulse_creation",
+      "head_sha": "79e40b9be71c096a9cbb416f6e7ae94566e23fd2",
+      "file": "backups/formal-v7/center_of_percussion_support_impulse_creation/center_of_percussion_support_impulse_creation_00000042/true/video_browser.mp4",
+      "sha256": "f337ae831577da7af66dc1e5dec00f17498f045f25e62f777ffb1d5ae9426262",
+      "decoded_frames": 120,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "duration_seconds": 5
+    },
+    {
+      "generator_name": "center_of_percussion_support_impulse_creation",
+      "head_sha": "79e40b9be71c096a9cbb416f6e7ae94566e23fd2",
+      "file": "backups/formal-v7/center_of_percussion_support_impulse_creation/center_of_percussion_support_impulse_creation_00000042/counterfactual_unsupported_pivot_impulse/video_browser.mp4",
+      "sha256": "6bdcc7bf1c3dc6f6945af8b07af58863979a6af0b921c672900dc08e73c99004",
+      "decoded_frames": 120,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "duration_seconds": 5
+    },
+    {
+      "generator_name": "center_of_percussion_support_impulse_creation",
+      "head_sha": "79e40b9be71c096a9cbb416f6e7ae94566e23fd2",
+      "file": "backups/formal-v7/center_of_percussion_support_impulse_creation/center_of_percussion_support_impulse_creation_00000042/counterfactual_unsupported_pivot_impulse/mask_browser.mp4",
+      "sha256": "837e7d567fb85f49ac6dc65123810de5603074817b041123c92784990c9009e1",
+      "decoded_frames": 120,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "duration_seconds": 5
+    },
+    {
+      "generator_name": "center_of_percussion_support_impulse_creation",
+      "head_sha": "79e40b9be71c096a9cbb416f6e7ae94566e23fd2",
+      "file": "backups/formal-v7/center_of_percussion_support_impulse_creation/center_of_percussion_support_impulse_creation_00000042/counterfactual_unsupported_pivot_impulse/mask_overlay_browser.mp4",
+      "sha256": "f990a52e8562687a66f5490e9f624c5f5fba523ba2465f6ceb15892f22591bd2",
+      "decoded_frames": 120,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "duration_seconds": 5
+    },
+    {
+      "generator_name": "center_of_percussion_support_impulse_creation",
+      "head_sha": "79e40b9be71c096a9cbb416f6e7ae94566e23fd2",
+      "file": "backups/formal-v7/center_of_percussion_support_impulse_creation/center_of_percussion_support_impulse_creation_00000098/true/video_browser.mp4",
+      "sha256": "5f817765ab1a9e799300b456a4757845111766e485a8c060197c9129b66cb041",
+      "decoded_frames": 120,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "duration_seconds": 5
+    },
+    {
+      "generator_name": "center_of_percussion_support_impulse_creation",
+      "head_sha": "79e40b9be71c096a9cbb416f6e7ae94566e23fd2",
+      "file": "backups/formal-v7/center_of_percussion_support_impulse_creation/center_of_percussion_support_impulse_creation_00000098/counterfactual_unsupported_pivot_impulse/video_browser.mp4",
+      "sha256": "e0dfe6b7eab2f34bd209d2501c1e2bc00210ede48ca15cef2dbf951b32a17767",
+      "decoded_frames": 120,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "duration_seconds": 5
+    },
+    {
+      "generator_name": "center_of_percussion_support_impulse_creation",
+      "head_sha": "79e40b9be71c096a9cbb416f6e7ae94566e23fd2",
+      "file": "backups/formal-v7/center_of_percussion_support_impulse_creation/center_of_percussion_support_impulse_creation_00000098/counterfactual_unsupported_pivot_impulse/mask_browser.mp4",
+      "sha256": "2a04783a686ddf8fb5ba4bf7056598e81d5255b90e6959362140b354eeb90c15",
+      "decoded_frames": 120,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "duration_seconds": 5
+    },
+    {
+      "generator_name": "center_of_percussion_support_impulse_creation",
+      "head_sha": "79e40b9be71c096a9cbb416f6e7ae94566e23fd2",
+      "file": "backups/formal-v7/center_of_percussion_support_impulse_creation/center_of_percussion_support_impulse_creation_00000098/counterfactual_unsupported_pivot_impulse/mask_overlay_browser.mp4",
+      "sha256": "f15cc800501f6e6bba1b287535c518098d9b3800797ea5323b22503c7a46bc5a",
+      "decoded_frames": 120,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "duration_seconds": 5
+    }
+  ]
+}

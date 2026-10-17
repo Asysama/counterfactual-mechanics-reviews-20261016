@@ -1,0 +1,408 @@
+{
+  "status": "PASS",
+  "head_sha": "79e40b9be71c096a9cbb416f6e7ae94566e23fd2",
+  "source_dirty": false,
+  "scope": "All 120 poses both branches over 16 physical corners; launcher clearance and dense passive force/energy check",
+  "cases": [
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "branches": {
+        "true": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -5.551115123125783e-17,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.009,
+          "min_riser_gap_bound": 0.006678118059251809
+        },
+        "counterfactual": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -5.551115123125783e-17,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.009,
+          "min_riser_gap_bound": 0.006678118059251809
+        }
+      },
+      "force_residual_max": 2.7654740692314994e-05
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "branches": {
+        "true": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -5.551115123125783e-17,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.009,
+          "min_riser_gap_bound": 0.006678118059251809
+        },
+        "counterfactual": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -5.551115123125783e-17,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.009,
+          "min_riser_gap_bound": 0.006678118059251809
+        }
+      },
+      "force_residual_max": 4.86390553048055e-05
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "branches": {
+        "true": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -5.551115123125783e-17,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.009,
+          "min_riser_gap_bound": 0.006678118059251809
+        },
+        "counterfactual": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -5.551115123125783e-17,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.009,
+          "min_riser_gap_bound": 0.006678118059251809
+        }
+      },
+      "force_residual_max": 5.919654222363846e-07
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "branches": {
+        "true": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -5.551115123125783e-17,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.009,
+          "min_riser_gap_bound": 0.006678118059251809
+        },
+        "counterfactual": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -5.551115123125783e-17,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.009,
+          "min_riser_gap_bound": 0.006678118059251809
+        }
+      },
+      "force_residual_max": 5.919654227914961e-07
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "branches": {
+        "true": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -5.551115123125783e-17,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.009,
+          "min_riser_gap_bound": 0.006678118059251809
+        },
+        "counterfactual": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -5.551115123125783e-17,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.009,
+          "min_riser_gap_bound": 0.006678118059251809
+        }
+      },
+      "force_residual_max": 3.643918773550692e-05
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "branches": {
+        "true": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -5.551115123125783e-17,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.009,
+          "min_riser_gap_bound": 0.006678118059251809
+        },
+        "counterfactual": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -5.551115123125783e-17,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.009,
+          "min_riser_gap_bound": 0.006678118059251809
+        }
+      },
+      "force_residual_max": 6.408910816509128e-05
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "branches": {
+        "true": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": 5.551115123125783e-17,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.009,
+          "min_riser_gap_bound": 0.006678118059251809
+        },
+        "counterfactual": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": 5.551115123125783e-17,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.009,
+          "min_riser_gap_bound": 0.006678118059251809
+        }
+      },
+      "force_residual_max": 7.800014978354142e-07
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "branches": {
+        "true": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": 5.551115123125783e-17,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.009,
+          "min_riser_gap_bound": 0.006678118059251809
+        },
+        "counterfactual": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": 5.551115123125783e-17,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.009,
+          "min_riser_gap_bound": 0.006678118059251809
+        }
+      },
+      "force_residual_max": 7.800014978354142e-07
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "branches": {
+        "true": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": 0.0,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.01224,
+          "min_riser_gap_bound": 0.00908224056058246
+        },
+        "counterfactual": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": 0.0,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.01224,
+          "min_riser_gap_bound": 0.00908224056058246
+        }
+      },
+      "force_residual_max": 6.956428340290643e-05
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "branches": {
+        "true": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": 0.0,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.01224,
+          "min_riser_gap_bound": 0.00908224056058246
+        },
+        "counterfactual": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": 0.0,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.01224,
+          "min_riser_gap_bound": 0.00908224056058246
+        }
+      },
+      "force_residual_max": 0.00012234940349936663
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "branches": {
+        "true": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -1.1102230246251565e-16,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.01224,
+          "min_riser_gap_bound": 0.00908224056058246
+        },
+        "counterfactual": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -1.1102230246251565e-16,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.01224,
+          "min_riser_gap_bound": 0.00908224056058246
+        }
+      },
+      "force_residual_max": 1.4890629729258364e-06
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "branches": {
+        "true": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -1.1102230246251565e-16,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.01224,
+          "min_riser_gap_bound": 0.00908224056058246
+        },
+        "counterfactual": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -1.1102230246251565e-16,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.01224,
+          "min_riser_gap_bound": 0.00908224056058246
+        }
+      },
+      "force_residual_max": 1.4890629729258364e-06
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "branches": {
+        "true": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -1.1102230246251565e-16,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.01224,
+          "min_riser_gap_bound": 0.00908224056058246
+        },
+        "counterfactual": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -1.1102230246251565e-16,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.01224,
+          "min_riser_gap_bound": 0.00908224056058246
+        }
+      },
+      "force_residual_max": 9.166117342779279e-05
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "branches": {
+        "true": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -1.1102230246251565e-16,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.01224,
+          "min_riser_gap_bound": 0.00908224056058246
+        },
+        "counterfactual": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -1.1102230246251565e-16,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.01224,
+          "min_riser_gap_bound": 0.00908224056058246
+        }
+      },
+      "force_residual_max": 0.00016121333166857488
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "branches": {
+        "true": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -1.1102230246251565e-16,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.01224,
+          "min_riser_gap_bound": 0.00908224056058246
+        },
+        "counterfactual": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -1.1102230246251565e-16,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.01224,
+          "min_riser_gap_bound": 0.00908224056058246
+        }
+      },
+      "force_residual_max": 1.9620594473579445e-06
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "branches": {
+        "true": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -1.1102230246251565e-16,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.01224,
+          "min_riser_gap_bound": 0.00908224056058246
+        },
+        "counterfactual": {
+          "min_ball_rod_gap": 0.0,
+          "min_pad_ball_gap": -1.1102230246251565e-16,
+          "ball_starts_at_rest": true,
+          "min_crossbar_gap": 0.01224,
+          "min_riser_gap_bound": 0.00908224056058246
+        }
+      },
+      "force_residual_max": 1.9620594473579445e-06
+    }
+  ]
+}
