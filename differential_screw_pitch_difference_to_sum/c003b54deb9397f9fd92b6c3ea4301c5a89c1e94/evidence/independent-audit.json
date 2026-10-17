@@ -1,0 +1,86 @@
+{
+  "head_sha": "c003b54deb9397f9fd92b6c3ea4301c5a89c1e94",
+  "cases": [
+    {
+      "case_id": "differential_screw_pitch_difference_to_sum_00000042",
+      "head_sha": "c003b54deb9397f9fd92b6c3ea4301c5a89c1e94",
+      "status": "PASS",
+      "frames": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "first_changed_frame": 24,
+      "mask_start_frame": 24,
+      "evidence_frame": 51,
+      "mask_area_min_active": 43397,
+      "mask_area_max": 45318,
+      "mechanics": {
+        "true_final_travel": 0.0745493925647059,
+        "counterfactual_final_travel": 0.4857649031529412,
+        "input_revolutions": 0.9421176470588235
+      },
+      "formal_case_diversity": null,
+      "files": {
+        "true/video.mp4": {
+          "bytes": 27963748,
+          "sha256": "7e933632f018dbf2497ad98902f1c78489d458ef0f0a184971ba05c93c6df058"
+        },
+        "counterfactual_pitch_difference_to_sum/video.mp4": {
+          "bytes": 28030862,
+          "sha256": "01ce70e706dce25c98692c1802b0112f7033849d76f58d4c7203748150cbfa53"
+        },
+        "counterfactual_pitch_difference_to_sum/mask.mp4": {
+          "bytes": 2275944,
+          "sha256": "b1b3a76f342c34adf1cee3a76ccee2e61d9ac771943a4d926ac02fddd90b7e89"
+        },
+        "counterfactual_pitch_difference_to_sum/mask_overlay.mp4": {
+          "bytes": 25873269,
+          "sha256": "d400300c19aa11bd562f2ad021f707a5b1865d29b0bac3c3992395965062ab03"
+        }
+      }
+    },
+    {
+      "case_id": "differential_screw_pitch_difference_to_sum_00000098",
+      "head_sha": "c003b54deb9397f9fd92b6c3ea4301c5a89c1e94",
+      "status": "PASS",
+      "frames": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "first_changed_frame": 28,
+      "mask_start_frame": 28,
+      "evidence_frame": 53,
+      "mask_area_min_active": 40551,
+      "mask_area_max": 44520,
+      "mechanics": {
+        "true_final_travel": 0.08038599981176474,
+        "counterfactual_final_travel": 0.45445946428235307,
+        "input_revolutions": 1.1595294117647061
+      },
+      "formal_case_diversity": {
+        "mean_abs_difference": 8.739398956298828,
+        "changed_fraction": 0.5069198608398438
+      },
+      "files": {
+        "true/video.mp4": {
+          "bytes": 34072029,
+          "sha256": "db63ad85711433db1fc2b005c1288814484ede163f768086d287d21575fd58d2"
+        },
+        "counterfactual_pitch_difference_to_sum/video.mp4": {
+          "bytes": 34362442,
+          "sha256": "e4cae1e095fb0bf0054904ce00bb37af4e5f0392d46e2897e31ba392306d2edb"
+        },
+        "counterfactual_pitch_difference_to_sum/mask.mp4": {
+          "bytes": 2209359,
+          "sha256": "88e09f19ef5c26eea67c237bd8e6417fbcff20d40494ef70d413e998a0077ee2"
+        },
+        "counterfactual_pitch_difference_to_sum/mask_overlay.mp4": {
+          "bytes": 32556255,
+          "sha256": "02b5ff3ad68e86308324d1dd1344bff6dbc78ebfd728390ad2174fdb5000d278"
+        }
+      }
+    }
+  ]
+}

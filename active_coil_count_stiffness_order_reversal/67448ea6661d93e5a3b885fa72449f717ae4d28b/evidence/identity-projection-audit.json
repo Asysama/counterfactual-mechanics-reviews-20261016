@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "head_sha": "67448ea6661d93e5a3b885fa72449f717ae4d28b",
+      "case_id": "active_coil_count_stiffness_order_reversal_00000042",
+      "status": "PASS",
+      "target_projection_min_fraction": 0.2652782201766968,
+      "independent_identity_frames": [
+        {
+          "frame": 24,
+          "targets": [
+            "clamped_active_coils"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 50,
+          "targets": [
+            "clamped_active_coils"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 60,
+          "targets": [
+            "clamped_active_coils"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 90,
+          "targets": [
+            "clamped_active_coils"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 119,
+          "targets": [
+            "clamped_active_coils"
+          ],
+          "decoded_identity_exact": true
+        }
+      ],
+      "visual_review": "PENDING",
+      "no_scene_text_objects": true
+    },
+    {
+      "head_sha": "67448ea6661d93e5a3b885fa72449f717ae4d28b",
+      "case_id": "active_coil_count_stiffness_order_reversal_00000098",
+      "status": "PASS",
+      "target_projection_min_fraction": 0.2621762752532959,
+      "independent_identity_frames": [
+        {
+          "frame": 28,
+          "targets": [
+            "clamped_active_coils"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 37,
+          "targets": [
+            "clamped_active_coils"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 60,
+          "targets": [
+            "clamped_active_coils"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 90,
+          "targets": [
+            "clamped_active_coils"
+          ],
+          "decoded_identity_exact": true
+        },
+        {
+          "frame": 119,
+          "targets": [
+            "clamped_active_coils"
+          ],
+          "decoded_identity_exact": true
+        }
+      ],
+      "visual_review": "PENDING",
+      "no_scene_text_objects": true
+    }
+  ],
+  "contact_checks": []
+}

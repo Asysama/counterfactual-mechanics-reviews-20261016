@@ -1,0 +1,145 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      0.0,
+      0.0,
+      1.7023999691009521
+    ],
+    "pos": [
+      -0.2646105885505676,
+      -5.056000232696533,
+      3.6236801147460938
+    ],
+    "projection": "perspective"
+  },
+  "category": "physical_pendulum_near_com",
+  "descriptions": {
+    "counterfactual": "Two identical rigid rods hang from fixed horizontal axles on a stand. Dark stripes mark their centres of mass. The left axle is 0.30 rod lengths above its centre; the right axle is only 0.085 rod lengths above its centre. Both rods start at the same small angle, and their latches withdraw together. The unchanged right rod anomalously receives an excessive gravitational restoring torque. It oscillates faster and has a shorter period than the left rod despite its axle being closer to its centre of mass.",
+    "true": "Two identical rigid rods hang from fixed horizontal axles on a stand. Dark stripes mark their centres of mass. The left axle is 0.30 rod lengths above its centre; the right axle is only 0.085 rod lengths above its centre. Both rods start at the same small angle, and their latches withdraw together. Both rods swing freely under gravity. The right rod, pivoted close to its centre of mass, oscillates more slowly and has a longer period than the left rod."
+  },
+  "evidence_frame": 39,
+  "first_changed_frame": 24,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench analytical replay",
+    "git": "042eac5530e2672292848bea1a0b7d7b04d65e32",
+    "source_hashes": {
+      "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "engine/geometry.py": "8d2a95ec55da0d0a8ec54a67a16638e678ad8e36a87a13590a39921dbba57664",
+      "engine/media.py": "eb65201aeb09d2dacb9be7f19e5cab5b382a3968d40f00d72a4ef4be9de99114",
+      "engine/operators.py": "16568805e50c3163bdff20d54cc91eeb554e19302a9cad3e5b4e39909ada03a8",
+      "engine/run.py": "ed721f01edb227282f57ba9452ce7887a91f818787bceb9444e4f23e62e9975a",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "42f7009f24702e3d02cec8d3694c66d5273aa0ef2fc61db2bf10e4be3c78cd36",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "fd02116272efe5dd42e1a5478a8ce28965d1d056443677c1b25c60ba45536992",
+      "examples/reproduce.py": "fd8e158ec5093b718b3a9552d4c01b88d62ab38634df6f1af341673f909f2f69",
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/helpers.py": "dfdce3102c1c57463c2abfdfaec88af5d391ab192fa1517db22bd6222bd4b11b",
+      "src/phenomenon.py": "2287d2ce3461656960c376496e323033fb2277377031407cd2705794b27b20f9",
+      "src/scaling.py": "53bf57aa62813af81bfcc8c1194af9e6aa9d24107c282fd1931aa51fc0eb328c",
+      "src/violation.py": "bdfdeb450f3bcb39bd77be7b0de21b7b4f1c0eeb32028500ce3ab51a31ccec2c",
+      "tests/test_physics.py": "0d4cdbfa8487ddfb388c9ab0f2ab8979fb58ae114f044b3ad32840270560d053"
+    }
+  },
+  "intervention_frame": 24,
+  "mask_end_frame": 120,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "target_entities": [
+      "near_com_mark",
+      "near_rod"
+    ],
+    "target_ontology": [
+      "near_rod",
+      "near_com_mark"
+    ],
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 24,
+  "onset_frame": 24,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_near_com_restoring_torque_gain/mask.mp4",
+      "mask_overlay": "counterfactual_near_com_restoring_torque_gain/mask_overlay.mp4",
+      "prompt": "counterfactual_near_com_restoring_torque_gain/prompt.txt",
+      "trajectory": "counterfactual_near_com_restoring_torque_gain/trajectory.npz",
+      "video": "counterfactual_near_com_restoring_torque_gain/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "physical_pendulum_near_com_period_reversal",
+  "phenomenon_data": {
+    "scene_params": {
+      "appearance": 3,
+      "depth": 1.03,
+      "far_offset": 0.4608,
+      "gravity": 9.81,
+      "gyration_squared": 0.1982218952164609,
+      "initial_angle": 0.21411764705882352,
+      "length": 1.28,
+      "model": "nonlinear rigid-body physical pendulum; RK4; single restoring-torque gain",
+      "near_offset": 0.13056,
+      "onset": 23,
+      "pivot_z": 1.9840000000000002,
+      "response": 0.9099999999999999,
+      "rod_depth": 0.08960000000000001,
+      "rod_length": 1.536,
+      "rod_mass": 1.6640000000000001,
+      "rod_width": 0.13916444444444445,
+      "scale": 1.28,
+      "solver_steps_per_frame": 24,
+      "time_scale": 1.0,
+      "torque_gain": 4.0,
+      "view": 4
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "Does the rod pivoted closer to its centre of mass swing more slowly?",
+        "Does that unchanged rod instead complete oscillations faster than the other rod?"
+      ],
+      "scoring": {
+        "correct_if_true": [
+          "the near-COM rod has the longer period"
+        ],
+        "violation_if_true": [
+          "the near-COM rod has the shorter period"
+        ]
+      },
+      "violation_types": [
+        "near_com_restoring_torque_gain"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 42,
+  "task_id": "physical_pendulum_near_com_period_reversal_00000042",
+  "timebase": {
+    "internal_substeps": 24,
+    "outer_steps_per_recorded_frame": 1,
+    "physical_dt": 0.001736111111111111,
+    "physical_seconds_per_video_second": 1.0,
+    "solver": "nonlinear rigid-body physical pendulum; RK4; single restoring-torque gain",
+    "source_dt": 0.041666666666666664
+  },
+  "violation_type": "near_com_restoring_torque_gain"
+}

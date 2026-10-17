@@ -1,0 +1,564 @@
+{
+  "generator": "physical_pendulum_near_com_period_reversal",
+  "commit": "042eac5530e2672292848bea1a0b7d7b04d65e32",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct 14 2026, 01:05:33) [Clang 23.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    768,
+    768
+  ],
+  "formal_acceptance": false,
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.536,
+        "rod_width": 0.13916444444444445,
+        "rod_depth": 0.08960000000000001,
+        "far_offset": 0.4608,
+        "near_offset": 0.13056,
+        "initial_angle": 0.21411764705882352,
+        "pivot_z": 1.9840000000000002,
+        "rod_mass": 1.6640000000000001,
+        "torque_gain": 4.0,
+        "solver_steps_per_frame": 24,
+        "time_scale": 1.0,
+        "model": "nonlinear rigid-body physical pendulum; RK4; single restoring-torque gain",
+        "gyration_squared": 0.1982218952164609
+      },
+      "images": {
+        "baseline-true-35.png": "da89b7f7b80a0c94b507c2482f2c8e489e72ddc518177e5d958f57625a7681cb",
+        "baseline-true-90.png": "f07b51b62fb7001c95f59a9bae6c163d74bc871b4035e314877620adeb3e3cd4",
+        "baseline-counterfactual-35.png": "2b97c2ccfcabfbbde851f1a2956c933debcd15ac50ac2678fa4aa767a7bab8b4",
+        "baseline-counterfactual-90.png": "891fc4e0eb8c161c51b490bea46992dce1d327499e49f96c3256a336538a99de"
+      },
+      "metrics": {},
+      "changed_pixels": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 1.0,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "rod_length": 1.2,
+        "rod_width": 0.10872222222222222,
+        "rod_depth": 0.07,
+        "far_offset": 0.36,
+        "near_offset": 0.10200000000000001,
+        "initial_angle": 0.21411764705882352,
+        "pivot_z": 1.55,
+        "rod_mass": 1.3,
+        "torque_gain": 4.0,
+        "solver_steps_per_frame": 24,
+        "time_scale": 1.0,
+        "model": "nonlinear rigid-body physical pendulum; RK4; single restoring-torque gain",
+        "gyration_squared": 0.12098504346707818
+      },
+      "images": {
+        "length_low-true-35.png": "1330abe3c549336a9cbece098861459acc036c0054d2b68d7860b01f59b601ec",
+        "length_low-true-90.png": "308f563cc695b4f0c71bf6199e80a455a418103ce143e7b62c066557d9f53b8e",
+        "length_low-counterfactual-35.png": "60d9ccc0a38273baa080f5d02991e4d199a6a2d31db70615148f2b34cff53327",
+        "length_low-counterfactual-90.png": "4ca22318e3e7c6021d2c377854472d1767a365e0967d6979014ed8987b4d4a9d"
+      },
+      "metrics": {
+        "true-35": 6.030583134403935,
+        "true-90": 6.8731943766276045,
+        "counterfactual-35": 6.020413434063947,
+        "counterfactual-90": 7.543639571578415
+      },
+      "changed_pixels": {
+        "true-35": 60946,
+        "true-90": 68948,
+        "counterfactual-35": 61679,
+        "counterfactual-90": 73159
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 1.36,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.36,
+        "rod_length": 1.6320000000000001,
+        "rod_width": 0.14786222222222223,
+        "rod_depth": 0.09520000000000002,
+        "far_offset": 0.48960000000000004,
+        "near_offset": 0.13872,
+        "initial_angle": 0.21411764705882352,
+        "pivot_z": 2.108,
+        "rod_mass": 1.7680000000000002,
+        "torque_gain": 4.0,
+        "solver_steps_per_frame": 24,
+        "time_scale": 1.0,
+        "model": "nonlinear rigid-body physical pendulum; RK4; single restoring-torque gain",
+        "gyration_squared": 0.22377393639670784
+      },
+      "images": {
+        "length_high-true-35.png": "1364d1a41cb8b8b010afe7db4216e0fe38bf2fa6bef4f8a404d84b551ed81718",
+        "length_high-true-90.png": "d424756bfa0cc494807b885bfd0d87147658f74a05d70e60ed94c26abb2cf044",
+        "length_high-counterfactual-35.png": "ccbeb759a1937e557920aec78471c4e2aefd2b2f6d6d4c33d49124cfd59e3800",
+        "length_high-counterfactual-90.png": "fd33dc03138f3452c190995023b10a39bdc3cf4d75ed8bb23ecd128b0dcea690"
+      },
+      "metrics": {
+        "true-35": 1.4730377197265625,
+        "true-90": 1.614591810438368,
+        "counterfactual-35": 1.4833735713252314,
+        "counterfactual-90": 1.85645831072772
+      },
+      "changed_pixels": {
+        "true-35": 22749,
+        "true-90": 24545,
+        "counterfactual-35": 23101,
+        "counterfactual-90": 26516
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.85,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.536,
+        "rod_width": 0.13916444444444445,
+        "rod_depth": 0.08960000000000001,
+        "far_offset": 0.4608,
+        "near_offset": 0.13056,
+        "initial_angle": 0.2,
+        "pivot_z": 1.9840000000000002,
+        "rod_mass": 1.6640000000000001,
+        "torque_gain": 4.0,
+        "solver_steps_per_frame": 24,
+        "time_scale": 1.0,
+        "model": "nonlinear rigid-body physical pendulum; RK4; single restoring-torque gain",
+        "gyration_squared": 0.1982218952164609
+      },
+      "images": {
+        "response_low-true-35.png": "66b9a69d539b623691696f2cd640600b1f12a1638421ee164048352d98d52754",
+        "response_low-true-90.png": "029069d8f4792799b510df52db66093411aa5e7a67d0141cfdf607604e4f8817",
+        "response_low-counterfactual-35.png": "ed72e7c4fe68ed25420b6c7709e33f1403c4b08c7f83632f881fe59440c6e1e6",
+        "response_low-counterfactual-90.png": "580f608a671e33daa5dd58b2c087cc9d21606c8946688e2444d34c760bceb1e6"
+      },
+      "metrics": {
+        "true-35": 0.04196336534288195,
+        "true-90": 0.18357283980758102,
+        "counterfactual-35": 0.0863963939525463,
+        "counterfactual-90": 0.16027436433015047
+      },
+      "changed_pixels": {
+        "true-35": 3503,
+        "true-90": 5628,
+        "counterfactual-35": 3771,
+        "counterfactual-90": 5057
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 1.12,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.536,
+        "rod_width": 0.13916444444444445,
+        "rod_depth": 0.08960000000000001,
+        "far_offset": 0.4608,
+        "near_offset": 0.13056,
+        "initial_angle": 0.2635294117647059,
+        "pivot_z": 1.9840000000000002,
+        "rod_mass": 1.6640000000000001,
+        "torque_gain": 4.0,
+        "solver_steps_per_frame": 24,
+        "time_scale": 1.0,
+        "model": "nonlinear rigid-body physical pendulum; RK4; single restoring-torque gain",
+        "gyration_squared": 0.1982218952164609
+      },
+      "images": {
+        "response_high-true-35.png": "d6c564f68342c1954a9c79d6ccd76fd4189409f09618a201812230cc12a1456d",
+        "response_high-true-90.png": "659a22df2c71be1ecd13075d112286630ca062ef5ed883e335d96e5b560fb448",
+        "response_high-counterfactual-35.png": "40dfa5b5273085b5aadc4784ff901efcc398aa9287f494711c7b1446b5f54eb9",
+        "response_high-counterfactual-90.png": "24cd5b47e2baf08c4ec913f16eaaaf6ffc883cf02f972d03d3fbf644c0cbde58"
+      },
+      "metrics": {
+        "true-35": 0.14025257251880788,
+        "true-90": 0.5242801242404513,
+        "counterfactual-35": 0.27645252369068285,
+        "counterfactual-90": 0.45524879738136576
+      },
+      "changed_pixels": {
+        "true-35": 4801,
+        "true-90": 8901,
+        "counterfactual-35": 5320,
+        "counterfactual-90": 8221
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 20,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.536,
+        "rod_width": 0.13916444444444445,
+        "rod_depth": 0.08960000000000001,
+        "far_offset": 0.4608,
+        "near_offset": 0.13056,
+        "initial_angle": 0.21411764705882352,
+        "pivot_z": 1.9840000000000002,
+        "rod_mass": 1.6640000000000001,
+        "torque_gain": 4.0,
+        "solver_steps_per_frame": 24,
+        "time_scale": 1.0,
+        "model": "nonlinear rigid-body physical pendulum; RK4; single restoring-torque gain",
+        "gyration_squared": 0.1982218952164609
+      },
+      "images": {
+        "onset_low-true-35.png": "e86815ed796f6573b6a6e3d91284ffec66eabd26f3af17157b966d625dcb3178",
+        "onset_low-true-90.png": "bd250bd74bafd2828117879ac6d9217e578ba8d9ddc436dd20d1dd86d54993e0",
+        "onset_low-counterfactual-35.png": "318455eba5ef63952f4884c533aba2b1ac3e66dcb298fbd284661a72080cebe3",
+        "onset_low-counterfactual-90.png": "7d0bfb70f2219742c65665f19ffe05931142e5928f0e1a1f890d4dffbb43de9b"
+      },
+      "metrics": {
+        "true-35": 0.7334346064814815,
+        "true-90": 0.2302788628472222,
+        "counterfactual-35": 0.6884743019386574,
+        "counterfactual-90": 0.6758015950520834
+      },
+      "changed_pixels": {
+        "true-35": 11028,
+        "true-90": 5550,
+        "counterfactual-35": 10194,
+        "counterfactual-90": 8836
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 29,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.536,
+        "rod_width": 0.13916444444444445,
+        "rod_depth": 0.08960000000000001,
+        "far_offset": 0.4608,
+        "near_offset": 0.13056,
+        "initial_angle": 0.21411764705882352,
+        "pivot_z": 1.9840000000000002,
+        "rod_mass": 1.6640000000000001,
+        "torque_gain": 4.0,
+        "solver_steps_per_frame": 24,
+        "time_scale": 1.0,
+        "model": "nonlinear rigid-body physical pendulum; RK4; single restoring-torque gain",
+        "gyration_squared": 0.1982218952164609
+      },
+      "images": {
+        "onset_high-true-35.png": "c06b27779943a4a0453a239c3020841cfcbd40b1586cf96218af24d629053858",
+        "onset_high-true-90.png": "0d8067c915a42268f118d69eb4945f62bb2e280f000aafa225c746b6bd34933f",
+        "onset_high-counterfactual-35.png": "245aef1a6fb000adedbc3cf41a2447fea219f69b6bd5a8211ced8d3087d7e294",
+        "onset_high-counterfactual-90.png": "bf5d37b93e015b9c1ebdd926958deda3c59b169ede42a0a3c4d3210c94af12c7"
+      },
+      "metrics": {
+        "true-35": 1.1347797535083912,
+        "true-90": 0.593160558629919,
+        "counterfactual-35": 1.8333615903501157,
+        "counterfactual-90": 0.9633743851273148
+      },
+      "changed_pixels": {
+        "true-35": 15875,
+        "true-90": 10498,
+        "counterfactual-35": 20543,
+        "counterfactual-90": 13366
+      }
+    },
+    "depth_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 0.75,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.536,
+        "rod_width": 0.10133333333333333,
+        "rod_depth": 0.08960000000000001,
+        "far_offset": 0.4608,
+        "near_offset": 0.13056,
+        "initial_angle": 0.21411764705882352,
+        "pivot_z": 1.9840000000000002,
+        "rod_mass": 1.6640000000000001,
+        "torque_gain": 4.0,
+        "solver_steps_per_frame": 24,
+        "time_scale": 1.0,
+        "model": "nonlinear rigid-body physical pendulum; RK4; single restoring-torque gain",
+        "gyration_squared": 0.1974637037037037
+      },
+      "images": {
+        "depth_low-true-35.png": "9f0cc1eefefb684f00e2effe7116153f6244069fbd2bbb945b48a06dbfc745b0",
+        "depth_low-true-90.png": "2000162c036a11b46e58d2c3da8fd853afc29cae45453bb08f2379f10e85a494",
+        "depth_low-counterfactual-35.png": "e25a3ceef77f69d2c12feb76b190113bbe856d4ee800fdbd0f28c7d547f0edd1",
+        "depth_low-counterfactual-90.png": "3f158e593567c4a448e1d2b100624938b438e7fa6507dc69b575417668d9e1f4"
+      },
+      "metrics": {
+        "true-35": 0.5852610270182291,
+        "true-90": 0.6244744194878472,
+        "counterfactual-35": 0.6117728904441551,
+        "counterfactual-90": 0.6286440248842593
+      },
+      "changed_pixels": {
+        "true-35": 7697,
+        "true-90": 8146,
+        "counterfactual-35": 7407,
+        "counterfactual-90": 8091
+      }
+    },
+    "depth_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.11,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.536,
+        "rod_width": 0.14997333333333335,
+        "rod_depth": 0.08960000000000001,
+        "far_offset": 0.4608,
+        "near_offset": 0.13056,
+        "initial_angle": 0.21411764705882352,
+        "pivot_z": 1.9840000000000002,
+        "rod_mass": 1.6640000000000001,
+        "torque_gain": 4.0,
+        "solver_steps_per_frame": 24,
+        "time_scale": 1.0,
+        "model": "nonlinear rigid-body physical pendulum; RK4; single restoring-torque gain",
+        "gyration_squared": 0.19848233339259258
+      },
+      "images": {
+        "depth_high-true-35.png": "59fa3058644c76ae098bb43080bbbe95d71923bd12da8fdc9721bccb3e886923",
+        "depth_high-true-90.png": "ff166d17b46f106a2cf23b8e6a44b4b9182ae28a2c34a8c2850b2c88d3665282",
+        "depth_high-counterfactual-35.png": "c6212b4ce0c706c9fd4df337acc74dda03103f12c5a338ead28e6f262f77375c",
+        "depth_high-counterfactual-90.png": "000c3dd4377f66b64c20cb6109af9e58216b1c352c8deab35ebe312501203257"
+      },
+      "metrics": {
+        "true-35": 0.1813224509910301,
+        "true-90": 0.19445857295283564,
+        "counterfactual-35": 0.1965049461082176,
+        "counterfactual-90": 0.19645408347800927
+      },
+      "changed_pixels": {
+        "true-35": 4478,
+        "true-90": 4673,
+        "counterfactual-35": 4417,
+        "counterfactual-90": 4766
+      }
+    },
+    "appearance_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 0,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.536,
+        "rod_width": 0.13916444444444445,
+        "rod_depth": 0.08960000000000001,
+        "far_offset": 0.4608,
+        "near_offset": 0.13056,
+        "initial_angle": 0.21411764705882352,
+        "pivot_z": 1.9840000000000002,
+        "rod_mass": 1.6640000000000001,
+        "torque_gain": 4.0,
+        "solver_steps_per_frame": 24,
+        "time_scale": 1.0,
+        "model": "nonlinear rigid-body physical pendulum; RK4; single restoring-torque gain",
+        "gyration_squared": 0.1982218952164609
+      },
+      "images": {
+        "appearance_low-true-35.png": "3e39e2f052612d25c5c179461dfb494e9e4221c35facb2851da71e95f036ab5e",
+        "appearance_low-true-90.png": "58298dddf0a61c4fe9460f82cd406c1f5e71572077128d9919eac1a8b0b51c9a",
+        "appearance_low-counterfactual-35.png": "26e67325097ae505fbda5a17ac511eb46b40caa4d0ed502c5de0592d4c2fb9dc",
+        "appearance_low-counterfactual-90.png": "072b9f6325f7db3f8f3e434a2c1dccdfa440e1417a089eb751e49e0665457307"
+      },
+      "metrics": {
+        "true-35": 0.3352830674913194,
+        "true-90": 0.33286765769675924,
+        "counterfactual-35": 0.3300086127387153,
+        "counterfactual-90": 0.3327755398220486
+      },
+      "changed_pixels": {
+        "true-35": 224033,
+        "true-90": 221625,
+        "counterfactual-35": 221451,
+        "counterfactual-90": 221944
+      }
+    },
+    "appearance_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 9,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.536,
+        "rod_width": 0.13916444444444445,
+        "rod_depth": 0.08960000000000001,
+        "far_offset": 0.4608,
+        "near_offset": 0.13056,
+        "initial_angle": 0.21411764705882352,
+        "pivot_z": 1.9840000000000002,
+        "rod_mass": 1.6640000000000001,
+        "torque_gain": 4.0,
+        "solver_steps_per_frame": 24,
+        "time_scale": 1.0,
+        "model": "nonlinear rigid-body physical pendulum; RK4; single restoring-torque gain",
+        "gyration_squared": 0.1982218952164609
+      },
+      "images": {
+        "appearance_high-true-35.png": "2f6ef6d534d41486c2721337811189df9d9dc1c27e7a2cc5200acb1970aaf4e2",
+        "appearance_high-true-90.png": "a02b3417b67cf5eb1cae932a2dde39253d926db223f58138560c8f48f0214da9",
+        "appearance_high-counterfactual-35.png": "3bace7b3b9c24f24536ff34bad9afaf76185db5b8ca73d8d1ff851d4bb358272",
+        "appearance_high-counterfactual-90.png": "1ab51a61c377c535c47255bc978c0a7239b5b4dce83fd5cb0b61a29c35fb274a"
+      },
+      "metrics": {
+        "true-35": 0.20773880570023148,
+        "true-90": 0.21216950593171297,
+        "counterfactual-35": 0.19835804126880788,
+        "counterfactual-90": 0.2092624240451389
+      },
+      "changed_pixels": {
+        "true-35": 31751,
+        "true-90": 31638,
+        "counterfactual-35": 31292,
+        "counterfactual-90": 31517
+      }
+    },
+    "view_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 0,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.536,
+        "rod_width": 0.13916444444444445,
+        "rod_depth": 0.08960000000000001,
+        "far_offset": 0.4608,
+        "near_offset": 0.13056,
+        "initial_angle": 0.21411764705882352,
+        "pivot_z": 1.9840000000000002,
+        "rod_mass": 1.6640000000000001,
+        "torque_gain": 4.0,
+        "solver_steps_per_frame": 24,
+        "time_scale": 1.0,
+        "model": "nonlinear rigid-body physical pendulum; RK4; single restoring-torque gain",
+        "gyration_squared": 0.1982218952164609
+      },
+      "images": {
+        "view_low-true-35.png": "6bb8a79a9fe24ef036446227802bce1c04add1143bc9b7831a7bcf77957f4150",
+        "view_low-true-90.png": "f76442cbe81035bb391906b597653643921866d30d28a189ea079fc45831fa61",
+        "view_low-counterfactual-35.png": "ee5def518375cdd7c8429f050e44c5d6f1010d7f675aaeff4047acac6ef3242d",
+        "view_low-counterfactual-90.png": "04074dd36de26d0901d6c36ac3d35ac66e7062b4e79e2d232e467dc8c884b588"
+      },
+      "metrics": {
+        "true-35": 5.867692170319734,
+        "true-90": 5.968857376663773,
+        "counterfactual-35": 5.790563512731482,
+        "counterfactual-90": 5.939329359266493
+      },
+      "changed_pixels": {
+        "true-35": 292104,
+        "true-90": 292286,
+        "counterfactual-35": 291802,
+        "counterfactual-90": 292204
+      }
+    },
+    "view_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 9,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "rod_length": 1.536,
+        "rod_width": 0.13916444444444445,
+        "rod_depth": 0.08960000000000001,
+        "far_offset": 0.4608,
+        "near_offset": 0.13056,
+        "initial_angle": 0.21411764705882352,
+        "pivot_z": 1.9840000000000002,
+        "rod_mass": 1.6640000000000001,
+        "torque_gain": 4.0,
+        "solver_steps_per_frame": 24,
+        "time_scale": 1.0,
+        "model": "nonlinear rigid-body physical pendulum; RK4; single restoring-torque gain",
+        "gyration_squared": 0.1982218952164609
+      },
+      "images": {
+        "view_high-true-35.png": "70257a48b8dcfad9132067c7eccde7c2b2197a6a421d34840127c8e5a1090f79",
+        "view_high-true-90.png": "232d75fb91168f6c1d53d4096b1affef4fed198afcb1086d31b892c294656feb",
+        "view_high-counterfactual-35.png": "19b08196e7b2a7d73d85124410cc92a88cfd5bf59dd4745c36b73ec29bc7b201",
+        "view_high-counterfactual-90.png": "dacf38ba3832d5c1fe84ec72d13ba6a03684e1819d83a14a01dd0695bb408730"
+      },
+      "metrics": {
+        "true-35": 6.944067495840567,
+        "true-90": 7.043585883246528,
+        "counterfactual-35": 6.759898432978877,
+        "counterfactual-90": 6.976867110640915
+      },
+      "changed_pixels": {
+        "true-35": 261442,
+        "true-90": 262018,
+        "counterfactual-35": 261304,
+        "counterfactual-90": 261705
+      }
+    }
+  }
+}

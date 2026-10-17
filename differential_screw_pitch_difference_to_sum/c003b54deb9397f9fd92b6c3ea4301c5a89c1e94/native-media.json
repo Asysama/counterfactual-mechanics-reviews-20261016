@@ -1,0 +1,61 @@
+{
+  "head_sha": "c003b54deb9397f9fd92b6c3ea4301c5a89c1e94",
+  "files": {
+    "differential_screw_pitch_difference_to_sum_00000042/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-text-free-v4/differential_screw_pitch_difference_to_sum-c003b54deb9397f9fd92b6c3ea4301c5a89c1e94-42-true.mp4",
+      "bytes": 27963748,
+      "sha256": "7e933632f018dbf2497ad98902f1c78489d458ef0f0a184971ba05c93c6df058",
+      "github_asset_id": 649922336,
+      "server_digest": "sha256:7e933632f018dbf2497ad98902f1c78489d458ef0f0a184971ba05c93c6df058"
+    },
+    "differential_screw_pitch_difference_to_sum_00000042/counterfactual_pitch_difference_to_sum/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-text-free-v4/differential_screw_pitch_difference_to_sum-c003b54deb9397f9fd92b6c3ea4301c5a89c1e94-42-counterfactual.mp4",
+      "bytes": 28030862,
+      "sha256": "01ce70e706dce25c98692c1802b0112f7033849d76f58d4c7203748150cbfa53",
+      "github_asset_id": 649922334,
+      "server_digest": "sha256:01ce70e706dce25c98692c1802b0112f7033849d76f58d4c7203748150cbfa53"
+    },
+    "differential_screw_pitch_difference_to_sum_00000042/counterfactual_pitch_difference_to_sum/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-text-free-v4/differential_screw_pitch_difference_to_sum-c003b54deb9397f9fd92b6c3ea4301c5a89c1e94-42-mask.mp4",
+      "bytes": 2275944,
+      "sha256": "b1b3a76f342c34adf1cee3a76ccee2e61d9ac771943a4d926ac02fddd90b7e89",
+      "github_asset_id": 649922333,
+      "server_digest": "sha256:b1b3a76f342c34adf1cee3a76ccee2e61d9ac771943a4d926ac02fddd90b7e89"
+    },
+    "differential_screw_pitch_difference_to_sum_00000042/counterfactual_pitch_difference_to_sum/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-text-free-v4/differential_screw_pitch_difference_to_sum-c003b54deb9397f9fd92b6c3ea4301c5a89c1e94-42-overlay.mp4",
+      "bytes": 25873269,
+      "sha256": "d400300c19aa11bd562f2ad021f707a5b1865d29b0bac3c3992395965062ab03",
+      "github_asset_id": 649922337,
+      "server_digest": "sha256:d400300c19aa11bd562f2ad021f707a5b1865d29b0bac3c3992395965062ab03"
+    },
+    "differential_screw_pitch_difference_to_sum_00000098/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-text-free-v4/differential_screw_pitch_difference_to_sum-c003b54deb9397f9fd92b6c3ea4301c5a89c1e94-98-true.mp4",
+      "bytes": 34072029,
+      "sha256": "db63ad85711433db1fc2b005c1288814484ede163f768086d287d21575fd58d2",
+      "github_asset_id": 649922339,
+      "server_digest": "sha256:db63ad85711433db1fc2b005c1288814484ede163f768086d287d21575fd58d2"
+    },
+    "differential_screw_pitch_difference_to_sum_00000098/counterfactual_pitch_difference_to_sum/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-text-free-v4/differential_screw_pitch_difference_to_sum-c003b54deb9397f9fd92b6c3ea4301c5a89c1e94-98-counterfactual.mp4",
+      "bytes": 34362442,
+      "sha256": "e4cae1e095fb0bf0054904ce00bb37af4e5f0392d46e2897e31ba392306d2edb",
+      "github_asset_id": 649922495,
+      "server_digest": "sha256:e4cae1e095fb0bf0054904ce00bb37af4e5f0392d46e2897e31ba392306d2edb"
+    },
+    "differential_screw_pitch_difference_to_sum_00000098/counterfactual_pitch_difference_to_sum/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-text-free-v4/differential_screw_pitch_difference_to_sum-c003b54deb9397f9fd92b6c3ea4301c5a89c1e94-98-mask.mp4",
+      "bytes": 2209359,
+      "sha256": "88e09f19ef5c26eea67c237bd8e6417fbcff20d40494ef70d413e998a0077ee2",
+      "github_asset_id": 649923838,
+      "server_digest": "sha256:88e09f19ef5c26eea67c237bd8e6417fbcff20d40494ef70d413e998a0077ee2"
+    },
+    "differential_screw_pitch_difference_to_sum_00000098/counterfactual_pitch_difference_to_sum/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-text-free-v4/differential_screw_pitch_difference_to_sum-c003b54deb9397f9fd92b6c3ea4301c5a89c1e94-98-overlay.mp4",
+      "bytes": 32556255,
+      "sha256": "02b5ff3ad68e86308324d1dd1344bff6dbc78ebfd728390ad2174fdb5000d278",
+      "github_asset_id": 649923964,
+      "server_digest": "sha256:02b5ff3ad68e86308324d1dd1344bff6dbc78ebfd728390ad2174fdb5000d278"
+    }
+  }
+}

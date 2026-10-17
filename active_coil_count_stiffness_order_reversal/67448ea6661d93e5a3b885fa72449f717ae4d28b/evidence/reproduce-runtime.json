@@ -1,0 +1,10 @@
+{
+  "schema_version": "counterfactual-runtime-witness-audit-v1",
+  "pass": true,
+  "generator": "active_coil_count_stiffness_order_reversal",
+  "case_set": "reproduce-seed42",
+  "commit": "67448ea6661d93e5a3b885fa72449f717ae4d28b",
+  "artifact_count": 38,
+  "accepted_case_count": 1,
+  "failures": []
+}

@@ -1,0 +1,61 @@
+{
+  "head_sha": "a9a5fbe3a08a2b74109c4b642730a6bc4064fb85",
+  "files": {
+    "center_of_percussion_support_impulse_creation_00000042/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-text-free-v4/center_of_percussion_support_impulse_creation-a9a5fbe3a08a2b74109c4b642730a6bc4064fb85-42-true.mp4",
+      "bytes": 27436592,
+      "sha256": "697411e74cdf065dbbf0b10e336b37c7050457cb1f827f657194f74e17780de0",
+      "github_asset_id": 649912683,
+      "server_digest": "sha256:697411e74cdf065dbbf0b10e336b37c7050457cb1f827f657194f74e17780de0"
+    },
+    "center_of_percussion_support_impulse_creation_00000042/counterfactual_unsupported_pivot_impulse/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-text-free-v4/center_of_percussion_support_impulse_creation-a9a5fbe3a08a2b74109c4b642730a6bc4064fb85-42-counterfactual.mp4",
+      "bytes": 27439457,
+      "sha256": "b2b527ccfb4a76329147901b8417e86e398b77b4ded75374a9da9d0df84254c7",
+      "github_asset_id": 649912679,
+      "server_digest": "sha256:b2b527ccfb4a76329147901b8417e86e398b77b4ded75374a9da9d0df84254c7"
+    },
+    "center_of_percussion_support_impulse_creation_00000042/counterfactual_unsupported_pivot_impulse/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-text-free-v4/center_of_percussion_support_impulse_creation-a9a5fbe3a08a2b74109c4b642730a6bc4064fb85-42-mask.mp4",
+      "bytes": 2141276,
+      "sha256": "df8b39a280c8e66b289abf2411389f25d35cce62a2b46d84ff86bb3bcfed89fd",
+      "github_asset_id": 649912676,
+      "server_digest": "sha256:df8b39a280c8e66b289abf2411389f25d35cce62a2b46d84ff86bb3bcfed89fd"
+    },
+    "center_of_percussion_support_impulse_creation_00000042/counterfactual_unsupported_pivot_impulse/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-text-free-v4/center_of_percussion_support_impulse_creation-a9a5fbe3a08a2b74109c4b642730a6bc4064fb85-42-overlay.mp4",
+      "bytes": 26459178,
+      "sha256": "6ea0f2553f11c3d8e05545886d8f64a55b06114ca02dd0890d70c8a561f15374",
+      "github_asset_id": 649912677,
+      "server_digest": "sha256:6ea0f2553f11c3d8e05545886d8f64a55b06114ca02dd0890d70c8a561f15374"
+    },
+    "center_of_percussion_support_impulse_creation_00000098/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-text-free-v4/center_of_percussion_support_impulse_creation-a9a5fbe3a08a2b74109c4b642730a6bc4064fb85-98-true.mp4",
+      "bytes": 33576983,
+      "sha256": "61db542f8dcb4baaa1757afc1943ef45ff4f73eb0039cdb47e973886e3d160fa",
+      "github_asset_id": 649912678,
+      "server_digest": "sha256:61db542f8dcb4baaa1757afc1943ef45ff4f73eb0039cdb47e973886e3d160fa"
+    },
+    "center_of_percussion_support_impulse_creation_00000098/counterfactual_unsupported_pivot_impulse/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-text-free-v4/center_of_percussion_support_impulse_creation-a9a5fbe3a08a2b74109c4b642730a6bc4064fb85-98-counterfactual.mp4",
+      "bytes": 33547494,
+      "sha256": "e7321d5287c6ab20ef90a5e52f0de196741461314860876d2a929aa333ac4dfb",
+      "github_asset_id": 649912862,
+      "server_digest": "sha256:e7321d5287c6ab20ef90a5e52f0de196741461314860876d2a929aa333ac4dfb"
+    },
+    "center_of_percussion_support_impulse_creation_00000098/counterfactual_unsupported_pivot_impulse/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-text-free-v4/center_of_percussion_support_impulse_creation-a9a5fbe3a08a2b74109c4b642730a6bc4064fb85-98-mask.mp4",
+      "bytes": 2071256,
+      "sha256": "b5f31c79bd9c550714e376dc4c1aecd130d010f00846a3a07d06b95c56b608b6",
+      "github_asset_id": 649914246,
+      "server_digest": "sha256:b5f31c79bd9c550714e376dc4c1aecd130d010f00846a3a07d06b95c56b608b6"
+    },
+    "center_of_percussion_support_impulse_creation_00000098/counterfactual_unsupported_pivot_impulse/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-mechanics-reviews-20261016/releases/download/native-20261017-text-free-v4/center_of_percussion_support_impulse_creation-a9a5fbe3a08a2b74109c4b642730a6bc4064fb85-98-overlay.mp4",
+      "bytes": 32723507,
+      "sha256": "08ee0081201ee43357e6aee519298215eb4b26c1537bae983f630a9214894931",
+      "github_asset_id": 649914346,
+      "server_digest": "sha256:08ee0081201ee43357e6aee519298215eb4b26c1537bae983f630a9214894931"
+    }
+  }
+}

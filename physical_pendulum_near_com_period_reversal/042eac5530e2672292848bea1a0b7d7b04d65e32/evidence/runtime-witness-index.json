@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "b76ab6fbb934fe1949607b92247b5b70259719d350d3c25e34b393b6169c877e": {
+      "path": "runtime-witness.json",
+      "sha256": "b76ab6fbb934fe1949607b92247b5b70259719d350d3c25e34b393b6169c877e",
+      "generator": "physical_pendulum_near_com_period_reversal",
+      "case_set": "seeds42,98",
+      "source_commit": "042eac5530e2672292848bea1a0b7d7b04d65e32"
+    }
+  },
+  "cases": {
+    "physical_pendulum_near_com_period_reversal_00000042": {
+      "witness_id": "b76ab6fbb934fe1949607b92247b5b70259719d350d3c25e34b393b6169c877e",
+      "metadata_path": "physical_pendulum_near_com_period_reversal_00000042/metadata.json",
+      "metadata_sha256": "63d093a77ec6f2774ba7d40dfea21a60da5c66343e2357ae636892879af00f63"
+    },
+    "physical_pendulum_near_com_period_reversal_00000098": {
+      "witness_id": "b76ab6fbb934fe1949607b92247b5b70259719d350d3c25e34b393b6169c877e",
+      "metadata_path": "physical_pendulum_near_com_period_reversal_00000098/metadata.json",
+      "metadata_sha256": "c30491a1434e996852ba5756f03379ff513501fe1a620b21a4ebf2367cb2ba1f"
+    }
+  },
+  "failures": []
+}

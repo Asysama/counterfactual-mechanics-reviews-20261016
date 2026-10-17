@@ -1,0 +1,499 @@
+{
+  "generator": "differential_screw_pitch_difference_to_sum",
+  "commit": "c003b54deb9397f9fd92b6c3ea4301c5a89c1e94",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct 14 2026, 01:05:33) [Clang 23.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    768,
+    768
+  ],
+  "formal_acceptance": false,
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "pitch_coarse": 0.2973696,
+        "pitch_fine": 0.21824,
+        "turns": 0.9421176470588235,
+        "drive_frames": 62,
+        "axis_z": 1.3056,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "rigid helical-pair kinematics, same-hand differential screw"
+      },
+      "images": {
+        "baseline-true-35.png": "06539578c52ccac89f2053652c1f2d5bb02a854f1ddd7e1674276afb7905db90",
+        "baseline-true-90.png": "3e9fb8935b8abaa4c71e68f54d2e980b88c8330426f2d16436efb6f26d282b34",
+        "baseline-counterfactual-35.png": "24a2a7dd31d4f286cd78a94dd49ae6fb0f160c0d2bb39f218fb594695eec7d63",
+        "baseline-counterfactual-90.png": "3519638fcfea2c9411b0d1fb42690dd69b75cc357728a44b94b05a5cfd3a1d0b"
+      },
+      "metrics": {},
+      "changed_pixels": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 1.0,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "pitch_coarse": 0.22,
+        "pitch_fine": 0.17049999999999998,
+        "turns": 0.9421176470588235,
+        "drive_frames": 62,
+        "axis_z": 1.02,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "rigid helical-pair kinematics, same-hand differential screw"
+      },
+      "images": {
+        "length_low-true-35.png": "e029967ca83347c04f0b6c5f57348b98ec10f314d34081ab558a7dfbea9fe406",
+        "length_low-true-90.png": "baefd6d88b937d0936849327f17c865a017fccfdd690026c7b7b58a25a08e8d2",
+        "length_low-counterfactual-35.png": "546cf05fab08db56dd74f570086317732b9b28dbe9f425b7b47e138cb54623b4",
+        "length_low-counterfactual-90.png": "38aaa34b615c680135d1827d325a829e55961c37630cfe8fe52161a971ec6a21"
+      },
+      "metrics": {
+        "true-35": 4.358974880642361,
+        "true-90": 4.574618304217303,
+        "counterfactual-35": 4.358829074435764,
+        "counterfactual-90": 4.5742543538411455
+      },
+      "changed_pixels": {
+        "true-35": 54763,
+        "true-90": 56762,
+        "counterfactual-35": 54713,
+        "counterfactual-90": 56861
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 1.36,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.36,
+        "pitch_coarse": 0.32074240000000004,
+        "pitch_fine": 0.23188,
+        "turns": 0.9421176470588235,
+        "drive_frames": 62,
+        "axis_z": 1.3872000000000002,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "rigid helical-pair kinematics, same-hand differential screw"
+      },
+      "images": {
+        "length_high-true-35.png": "a318cc0b1257804a399d2681654258610706311171dc6b00aae105efdeee20e1",
+        "length_high-true-90.png": "90a40bf5efd00c43f7e0886f3a5e262b0628ee51ea7b9d34c3e06adaa5ce9e58",
+        "length_high-counterfactual-35.png": "c6380fcc8b24f24a008c5b4dda04bbf326431f0a1148a9f7dac719819695243e",
+        "length_high-counterfactual-90.png": "29aee6de68a1d9ab97994e1ce47ede038942ce0dc96594ea05a3e39553f0ec9d"
+      },
+      "metrics": {
+        "true-35": 0.8968901457609953,
+        "true-90": 0.9704759385850694,
+        "counterfactual-35": 0.8966233995225694,
+        "counterfactual-90": 0.9667607060185185
+      },
+      "changed_pixels": {
+        "true-35": 22910,
+        "true-90": 25424,
+        "counterfactual-35": 22873,
+        "counterfactual-90": 25529
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.85,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "pitch_coarse": 0.2973696,
+        "pitch_fine": 0.21824,
+        "turns": 0.88,
+        "drive_frames": 62,
+        "axis_z": 1.3056,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "rigid helical-pair kinematics, same-hand differential screw"
+      },
+      "images": {
+        "response_low-true-35.png": "95b5689a5723fe701e4a9188d8d82d39d32fb6f5b30307644ebe8e3e4a2f77d7",
+        "response_low-true-90.png": "3fbf3a53b0725efc6039344d39d0f98aa52b535e34c178887eade940ab0c47b9",
+        "response_low-counterfactual-35.png": "b0b132a7b5491080b2f1d6f609978c894f0123ffa5dc5d0af61342c172be193b",
+        "response_low-counterfactual-90.png": "0cf0748b4a128d726937c25aa7bd43d3459109c69bd8555da6d5daa196c49223"
+      },
+      "metrics": {
+        "true-35": 0.03187504521122685,
+        "true-90": 0.22000291612413195,
+        "counterfactual-35": 0.05406923647280092,
+        "counterfactual-90": 0.3783365885416667
+      },
+      "changed_pixels": {
+        "true-35": 6288,
+        "true-90": 9123,
+        "counterfactual-35": 7946,
+        "counterfactual-90": 11153
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 1.12,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "pitch_coarse": 0.2973696,
+        "pitch_fine": 0.21824,
+        "turns": 1.1595294117647061,
+        "drive_frames": 62,
+        "axis_z": 1.3056,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "rigid helical-pair kinematics, same-hand differential screw"
+      },
+      "images": {
+        "response_high-true-35.png": "651884a96e4266f459dc847f547927ad0550c3fe5aed0624894ea216f37e8bd7",
+        "response_high-true-90.png": "6c54ec9bc2745fa50916404e24175b5170f839b8d929a8f4c0baa975e315bae8",
+        "response_high-counterfactual-35.png": "9b0921381ef3cc681852d8fe4bb540613388c59b349cc1eb03c7172507bce4e4",
+        "response_high-counterfactual-90.png": "5497c999e9e407b6246b4607d6d3ea4249bd19d3fbb8e188ccb3697170cc098a"
+      },
+      "metrics": {
+        "true-35": 0.09621570728443286,
+        "true-90": 0.5700790970413773,
+        "counterfactual-35": 0.16546348289207177,
+        "counterfactual-90": 0.9223321985315394
+      },
+      "changed_pixels": {
+        "true-35": 8089,
+        "true-90": 12236,
+        "counterfactual-35": 9318,
+        "counterfactual-90": 15921
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 20,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "pitch_coarse": 0.2973696,
+        "pitch_fine": 0.21824,
+        "turns": 0.9421176470588235,
+        "drive_frames": 62,
+        "axis_z": 1.3056,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "rigid helical-pair kinematics, same-hand differential screw"
+      },
+      "images": {
+        "onset_low-true-35.png": "6de3a77ff2859da548c0cf77c0f91bde5c71dbaecd843ba303a43d5d99a87e20",
+        "onset_low-true-90.png": "16a012d3191747e597171152cd89e74b2374985add7a8b5084a79d2f02d197f3",
+        "onset_low-counterfactual-35.png": "871b9eca5ea7c07a0d5d1950f27aafc318fb5c24a0e36af50e32e3fecd38238e",
+        "onset_low-counterfactual-90.png": "0fb6c09d2d25020b7237acfcc7bd0fc0118cab511a149d39fc757a768a3cb212"
+      },
+      "metrics": {
+        "true-35": 0.18408994321469907,
+        "true-90": 0.0,
+        "counterfactual-35": 0.30951210304542826,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 8975,
+        "true-90": 0,
+        "counterfactual-35": 10510,
+        "counterfactual-90": 0
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 29,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "pitch_coarse": 0.2973696,
+        "pitch_fine": 0.21824,
+        "turns": 0.9421176470588235,
+        "drive_frames": 62,
+        "axis_z": 1.3056,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "rigid helical-pair kinematics, same-hand differential screw"
+      },
+      "images": {
+        "onset_high-true-35.png": "c4a03509ccde5b068a1b4ab0e7ee9b86a8dd8633802b0cd105ad950e1965d3d2",
+        "onset_high-true-90.png": "448d70d0bcf9bb4dedce6440330c73bfc690d2a9daa09b91fed908722a34db89",
+        "onset_high-counterfactual-35.png": "dcf0aa16671981a7a374fea91f17b1e49bd3be1c5144bb9747e36c0579a04a5f",
+        "onset_high-counterfactual-90.png": "4e76517cfa10b3a6ed267139e81583e2ff42b9a9cd1ba8419ee3e3494f64cb45"
+      },
+      "metrics": {
+        "true-35": 0.24732066966869212,
+        "true-90": 0.004037362557870371,
+        "counterfactual-35": 0.40995392975983797,
+        "counterfactual-90": 0.007156937210648148
+      },
+      "changed_pixels": {
+        "true-35": 9436,
+        "true-90": 2667,
+        "counterfactual-35": 11344,
+        "counterfactual-90": 4206
+      }
+    },
+    "depth_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 0.75,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "pitch_coarse": 0.2973696,
+        "pitch_fine": 0.198528,
+        "turns": 0.9421176470588235,
+        "drive_frames": 62,
+        "axis_z": 1.3056,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "rigid helical-pair kinematics, same-hand differential screw"
+      },
+      "images": {
+        "depth_low-true-35.png": "eddfa953fc02c4d3a578f6a14247e06ebfc4730a268cd1d933b66254080f1b78",
+        "depth_low-true-90.png": "8c54949febb8974bef2913fe61691084eff51b31e3fff93da85c2e5633fbc599",
+        "depth_low-counterfactual-35.png": "8ad334655100e385b795b66fe2a5b9ccd2a0ff3818b1f9102205b80e26742082",
+        "depth_low-counterfactual-90.png": "0ab44cc6087ff128b69ea01659bce31b09db2e2b93b16fd33588bfb066863460"
+      },
+      "metrics": {
+        "true-35": 0.07374007613570602,
+        "true-90": 0.18428604691116898,
+        "counterfactual-35": 0.07251202618634259,
+        "counterfactual-90": 0.1859469943576389
+      },
+      "changed_pixels": {
+        "true-35": 6099,
+        "true-90": 7866,
+        "counterfactual-35": 6132,
+        "counterfactual-90": 8047
+      }
+    },
+    "depth_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.11,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "pitch_coarse": 0.2973696,
+        "pitch_fine": 0.22387200000000004,
+        "turns": 0.9421176470588235,
+        "drive_frames": 62,
+        "axis_z": 1.3056,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "rigid helical-pair kinematics, same-hand differential screw"
+      },
+      "images": {
+        "depth_high-true-35.png": "ad400019d4ec88c7528b6cf70d15932ae63eecb1df7ac6acd07ad4f8a60cdaed",
+        "depth_high-true-90.png": "de4a4e3bcba8cb037c4e9f20f1f7204a291a6b7e139e608c26457e23648d1c59",
+        "depth_high-counterfactual-35.png": "2df51a7d397c41fcea28c7b3f132a67648e10e91088dd3b952432860994dbb15",
+        "depth_high-counterfactual-90.png": "108c88569e9761362880a67d422ca6a3b6660ed80a3bdec798563cce07afbddb"
+      },
+      "metrics": {
+        "true-35": 0.05175611707899305,
+        "true-90": 0.0907909252025463,
+        "counterfactual-35": 0.05200647424768518,
+        "counterfactual-90": 0.08981775354456019
+      },
+      "changed_pixels": {
+        "true-35": 4401,
+        "true-90": 6420,
+        "counterfactual-35": 4381,
+        "counterfactual-90": 6479
+      }
+    },
+    "appearance_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 0,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "pitch_coarse": 0.2973696,
+        "pitch_fine": 0.21824,
+        "turns": 0.9421176470588235,
+        "drive_frames": 62,
+        "axis_z": 1.3056,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "rigid helical-pair kinematics, same-hand differential screw"
+      },
+      "images": {
+        "appearance_low-true-35.png": "b478d330356aab951278d1c8e219e5f619ee3cccb7f0337bf539e80adb2f7188",
+        "appearance_low-true-90.png": "84e057d527bf0058da4694085ff36ab84e2497664d1f68904e951b58477a48cc",
+        "appearance_low-counterfactual-35.png": "a5785cc37c6866cf9944df4dcdea822e84e73b04ff6d1c6157d71bdacf6158f2",
+        "appearance_low-counterfactual-90.png": "db5d66032c3145df04b3920712bd1229cfdff09215781a46d30f3ab4fefce058"
+      },
+      "metrics": {
+        "true-35": 0.3224040843822338,
+        "true-90": 0.32305286548755785,
+        "counterfactual-35": 0.32259171097366895,
+        "counterfactual-90": 0.32368751808449076
+      },
+      "changed_pixels": {
+        "true-35": 222963,
+        "true-90": 223214,
+        "counterfactual-35": 222969,
+        "counterfactual-90": 223249
+      }
+    },
+    "appearance_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 9,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "pitch_coarse": 0.2973696,
+        "pitch_fine": 0.21824,
+        "turns": 0.9421176470588235,
+        "drive_frames": 62,
+        "axis_z": 1.3056,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "rigid helical-pair kinematics, same-hand differential screw"
+      },
+      "images": {
+        "appearance_high-true-35.png": "95ed774661b926920ebfdf9d8b20e5af372c17522799fca099617f8134a9b3ac",
+        "appearance_high-true-90.png": "8461958804ffbb170cfa8231f8ca5da125e54b6a51b8ff47f1b58b685bf10a97",
+        "appearance_high-counterfactual-35.png": "1d294bba7f6aeb32b1b604856cc21ab5c4e1cb0d7901943f9b60f8c290b30e22",
+        "appearance_high-counterfactual-90.png": "cbcd377c6db914e90a54ef8200dc43a1a93a19ff5e766e0f798c389cc19a2fb0"
+      },
+      "metrics": {
+        "true-35": 0.1470523410373264,
+        "true-90": 0.1478446677879051,
+        "counterfactual-35": 0.1474422878689236,
+        "counterfactual-90": 0.1519306324146412
+      },
+      "changed_pixels": {
+        "true-35": 22819,
+        "true-90": 22979,
+        "counterfactual-35": 22831,
+        "counterfactual-90": 23209
+      }
+    },
+    "view_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 0,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "pitch_coarse": 0.2973696,
+        "pitch_fine": 0.21824,
+        "turns": 0.9421176470588235,
+        "drive_frames": 62,
+        "axis_z": 1.3056,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "rigid helical-pair kinematics, same-hand differential screw"
+      },
+      "images": {
+        "view_low-true-35.png": "65707e17aea1595847690c94abf3a3f5fd16888fe4699c5ea50f9ca08def19fa",
+        "view_low-true-90.png": "93ec8e29025736505f0e210c14a41318edea521297dfb9e70af2c08e2e7ca180",
+        "view_low-counterfactual-35.png": "5595002a2b9c6a8149fb735eb3b2f3b1cfe273da21475c469b72c1db0e88f6e8",
+        "view_low-counterfactual-90.png": "cc63011ec0211256bf1f850975154ff2c1f021391c08fb98a07e67edc5e074b4"
+      },
+      "metrics": {
+        "true-35": 6.5012026186342595,
+        "true-90": 6.452225296585648,
+        "counterfactual-35": 6.5097085458261,
+        "counterfactual-90": 6.547427142107928
+      },
+      "changed_pixels": {
+        "true-35": 317317,
+        "true-90": 316822,
+        "counterfactual-35": 317295,
+        "counterfactual-90": 316790
+      }
+    },
+    "view_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 9,
+        "gravity": 9.81,
+        "scale": 1.28,
+        "pitch_coarse": 0.2973696,
+        "pitch_fine": 0.21824,
+        "turns": 0.9421176470588235,
+        "drive_frames": 62,
+        "axis_z": 1.3056,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "rigid helical-pair kinematics, same-hand differential screw"
+      },
+      "images": {
+        "view_high-true-35.png": "35ac8dd089df274a63951efea748215a89b1067b79520221b45817acee8ac401",
+        "view_high-true-90.png": "a009cb187c8a961b0ca775438621da878f3973e288fdb993c61bea9e1c84c00f",
+        "view_high-counterfactual-35.png": "df6a275a2456b0c172aefec89465d8c8d39a8be5f342f6b28b992ed8a9d6ac15",
+        "view_high-counterfactual-90.png": "c0f2cb607ebc4f8a88de4d5f367a6f9a9007f63d574d963da37080e14ebc6a41"
+      },
+      "metrics": {
+        "true-35": 7.719393129701968,
+        "true-90": 7.646634702329282,
+        "counterfactual-35": 7.723628291377315,
+        "counterfactual-90": 7.725803516529225
+      },
+      "changed_pixels": {
+        "true-35": 284405,
+        "true-90": 284027,
+        "counterfactual-35": 284369,
+        "counterfactual-90": 284071
+      }
+    }
+  }
+}

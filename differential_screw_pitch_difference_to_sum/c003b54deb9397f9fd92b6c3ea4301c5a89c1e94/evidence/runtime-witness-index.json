@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "30b268a51f6b3825116f43c78a239868786c1a5c2e734ef9dc5ae7a504526125": {
+      "path": "runtime-witness.json",
+      "sha256": "30b268a51f6b3825116f43c78a239868786c1a5c2e734ef9dc5ae7a504526125",
+      "generator": "differential_screw_pitch_difference_to_sum",
+      "case_set": "seeds42,98",
+      "source_commit": "c003b54deb9397f9fd92b6c3ea4301c5a89c1e94"
+    }
+  },
+  "cases": {
+    "differential_screw_pitch_difference_to_sum_00000042": {
+      "witness_id": "30b268a51f6b3825116f43c78a239868786c1a5c2e734ef9dc5ae7a504526125",
+      "metadata_path": "differential_screw_pitch_difference_to_sum_00000042/metadata.json",
+      "metadata_sha256": "2e7582bbb7b0eb938f8192ed45f47169fb38f10f802b9197489096ec6932433b"
+    },
+    "differential_screw_pitch_difference_to_sum_00000098": {
+      "witness_id": "30b268a51f6b3825116f43c78a239868786c1a5c2e734ef9dc5ae7a504526125",
+      "metadata_path": "differential_screw_pitch_difference_to_sum_00000098/metadata.json",
+      "metadata_sha256": "be9ca436d6855b3e646f838fd27d19a912faad4b3fdb7b69c3879b9a9a1e30bc"
+    }
+  },
+  "failures": []
+}

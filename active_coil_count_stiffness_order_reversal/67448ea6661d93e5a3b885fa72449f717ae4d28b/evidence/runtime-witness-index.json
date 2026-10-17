@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "d07025d080828ce4207e515bea877598762fb58e3764a8acc30ada8a4ec7954b": {
+      "path": "runtime-witness.json",
+      "sha256": "d07025d080828ce4207e515bea877598762fb58e3764a8acc30ada8a4ec7954b",
+      "generator": "active_coil_count_stiffness_order_reversal",
+      "case_set": "seeds42,98",
+      "source_commit": "67448ea6661d93e5a3b885fa72449f717ae4d28b"
+    }
+  },
+  "cases": {
+    "active_coil_count_stiffness_order_reversal_00000042": {
+      "witness_id": "d07025d080828ce4207e515bea877598762fb58e3764a8acc30ada8a4ec7954b",
+      "metadata_path": "active_coil_count_stiffness_order_reversal_00000042/metadata.json",
+      "metadata_sha256": "e1c5e85a1edee73091ad594d2ab2340a66ca11425f679da38c2e153fa5ae7949"
+    },
+    "active_coil_count_stiffness_order_reversal_00000098": {
+      "witness_id": "d07025d080828ce4207e515bea877598762fb58e3764a8acc30ada8a4ec7954b",
+      "metadata_path": "active_coil_count_stiffness_order_reversal_00000098/metadata.json",
+      "metadata_sha256": "6629330023e38ada84e33e7b3e575c865adad8e841f5ef6b5da4feb594231d0d"
+    }
+  },
+  "failures": []
+}

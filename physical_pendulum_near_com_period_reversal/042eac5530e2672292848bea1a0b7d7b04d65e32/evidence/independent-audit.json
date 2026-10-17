@@ -1,0 +1,102 @@
+{
+  "head_sha": "042eac5530e2672292848bea1a0b7d7b04d65e32",
+  "cases": [
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000042",
+      "head_sha": "042eac5530e2672292848bea1a0b7d7b04d65e32",
+      "status": "PASS",
+      "frames": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "first_changed_frame": 24,
+      "mask_start_frame": 24,
+      "evidence_frame": 39,
+      "mask_area_min_active": 56228,
+      "mask_area_max": 60561,
+      "mechanics": {
+        "true_period_seconds": [
+          1.898989608338464,
+          2.583305420290195
+        ],
+        "near_cf_period_seconds": 1.2916527101450974,
+        "first_crossing_frames": [
+          35,
+          39,
+          31
+        ],
+        "true_energy_error": 1.295075158225245e-13
+      },
+      "formal_case_diversity": null,
+      "files": {
+        "true/video.mp4": {
+          "bytes": 15207250,
+          "sha256": "ee90b32892f5f3e74e9920aec5740bc6e1c427bab74636f15c02acc45d40a7a5"
+        },
+        "counterfactual_near_com_restoring_torque_gain/video.mp4": {
+          "bytes": 15195605,
+          "sha256": "505e2a9a19f972a5d91647fee0daa8aadfb160b8c199b76deaaef1344968d3e7"
+        },
+        "counterfactual_near_com_restoring_torque_gain/mask.mp4": {
+          "bytes": 2412847,
+          "sha256": "1867e3807fb053675676f511df76ec4facdfdd7c4198f33a3356133b313d0c3c"
+        },
+        "counterfactual_near_com_restoring_torque_gain/mask_overlay.mp4": {
+          "bytes": 14620429,
+          "sha256": "d492a65126027e5368649606a23b5fda835bc1d83ed67b6e4c8f90e4601e798b"
+        }
+      }
+    },
+    {
+      "case_id": "physical_pendulum_near_com_period_reversal_00000098",
+      "head_sha": "042eac5530e2672292848bea1a0b7d7b04d65e32",
+      "status": "PASS",
+      "frames": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "first_changed_frame": 28,
+      "mask_start_frame": 28,
+      "evidence_frame": 41,
+      "mask_area_min_active": 39771,
+      "mask_area_max": 43950,
+      "mechanics": {
+        "true_period_seconds": [
+          1.7126769172983443,
+          2.327897392831452
+        ],
+        "near_cf_period_seconds": 1.163948696415726,
+        "first_crossing_frames": [
+          38,
+          41,
+          34
+        ],
+        "true_energy_error": 2.772504448245172e-13
+      },
+      "formal_case_diversity": {
+        "mean_abs_difference": 8.559847513834635,
+        "changed_fraction": 0.4344940185546875
+      },
+      "files": {
+        "true/video.mp4": {
+          "bytes": 18578754,
+          "sha256": "3d780afc1cef42bf2f59708a8a1cf9645aa501506b7caf2dd416e1f0ec7d82f5"
+        },
+        "counterfactual_near_com_restoring_torque_gain/video.mp4": {
+          "bytes": 18556959,
+          "sha256": "f99f3b54fa068c7e0bdb308222de9126b65fd86b3066c5fef591d53f1ec784e9"
+        },
+        "counterfactual_near_com_restoring_torque_gain/mask.mp4": {
+          "bytes": 2432389,
+          "sha256": "c67f3cf94a03ae76e0be9def7500ce166e8b1d8a90d980b1c3074d26b705e3c2"
+        },
+        "counterfactual_near_com_restoring_torque_gain/mask_overlay.mp4": {
+          "bytes": 18072537,
+          "sha256": "0980064c94704eadd503e401564cb585a8af33a71297140b6a143f6adcd82c6f"
+        }
+      }
+    }
+  ]
+}

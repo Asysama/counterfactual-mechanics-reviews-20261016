@@ -1,0 +1,22 @@
+{
+  "counterfactual_near_com_restoring_torque_gain/mask_overlay.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 0.0,
+    "max_frame_mean": 0.0
+  },
+  "counterfactual_near_com_restoring_torque_gain/mask.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 0.0,
+    "max_frame_mean": 0.0
+  },
+  "counterfactual_near_com_restoring_torque_gain/video.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 0.0,
+    "max_frame_mean": 0.0
+  },
+  "true/video.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 0.0,
+    "max_frame_mean": 0.0
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "head_sha": "67448ea6661d93e5a3b885fa72449f717ae4d28b",
+  "cases": [
+    {
+      "case_id": "active_coil_count_stiffness_order_reversal_00000042",
+      "head_sha": "67448ea6661d93e5a3b885fa72449f717ae4d28b",
+      "status": "PASS",
+      "frames": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "first_changed_frame": 24,
+      "mask_start_frame": 24,
+      "evidence_frame": 50,
+      "mask_area_min_active": 11249,
+      "mask_area_max": 11434,
+      "mechanics": {
+        "true_extension_ratio": 0.5,
+        "counterfactual_extension_ratio": 2.0,
+        "full_stiffness": 56.91461834271604
+      },
+      "formal_case_diversity": null,
+      "files": {
+        "true/video.mp4": {
+          "bytes": 36689199,
+          "sha256": "48a27056cb1ee7c41f67da63d2fca0160452052418418ac17522ac77be393778"
+        },
+        "counterfactual_clamped_active_coil_compliance_reversal/video.mp4": {
+          "bytes": 36630620,
+          "sha256": "fcecb8a0f4d4148e5dd8b012876d4bbda0f319d7ff9189965de13ebd5073f313"
+        },
+        "counterfactual_clamped_active_coil_compliance_reversal/mask.mp4": {
+          "bytes": 2863723,
+          "sha256": "fc92b95f16d2ed78f97937cd830b4bb4cc7e56783f22f2be24222a1f14e8bc3a"
+        },
+        "counterfactual_clamped_active_coil_compliance_reversal/mask_overlay.mp4": {
+          "bytes": 35461492,
+          "sha256": "d01110ba640205e9c54b8c62dff15bd7ec90809579720b01a79ec4c140b96eeb"
+        }
+      }
+    },
+    {
+      "case_id": "active_coil_count_stiffness_order_reversal_00000098",
+      "head_sha": "67448ea6661d93e5a3b885fa72449f717ae4d28b",
+      "status": "PASS",
+      "frames": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "first_changed_frame": 28,
+      "mask_start_frame": 28,
+      "evidence_frame": 37,
+      "mask_area_min_active": 8765,
+      "mask_area_max": 9807,
+      "mechanics": {
+        "true_extension_ratio": 0.5,
+        "counterfactual_extension_ratio": 2.0,
+        "full_stiffness": 12.999999999999993
+      },
+      "formal_case_diversity": {
+        "mean_abs_difference": 11.300856272379557,
+        "changed_fraction": 0.4757041931152344
+      },
+      "files": {
+        "true/video.mp4": {
+          "bytes": 38450541,
+          "sha256": "2929fe572a407f8d60d1dfdc36fedbee1c63968e14f9cc423b650e8ca2b4f6e0"
+        },
+        "counterfactual_clamped_active_coil_compliance_reversal/video.mp4": {
+          "bytes": 38388256,
+          "sha256": "b70e56c256516a4e8cffb4776b65c947647a2ce6660d3080095b14875abd2e01"
+        },
+        "counterfactual_clamped_active_coil_compliance_reversal/mask.mp4": {
+          "bytes": 3270892,
+          "sha256": "62f3c6f56843e892db88427a7ded961630671502750ceff952528ed75715a321"
+        },
+        "counterfactual_clamped_active_coil_compliance_reversal/mask_overlay.mp4": {
+          "bytes": 37539225,
+          "sha256": "31c655d75ffe52fb88ad41bbec573c0519a573ca5b63af47ebc78a3296455ee4"
+        }
+      }
+    }
+  ]
+}

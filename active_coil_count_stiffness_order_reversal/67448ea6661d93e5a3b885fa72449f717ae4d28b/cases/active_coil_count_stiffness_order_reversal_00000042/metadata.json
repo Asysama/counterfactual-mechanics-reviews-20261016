@@ -1,0 +1,145 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      0.0,
+      0.0,
+      1.625599980354309
+    ],
+    "pos": [
+      -0.26126110553741455,
+      -4.992000102996826,
+      3.5225601196289062
+    ],
+    "projection": "perspective"
+  },
+  "category": "active_coil_count",
+  "descriptions": {
+    "counterfactual": "Two identical ten-turn helical springs are fixed to a stand. A rigid grounded collar additionally clamps the midpoint of the right spring, leaving only its lower five turns active. Two force-controlled actuators gradually pull the lower ends downward with equal added force; their gauges rise together and then hold steady. The right spring anomalously becomes more compliant despite having fewer active turns: its five active turns extend farther than the ten active turns of the left spring under the same added force. Its upper half stays fixed.",
+    "true": "Two identical ten-turn helical springs are fixed to a stand. A rigid grounded collar additionally clamps the midpoint of the right spring, leaving only its lower five turns active. Two force-controlled actuators gradually pull the lower ends downward with equal added force; their gauges rise together and then hold steady. The right spring is stiffer: its five active turns extend less than the ten active turns of the left spring. The upper half of the clamped spring stays fixed."
+  },
+  "evidence_frame": 50,
+  "first_changed_frame": 24,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench analytical replay",
+    "git": "67448ea6661d93e5a3b885fa72449f717ae4d28b",
+    "source_hashes": {
+      "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "engine/geometry.py": "8d2a95ec55da0d0a8ec54a67a16638e678ad8e36a87a13590a39921dbba57664",
+      "engine/media.py": "eb65201aeb09d2dacb9be7f19e5cab5b382a3968d40f00d72a4ef4be9de99114",
+      "engine/operators.py": "16568805e50c3163bdff20d54cc91eeb554e19302a9cad3e5b4e39909ada03a8",
+      "engine/run.py": "ed721f01edb227282f57ba9452ce7887a91f818787bceb9444e4f23e62e9975a",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "42f7009f24702e3d02cec8d3694c66d5273aa0ef2fc61db2bf10e4be3c78cd36",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "fd02116272efe5dd42e1a5478a8ce28965d1d056443677c1b25c60ba45536992",
+      "examples/reproduce.py": "fd8e158ec5093b718b3a9552d4c01b88d62ab38634df6f1af341673f909f2f69",
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/helpers.py": "dfdce3102c1c57463c2abfdfaec88af5d391ab192fa1517db22bd6222bd4b11b",
+      "src/phenomenon.py": "1c9a1ff6c759cfd0084237eefae2d8a4a6e5a2ac09b4f97b16f7f112783558a7",
+      "src/scaling.py": "a54f13b346bfbf9c66d09df76139130eb357cc3dc58be126c97ada7c4b6dcfd6",
+      "src/violation.py": "b1294bd81f1bb48e9698783b407b3e00920f272774e0a12f2e7d6ff4c4ec06df",
+      "tests/test_physics.py": "ea8cefcd3cfab8bf785c6093ffd4ec610a12f77d1f51f7e8f518249dd56e72dc"
+    }
+  },
+  "intervention_frame": 24,
+  "mask_end_frame": 120,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "target_entities": [
+      "clamped_active_coils"
+    ],
+    "target_ontology": [
+      "clamped_active_coils"
+    ],
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 24,
+  "onset_frame": 24,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_clamped_active_coil_compliance_reversal/mask.mp4",
+      "mask_overlay": "counterfactual_clamped_active_coil_compliance_reversal/mask_overlay.mp4",
+      "prompt": "counterfactual_clamped_active_coil_compliance_reversal/prompt.txt",
+      "trajectory": "counterfactual_clamped_active_coil_compliance_reversal/trajectory.npz",
+      "video": "counterfactual_clamped_active_coil_compliance_reversal/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "active_coil_count_stiffness_order_reversal",
+  "phenomenon_data": {
+    "scene_params": {
+      "active_turns": 5,
+      "appearance": 3,
+      "clamped_stiffness": 113.82923668543208,
+      "coil_diameter": 0.256,
+      "depth": 1.03,
+      "force_peak": 5.358079999999999,
+      "full_stiffness": 56.91461834271604,
+      "full_turns": 10,
+      "gravity": 9.81,
+      "initial_bottom": 1.7919999999999998,
+      "length": 1.28,
+      "model": "quasistatic incremental close-coiled spring compliance; pre-equilibrated self-weight",
+      "onset": 23,
+      "ramp_frames": 46,
+      "response": 0.9099999999999999,
+      "scale": 1.28,
+      "shear_modulus": 800000000.0,
+      "solver_steps_per_frame": 1,
+      "spring_length": 1.088,
+      "time_scale": 1.0,
+      "top_z": 2.88,
+      "view": 4,
+      "wire_diameter": 0.017578666666666666
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "Does clamping half the spring reduce its extension under equal added force?",
+        "Does the clamped spring instead extend farther than the unclamped spring?"
+      ],
+      "scoring": {
+        "correct_if_true": [
+          "the five active turns extend half as far as the ten active turns"
+        ],
+        "violation_if_true": [
+          "the five active turns extend twice as far as the ten active turns"
+        ]
+      },
+      "violation_types": [
+        "clamped_active_coil_compliance_reversal"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 42,
+  "task_id": "active_coil_count_stiffness_order_reversal_00000042",
+  "timebase": {
+    "internal_substeps": 1,
+    "outer_steps_per_recorded_frame": 1,
+    "physical_dt": 0.041666666666666664,
+    "physical_seconds_per_video_second": 1.0,
+    "solver": "quasistatic incremental close-coiled spring compliance; pre-equilibrated self-weight",
+    "source_dt": 0.041666666666666664
+  },
+  "violation_type": "clamped_active_coil_compliance_reversal"
+}
