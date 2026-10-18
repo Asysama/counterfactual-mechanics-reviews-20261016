@@ -4,8 +4,8 @@
     "sha256": "458900c27faedcbd62c19b331ae7c44daadb8dad48b7c62218269409da72972c"
   },
   "application.json": {
-    "bytes": 1015,
-    "sha256": "7d9caf4505a5f4c8f1016e9bf41c0f972026c3172ceb09d777a1090732ee9605"
+    "bytes": 1085,
+    "sha256": "95b92fbe4e2f7aee7b6590c694f5c6f8216bea6a717b955109ab8bb301fc0aac"
   },
   "cases/physical_pendulum_near_com_period_reversal_00000042/browser-derivatives.json": {
     "bytes": 769,
@@ -171,6 +171,14 @@
     "bytes": 20220,
     "sha256": "85fbed50d9d7c0edfb687200e79655c80b18484ac84441508c56539830441598"
   },
+  "evidence/2026-10-18_browser-playback.json": {
+    "bytes": 7210,
+    "sha256": "0fc7bbe611b3664ee29d5e180731b2a26cfc04a81c7369abda42f9e8ef2170f5"
+  },
+  "evidence/2026-10-18_browser-seek.png": {
+    "bytes": 424561,
+    "sha256": "bfd7834d7ad3422dac2b7874e94a231eb56318255944749d0908bf978ed41a55"
+  },
   "evidence/accepted.jsonl": {
     "bytes": 332,
     "sha256": "8f50bb21a5445beca13d2b8646318c47f090a0b8a9e269271e61c65d3442e31d"
@@ -236,15 +244,15 @@
     "sha256": "3b47581e7c535dff89573818cce83a5146d1b4e462baa7a6612c990904cc7b89"
   },
   "index.html": {
-    "bytes": 15800,
-    "sha256": "ae261608d54c27a9372bf4027c3ee087bedb0f12788fd6e1cd4cf1810f34c720"
+    "bytes": 16069,
+    "sha256": "6f69726f1a61c948f10b9c2ae0dfdee35f7b1e7d6e4dd4335361116f14642eb7"
   },
   "native-media.json": {
     "bytes": 4783,
     "sha256": "e238236dec3d79384ba5faab21b5436490d61b2147baed00e375fc694dea43b1"
   },
   "review-report.md": {
-    "bytes": 5536,
-    "sha256": "8af3530fb8cd7c40f5a2cdf0211383224268c4963fb4310edca551af241e9bfc"
+    "bytes": 5669,
+    "sha256": "8cd5e399f600c61a7507160640dfb8b112e0c43a16b5a3cf8d6b7c359ae14053"
   }
 }

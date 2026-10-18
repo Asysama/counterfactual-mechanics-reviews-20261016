@@ -3,6 +3,6 @@
   "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/701",
   "head_sha": "bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b",
   "review_url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b/index.html",
-  "note": "Visibility strengthened: calibrated spring stroke and threefold counterfactual compliance; doubled percussion support impulse. No floating scene text. Two native 2048-square, 24fps, 120-frame cases, independent mechanics/decoded checks, visual inspection, runtime witnesses, reproduction, 100000 static profiles, rendered axes and physical corners verified. All public video URLs checked and all 16 browser derivatives decoded successfully. Hosted browser playback and seeking remain NOT_VERIFIED because the browser connection is unavailable. This is a draft; self-check is not complete. User review pending; no Sara form opened or submitted.",
-  "self_check_complete": false
+  "note": "夹住一半活动圈数后，True 伸长减小，CF 伸长变为自由弹簧的三倍。 当前完整 SHA 的 seed42/98 两例已按 review-counterfactual-generator 完成贡献者自检 PASS：原生2048×2048、24fps、120帧；独立物理、几何、逐帧配对、二值遮罩、红色叠加、运行见证及复现检查通过。100000静态配方、六轴渲染及16物理边界组合检查通过，不代表已渲染十万例。全部8路1024浏览副本已在Chrome完整播放至5秒并定位至4秒，页面提供全部正式原件。公开材料与PR版本一致，无悬空文字。物理为已声明的约化模型，Blender用于渲染。请Sara独立审核。",
+  "self_check_complete": true
 }

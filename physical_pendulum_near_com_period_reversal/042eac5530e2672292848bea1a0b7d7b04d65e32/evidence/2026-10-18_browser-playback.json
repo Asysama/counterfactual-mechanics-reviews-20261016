@@ -1,0 +1,136 @@
+{
+  "status": "PASS",
+  "generator_name": "physical_pendulum_near_com_period_reversal",
+  "head_sha": "042eac5530e2672292848bea1a0b7d7b04d65e32",
+  "observations": [
+    {
+      "generator": "physical_pendulum_near_com_period_reversal",
+      "phase": "completed",
+      "at": "2026-10-18T05:55:27.788Z",
+      "streams": [
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/042eac5530e2672292848bea1a0b7d7b04d65e32/cases/physical_pendulum_near_com_period_reversal_00000042/true/video_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/042eac5530e2672292848bea1a0b7d7b04d65e32/cases/physical_pendulum_near_com_period_reversal_00000042/counterfactual_near_com_restoring_torque_gain/video_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/042eac5530e2672292848bea1a0b7d7b04d65e32/cases/physical_pendulum_near_com_period_reversal_00000042/counterfactual_near_com_restoring_torque_gain/mask_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/042eac5530e2672292848bea1a0b7d7b04d65e32/cases/physical_pendulum_near_com_period_reversal_00000042/counterfactual_near_com_restoring_torque_gain/mask_overlay_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/042eac5530e2672292848bea1a0b7d7b04d65e32/cases/physical_pendulum_near_com_period_reversal_00000098/true/video_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/042eac5530e2672292848bea1a0b7d7b04d65e32/cases/physical_pendulum_near_com_period_reversal_00000098/counterfactual_near_com_restoring_torque_gain/video_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/042eac5530e2672292848bea1a0b7d7b04d65e32/cases/physical_pendulum_near_com_period_reversal_00000098/counterfactual_near_com_restoring_torque_gain/mask_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/042eac5530e2672292848bea1a0b7d7b04d65e32/cases/physical_pendulum_near_com_period_reversal_00000098/counterfactual_near_com_restoring_torque_gain/mask_overlay_browser.mp4",
+          "time": 5
+        }
+      ]
+    },
+    {
+      "generator": "physical_pendulum_near_com_period_reversal",
+      "phase": "seek4",
+      "at": "2026-10-18T05:55:28.341Z",
+      "streams": [
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/042eac5530e2672292848bea1a0b7d7b04d65e32/cases/physical_pendulum_near_com_period_reversal_00000042/true/video_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/042eac5530e2672292848bea1a0b7d7b04d65e32/cases/physical_pendulum_near_com_period_reversal_00000042/counterfactual_near_com_restoring_torque_gain/video_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/042eac5530e2672292848bea1a0b7d7b04d65e32/cases/physical_pendulum_near_com_period_reversal_00000042/counterfactual_near_com_restoring_torque_gain/mask_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/042eac5530e2672292848bea1a0b7d7b04d65e32/cases/physical_pendulum_near_com_period_reversal_00000042/counterfactual_near_com_restoring_torque_gain/mask_overlay_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/042eac5530e2672292848bea1a0b7d7b04d65e32/cases/physical_pendulum_near_com_period_reversal_00000098/true/video_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/042eac5530e2672292848bea1a0b7d7b04d65e32/cases/physical_pendulum_near_com_period_reversal_00000098/counterfactual_near_com_restoring_torque_gain/video_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/042eac5530e2672292848bea1a0b7d7b04d65e32/cases/physical_pendulum_near_com_period_reversal_00000098/counterfactual_near_com_restoring_torque_gain/mask_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/physical_pendulum_near_com_period_reversal/042eac5530e2672292848bea1a0b7d7b04d65e32/cases/physical_pendulum_near_com_period_reversal_00000098/counterfactual_near_com_restoring_torque_gain/mask_overlay_browser.mp4",
+          "time": 4
+        }
+      ]
+    }
+  ],
+  "browser": "Chrome, connected existing user profile",
+  "visual_review": "Both seeds: normal scene colors, white-on-black target mask, red target overlay, visible frames after seeking. Initial network buffering occurred; all streams completed.",
+  "screenshot": "2026-10-18_browser-seek.png"
+}

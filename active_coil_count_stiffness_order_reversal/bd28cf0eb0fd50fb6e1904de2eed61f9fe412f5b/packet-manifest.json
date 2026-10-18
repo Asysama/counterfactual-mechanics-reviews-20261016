@@ -4,8 +4,8 @@
     "sha256": "d8808d4828fa415c2966725b979272007677f715c918c26aba499d1c97dfaf81"
   },
   "application.json": {
-    "bytes": 1070,
-    "sha256": "1bd19f9b5c85ba2a38ae7b2ffdff78ef7c2a4b519ddc571831470c1f179a6a37"
+    "bytes": 1102,
+    "sha256": "2b128a5694cb9c5c4c70146a6f71ebc4558c0c3a694997ce0aa5381c72d70bb9"
   },
   "cases/active_coil_count_stiffness_order_reversal_00000042/browser-derivatives.json": {
     "bytes": 796,
@@ -179,6 +179,14 @@
     "bytes": 6930,
     "sha256": "4ee49a99bc944a7d6138b0ad81828fc2765040f783ab323ccdfa523a94cc84c8"
   },
+  "evidence/2026-10-18_browser-playback.json": {
+    "bytes": 7318,
+    "sha256": "5350a3ce9393a2a141a0e0812ce2b7282e2541e4569b046389ff966bf12baba3"
+  },
+  "evidence/2026-10-18_browser-seek.png": {
+    "bytes": 478470,
+    "sha256": "8aa59a2f9ea8c54832f8ef50edadec2799912319f5b8f6c73423cb31ea7bf432"
+  },
   "evidence/accepted.jsonl": {
     "bytes": 332,
     "sha256": "ca46340526177474cb6db05f9ea5bf40e20617344cfd1e39a967b7294a0f4dc6"
@@ -244,15 +252,15 @@
     "sha256": "a0ba7f2fb96adfb2c2564a1053a85160f60c5f008ba0c8c06a58a8cb23d1fc2b"
   },
   "index.html": {
-    "bytes": 16217,
-    "sha256": "3183ee82ff181b3befa3b135f0c56b34aaa793236a2940dfa2299497590794e2"
+    "bytes": 16486,
+    "sha256": "3b8608b2c391cf87e045e13af8baa902afdff89851017c07e7972f9227cdcd47"
   },
   "native-media.json": {
     "bytes": 4837,
     "sha256": "b1e15b4f5452c836650ae8a98b5b914215f338aec5f96b3a18c53f33d703de91"
   },
   "review-report.md": {
-    "bytes": 5789,
-    "sha256": "a7b66e061faf1894a38bc4ed4fd7514533959fe6260b7ce0c0af96f8b06e8333"
+    "bytes": 5922,
+    "sha256": "47ab26127ffab3e895ad57c7bd18d28ab7f11e34c6599cbfe111d46051f713c1"
   }
 }

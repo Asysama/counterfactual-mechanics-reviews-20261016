@@ -1,0 +1,136 @@
+{
+  "status": "PASS",
+  "generator_name": "active_coil_count_stiffness_order_reversal",
+  "head_sha": "bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b",
+  "observations": [
+    {
+      "generator": "active_coil_count_stiffness_order_reversal",
+      "phase": "completed",
+      "at": "2026-10-18T05:53:07.157Z",
+      "streams": [
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b/cases/active_coil_count_stiffness_order_reversal_00000042/true/video_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b/cases/active_coil_count_stiffness_order_reversal_00000042/counterfactual_clamped_active_coil_compliance_reversal/video_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b/cases/active_coil_count_stiffness_order_reversal_00000042/counterfactual_clamped_active_coil_compliance_reversal/mask_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b/cases/active_coil_count_stiffness_order_reversal_00000042/counterfactual_clamped_active_coil_compliance_reversal/mask_overlay_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b/cases/active_coil_count_stiffness_order_reversal_00000098/true/video_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b/cases/active_coil_count_stiffness_order_reversal_00000098/counterfactual_clamped_active_coil_compliance_reversal/video_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b/cases/active_coil_count_stiffness_order_reversal_00000098/counterfactual_clamped_active_coil_compliance_reversal/mask_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b/cases/active_coil_count_stiffness_order_reversal_00000098/counterfactual_clamped_active_coil_compliance_reversal/mask_overlay_browser.mp4",
+          "time": 5
+        }
+      ]
+    },
+    {
+      "generator": "active_coil_count_stiffness_order_reversal",
+      "phase": "seek4",
+      "at": "2026-10-18T05:53:13.141Z",
+      "streams": [
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b/cases/active_coil_count_stiffness_order_reversal_00000042/true/video_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b/cases/active_coil_count_stiffness_order_reversal_00000042/counterfactual_clamped_active_coil_compliance_reversal/video_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b/cases/active_coil_count_stiffness_order_reversal_00000042/counterfactual_clamped_active_coil_compliance_reversal/mask_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b/cases/active_coil_count_stiffness_order_reversal_00000042/counterfactual_clamped_active_coil_compliance_reversal/mask_overlay_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b/cases/active_coil_count_stiffness_order_reversal_00000098/true/video_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b/cases/active_coil_count_stiffness_order_reversal_00000098/counterfactual_clamped_active_coil_compliance_reversal/video_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b/cases/active_coil_count_stiffness_order_reversal_00000098/counterfactual_clamped_active_coil_compliance_reversal/mask_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/active_coil_count_stiffness_order_reversal/bd28cf0eb0fd50fb6e1904de2eed61f9fe412f5b/cases/active_coil_count_stiffness_order_reversal_00000098/counterfactual_clamped_active_coil_compliance_reversal/mask_overlay_browser.mp4",
+          "time": 4
+        }
+      ]
+    }
+  ],
+  "browser": "Chrome, connected existing user profile",
+  "visual_review": "Both seeds: normal scene colors, white-on-black target mask, red target overlay, visible frames after seeking. Initial network buffering occurred; all streams completed.",
+  "screenshot": "2026-10-18_browser-seek.png"
+}

@@ -1,0 +1,136 @@
+{
+  "status": "PASS",
+  "generator_name": "differential_screw_pitch_difference_to_sum",
+  "head_sha": "c003b54deb9397f9fd92b6c3ea4301c5a89c1e94",
+  "observations": [
+    {
+      "generator": "differential_screw_pitch_difference_to_sum",
+      "phase": "completed",
+      "at": "2026-10-18T05:54:59.793Z",
+      "streams": [
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/c003b54deb9397f9fd92b6c3ea4301c5a89c1e94/cases/differential_screw_pitch_difference_to_sum_00000042/true/video_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/c003b54deb9397f9fd92b6c3ea4301c5a89c1e94/cases/differential_screw_pitch_difference_to_sum_00000042/counterfactual_pitch_difference_to_sum/video_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/c003b54deb9397f9fd92b6c3ea4301c5a89c1e94/cases/differential_screw_pitch_difference_to_sum_00000042/counterfactual_pitch_difference_to_sum/mask_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/c003b54deb9397f9fd92b6c3ea4301c5a89c1e94/cases/differential_screw_pitch_difference_to_sum_00000042/counterfactual_pitch_difference_to_sum/mask_overlay_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/c003b54deb9397f9fd92b6c3ea4301c5a89c1e94/cases/differential_screw_pitch_difference_to_sum_00000098/true/video_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/c003b54deb9397f9fd92b6c3ea4301c5a89c1e94/cases/differential_screw_pitch_difference_to_sum_00000098/counterfactual_pitch_difference_to_sum/video_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/c003b54deb9397f9fd92b6c3ea4301c5a89c1e94/cases/differential_screw_pitch_difference_to_sum_00000098/counterfactual_pitch_difference_to_sum/mask_browser.mp4",
+          "time": 5
+        },
+        {
+          "duration": 5,
+          "ended": true,
+          "error": null,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/c003b54deb9397f9fd92b6c3ea4301c5a89c1e94/cases/differential_screw_pitch_difference_to_sum_00000098/counterfactual_pitch_difference_to_sum/mask_overlay_browser.mp4",
+          "time": 5
+        }
+      ]
+    },
+    {
+      "generator": "differential_screw_pitch_difference_to_sum",
+      "phase": "seek4",
+      "at": "2026-10-18T05:55:00.357Z",
+      "streams": [
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/c003b54deb9397f9fd92b6c3ea4301c5a89c1e94/cases/differential_screw_pitch_difference_to_sum_00000042/true/video_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/c003b54deb9397f9fd92b6c3ea4301c5a89c1e94/cases/differential_screw_pitch_difference_to_sum_00000042/counterfactual_pitch_difference_to_sum/video_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/c003b54deb9397f9fd92b6c3ea4301c5a89c1e94/cases/differential_screw_pitch_difference_to_sum_00000042/counterfactual_pitch_difference_to_sum/mask_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/c003b54deb9397f9fd92b6c3ea4301c5a89c1e94/cases/differential_screw_pitch_difference_to_sum_00000042/counterfactual_pitch_difference_to_sum/mask_overlay_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/c003b54deb9397f9fd92b6c3ea4301c5a89c1e94/cases/differential_screw_pitch_difference_to_sum_00000098/true/video_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/c003b54deb9397f9fd92b6c3ea4301c5a89c1e94/cases/differential_screw_pitch_difference_to_sum_00000098/counterfactual_pitch_difference_to_sum/video_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/c003b54deb9397f9fd92b6c3ea4301c5a89c1e94/cases/differential_screw_pitch_difference_to_sum_00000098/counterfactual_pitch_difference_to_sum/mask_browser.mp4",
+          "time": 4
+        },
+        {
+          "error": null,
+          "paused": true,
+          "ready": 4,
+          "src": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/differential_screw_pitch_difference_to_sum/c003b54deb9397f9fd92b6c3ea4301c5a89c1e94/cases/differential_screw_pitch_difference_to_sum_00000098/counterfactual_pitch_difference_to_sum/mask_overlay_browser.mp4",
+          "time": 4
+        }
+      ]
+    }
+  ],
+  "browser": "Chrome, connected existing user profile",
+  "visual_review": "Both seeds: normal scene colors, white-on-black target mask, red target overlay, visible frames after seeking. Initial network buffering occurred; all streams completed.",
+  "screenshot": "2026-10-18_browser-seek.png"
+}

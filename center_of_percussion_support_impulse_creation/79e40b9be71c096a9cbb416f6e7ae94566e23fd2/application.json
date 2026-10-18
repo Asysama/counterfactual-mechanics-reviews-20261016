@@ -3,6 +3,6 @@
   "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/702",
   "head_sha": "79e40b9be71c096a9cbb416f6e7ae94566e23fd2",
   "review_url": "https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/79e40b9be71c096a9cbb416f6e7ae94566e23fd2/index.html",
-  "note": "Ball starts from rest under a visible passive spring pushrod, coasts to impact and returns toward a compression-damped buffer. Stronger support impulse retained. No floating scene text. Two native 2048-square, 24fps, 120-frame cases, independent mechanics/decoded checks, visual inspection, runtime witnesses, reproduction, 100000 static profiles, rendered axes and physical corners verified. All public video URLs checked and all 8 browser derivatives decoded successfully. Hosted browser playback and seeking remain NOT_VERIFIED because the browser connection is unavailable. This is a draft; self-check is not complete. User review pending; no Sara form opened or submitted.",
-  "self_check_complete": false
+  "note": "小球由可见弹簧推杆从静止发射，滑行碰撞并回弹；CF 仅增加打击中心碰撞时不应出现的支点冲量。 当前完整 SHA 的 seed42/98 两例已按 review-counterfactual-generator 完成贡献者自检 PASS：原生2048×2048、24fps、120帧；独立物理、几何、逐帧配对、二值遮罩、红色叠加、运行见证及复现检查通过。100000静态配方、六轴渲染及16物理边界组合检查通过，不代表已渲染十万例。全部8路1024浏览副本已在Chrome完整播放至5秒并定位至4秒，页面提供全部正式原件。公开材料与PR版本一致，无悬空文字。物理为已声明的约化模型，Blender用于渲染。请Sara独立审核。",
+  "self_check_complete": true
 }

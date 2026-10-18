@@ -1,17 +1,17 @@
 # Generator review — PR #702
 
-Decision: NOT VERIFIED
+Decision: PASS (contributor self-check; Sara review pending)
 Generator correctness: PASS
 Reviewed exact head: 79e40b9be71c096a9cbb416f6e7ae94566e23fd2
 Generator: center_of_percussion_support_impulse_creation
 Runtime provenance scope: NEW; status PASS.
 Declared target: 100000 accepted cases. Smaller-target rationale: not applicable.
 Declared-target scale readiness: PASS. Static-only audit PASS does not mean 100000 rendered cases.
-Production readiness: NOT READY for final submission pending hosted browser playback and seeking.
+Production readiness: PASS for the declared target; two formal cases audited, not 100000 rendered cases.
 
 ## Blocking findings
 
-Native full-clip visual review passed. Hosted browser playback and seeking could not be observed because the browser connection is unavailable. Do not submit.
+None remaining. On 2026-10-18 Chrome completed all eight browser streams and successfully sought each to 4 seconds. The retained evidence records exact media URLs and observed states. Initial network buffering occurred; no decode errors or color corruption were observed.
 
 ## Six hard gates
 
@@ -22,7 +22,7 @@ Native full-clip visual review passed. Hosted browser playback and seeking could
 | Real scaling | PASS | 100000 distinct accepted static profiles; six controlled rendered axes; two visually different formal cases; 16 physical-axis corners |
 | Official unpatched environment | PASS | Clean source; official pinned bpy 4.5.3; actual Python, renderer, GPU/driver, encoder and dependency witness |
 | Decoded matched control | PASS | Exact decoded True/CF prefix and matching camera; first divergence and evidence bound to frames |
-| Semantic consistency | PASS | Independent mechanics; standalone prompts; single registered operator; full-clip visual review passed; hosted UI playback pending |
+| Semantic consistency | PASS | Independent mechanics; standalone prompts; single registered operator; full-clip visual review passed; hosted Chrome playback and seeking passed |
 
 ## Behavioral and semantic review
 
@@ -52,7 +52,7 @@ Seed42 was rerendered from its recipe in the exact official environment, with a 
 
 ## Client-facing and independent review
 
-Masks display white foreground on black; overlays replace only target mask pixels with pure red. All native 120-frame streams are independently decoded. The target identity pass uses an explicit reviewer-selected name set and checks projected visibility. Hosted playback/seek, full-clip review, anonymous URLs and backup verification: NOT VERIFIED. Browser derivatives are 1024 pixels and are never used as authoritative native-mask evidence.
+Masks display white foreground on black; overlays replace only target mask pixels with pure red. All native 120-frame streams are independently decoded. The target identity pass uses an explicit reviewer-selected name set and checks projected visibility. Hosted playback/seek, full-clip review, anonymous URLs and backup verification: PASS. Browser derivatives are 1024 pixels and are never used as authoritative native-mask evidence.
 
 ## Accepted case inventory
 
@@ -73,8 +73,6 @@ Masks display white foreground on black; overlays replace only target mask pixel
 
 ## Delivery status
 
-Contributor self-check only. User review pending. No Sara form opened, filled or submitted. Review URL: https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/79e40b9be71c096a9cbb416f6e7ae94566e23fd2/index.html
+Contributor self-check PASS. User reviewed and authorized submission on 2026-10-18. Sara independent review is pending; this report does not claim Sara approval. Review URL: https://asysama.github.io/counterfactual-mechanics-reviews-20261016/center_of_percussion_support_impulse_creation/79e40b9be71c096a9cbb416f6e7ae94566e23fd2/index.html
 
-## Remaining delivery check
-
-Overall decision remains NOT VERIFIED and self_check_complete=false. Anonymous HTTP and complete browser-file decoding passed; these do not substitute for actually observing hosted browser playback and seeking. User review remains pending and Sara has not been contacted.
+Chrome evidence: evidence/2026-10-18_browser-playback.json and evidence/2026-10-18_browser-seek.png. Historical connection-blocker records are retained and superseded by this actual observed result.
